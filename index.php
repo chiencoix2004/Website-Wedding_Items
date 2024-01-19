@@ -11,5 +11,4 @@ match ($act) {
      default => trangChu(),
 };
 
-
 require_once './common/disconnect-db.php';
