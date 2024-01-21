@@ -1,6 +1,4 @@
 <?php
-<?php
-
 if ( !function_exists( 'require_file' ) ) {
     function require_file( $pathFolder ) {
         $files = array_diff( scandir( $pathFolder ), [ '.', '..' ] ) ;
@@ -23,15 +21,5 @@ if ( !function_exists( 'e404' ) ) {
     function e404() {
         echo '404 Not Found';
         die;
-    }
-}
-
-if ( !function_exists( 'showViewClient' ) ) {
-    function showViewClient( $view, $data = null ) {
-        if ( !empty( $data ) ) {
-            extract( $data );
-        }
-
-        require_once './client/views/footer.php';
     }
 }
