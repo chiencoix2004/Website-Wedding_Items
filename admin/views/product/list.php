@@ -933,14 +933,7 @@
 
     </div>
     <!--  END SIDEBAR  -->
-    <?php foreach($productAll as $item )
-    // extract($item);
-    // $hinhpath = "../upload/" . $img;
-    // if (is_file($hinhpath)) {
-    //     $hinh = "<img src='" . $hinhpath . "' height = '80' width= '100' >";
-    // } else {
-    //     $hinh = "nophoto";} 
-    :?>
+    <?php foreach($productAll as $item ):?>
     <!--  BEGIN CONTENT AREA  -->
     <div id="content" class="main-content">
         <div class="layout-px-spacing">
@@ -961,22 +954,22 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>1</td>
+                                        <td><?= $item["id_product"] ?></td>
                                         <td>
                                             <div class="d-flex justify-content-left align-items-center">
                                                 <div class="avatar  me-3">
-                                                    <img src="<?=$item['img']?>" alt="Avatar" width="64"
+                                                    <img src="<?= $item["img"] ?>" alt="Avatar" width="64"
                                                         height="64">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span
-                                                        class="text-truncate fw-bold"><?=$item['name_product']?></span>
+                                                        class="text-truncate fw-bold"><?= $item["name_product"] ?></span>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>2022/04/25</td>
                                         <td><span class="badge badge-danger">Out of stock</span></td>
-                                        <td><?=$item['price_product']?></td>
+                                        <td>$<?=$item["price_product"] ?></td>
                                         <td class="text-center">
                                             <div class="dropdown">
                                                 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
@@ -1000,7 +993,7 @@
                                         </td>
                                     </tr>
 
-                                    <tr>
+                                    <!-- <tr>
                                         <td>2</td>
                                         <td>
                                             <div class="d-flex justify-content-left align-items-center">
@@ -1077,7 +1070,7 @@
                                             </div>
 
                                         </td>
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                             </table>
                         </div>
