@@ -18,3 +18,4 @@ match ($act) {
 
 
 require_once './views/footer.php';
+require_once '../common/disconnect-db.php';
