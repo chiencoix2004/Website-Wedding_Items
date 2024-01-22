@@ -2,20 +2,18 @@
 require_once '../common/connect-db.php';
 require_once '../common/helper.php';
 
-require_file ('../admin/controllers/');
-require_file ('../admin/models/');
+require_file ('./controllers/');
+require_file ('./models/');
 
 require_once './views/header.php';
 $act = $_GET['act'] ?? null;
 
 match ($act) {
-    // 'dssp' => productList(),
+     'dslh' => contactList(),
+     'ctlh' => contactDetail($_GET['id']),
     //  'ctsp' => productDetail($_GET['id']),
-     default => trangChu(),
+     default => trangAdmin(),
 };
 
-
-
-
 require_once './views/footer.php';
-require_once '../common/disconnect-db.php';
+require_once '../common/disconect-db.php';
