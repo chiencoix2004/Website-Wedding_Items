@@ -1,7 +1,7 @@
 <?php
 function productList() {
     
-    // $productAll = getAllProduct();
+    $productAll = getAllProduct();
     
     require_once './views/product/list.php';
 }
