@@ -242,10 +242,10 @@
                             <a href="?act=dssp"> List </a>
                         </li>
                         <li>
-                            <a href="app-ecommerce-product-add.html"> Add </a>
+                            <a href="?act=addsp"> Add </a>
                         </li>
                         <li>
-                            <a href="app-ecommerce-product-edit.html"> Edit </a>
+                            <a href="?act=editsp"> Edit </a>
                         </li>
                     </ul>
                 </li>

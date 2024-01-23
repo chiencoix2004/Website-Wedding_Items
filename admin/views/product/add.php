@@ -1,78 +1,80 @@
-
-
 <!--  BEGIN MAIN CONTAINER  -->
 <div class="main-container " id="container">
-    <div class="overlay"></div>
-    <div class="search-overlay"></div>
-    <!--  BEGIN SIDEBAR  -->
-    <div class="sidebar-wrapper sidebar-theme">
-        <nav id="sidebar">
-            <div class="navbar-nav theme-brand flex-row  text-center">
-                <div class="nav-logo">
-                    <div class="nav-item theme-logo">
-                        <a href="index-2.html">
-                            <img src="../../assets/images/conbo.jpg" class="navbar-logo" alt="logo">
-                        </a>
-                    </div>
-                    <div class="nav-item theme-text">
-                        <a href="index-2.html" class="nav-link"> Admin </a>
-                    </div>
-                </div>
-                <div class="nav-item sidebar-toggle">
-                    <div class="btn-toggle sidebarCollapse">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="feather feather-chevrons-left">
-                            <polyline points="11 17 6 12 11 7"></polyline>
-                            <polyline points="18 17 13 12 18 7"></polyline>
-                        </svg>
-                    </div>
-                </div>
-            </div>
 
-            <div class="shadow-bottom"></div>
-            <ul class="list-unstyled menu-categories" id="accordionExample">
-                <li class="menu active">
-                    <a href="#dashboard" data-bs-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
-                        <div class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-home">
-                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                            </svg>
-                            <span>Dashboard</span>
-                        </div>
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-chevron-right">
-                                <polyline points="9 18 15 12 9 6"></polyline>
-                            </svg>
-                        </div>
-                    </a>
-                    <ul class="collapse submenu list-unstyled show" id="dashboard" data-bs-parent="#accordionExample">
-                        <li class="active">
-                            <a href="index-2.html"> Analytics </a>
-                        </li>
-                        <!-- <li>
+<div class="overlay"></div>
+<div class="search-overlay"></div>
+
+<!--  BEGIN SIDEBAR  -->
+<div class="sidebar-wrapper sidebar-theme">
+
+<nav id="sidebar">
+
+    <div class="navbar-nav theme-brand flex-row  text-center">
+        <div class="nav-logo">
+            <div class="nav-item theme-logo">
+                <a href="index-2.html">
+                    <img src="../../assets/images/conbo.jpg" class="navbar-logo" alt="logo">
+                </a>
+            </div>
+            <div class="nav-item theme-text">
+                <a href="index-2.html" class="nav-link"> Admin </a>
+            </div>
+        </div>
+        <div class="nav-item sidebar-toggle">
+            <div class="btn-toggle sidebarCollapse">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-chevrons-left">
+                    <polyline points="11 17 6 12 11 7"></polyline>
+                    <polyline points="18 17 13 12 18 7"></polyline>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="shadow-bottom"></div>
+    <ul class="list-unstyled menu-categories" id="accordionExample">
+        <li class="menu active">
+            <a href="#dashboard" data-bs-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
+                <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-home">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    <span>Dashboard</span>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-chevron-right">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </div>
+            </a>
+            <ul class="collapse submenu list-unstyled show" id="dashboard" data-bs-parent="#accordionExample">
+                <li class="active">
+                    <a href="index-2.html"> Analytics </a>
+                </li>
+                <!-- <li>
                     <a href="index2.html"> Sales </a>
                 </li>
                 <li>
                     <a href="index3.html"> Real Estate </a>
                 </li> -->
-                    </ul>
-                </li>
+            </ul>
+        </li>
 
-                <li class="menu menu-heading">
-                    <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                        </svg><span>APPLICATIONS</span></div>
-                </li>
+        <li class="menu menu-heading">
+            <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg><span>APPLICATIONS</span></div>
+        </li>
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="app-calendar.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -177,7 +179,7 @@
             </a>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#invoice" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -212,7 +214,7 @@
             </ul>
         </li> -->
 
-                <li class="menu active">
+                  <!-- <li class="menu active">
                     <a href="#ecommerce" data-bs-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -233,9 +235,7 @@
                         </div>
                     </a>
                     <ul class="collapse submenu list-unstyled show" id="ecommerce" data-bs-parent="#accordionExample">
-                        <!-- <li>
-                                <a href="app-ecommerce-product-shop.html"> Shop </a>
-                            </li> -->
+                       
                         <li class="active">
                             <a href="?act=dssp"> List </a>
                         </li>
@@ -246,9 +246,31 @@
                             <a href="?act=editsp"> Edit </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
+                <li class="menu active">
+                        <a href="#ecommerce" data-bs-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                                <span>Product</span>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </a>
+                        <ul class="collapse submenu list-unstyled show" id="ecommerce" data-bs-parent="#accordionExample">
+                        <li class="active">
+                            <a href="?act=dssp"> List </a>
+                        </li>
+                        <li>
+                            <a href="?act=addsp"> Add </a>
+                        </li>
+                        <li>
+                            <a href="?act=editsp"> Edit </a>
+                        </li>                    
+                        </ul>
+                    </li>
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#blog" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -285,7 +307,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu menu-heading">
+        <!-- <li class="menu menu-heading">
             <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
@@ -293,7 +315,7 @@
                 </svg><span>USER INTERFACE</span></div>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#components" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -367,7 +389,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#elements" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -440,7 +462,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="map-leaflet.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -455,7 +477,7 @@
             </a>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="charts-apex.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -469,7 +491,7 @@
             </a>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="widgets.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -484,7 +506,7 @@
             </a>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#layouts" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -519,7 +541,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu menu-heading">
+        <!-- <li class="menu menu-heading">
             <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
@@ -527,7 +549,7 @@
                 </svg><span>TABLES AND FORMS</span></div>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="table-basic.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -542,7 +564,7 @@
             </a>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#datatables" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -578,7 +600,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#forms" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -662,7 +684,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu menu-heading">
+        <!-- <li class="menu menu-heading">
             <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
@@ -670,7 +692,7 @@
                 </svg><span>USER AND PAGES</span></div>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#users" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -701,7 +723,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#pages" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -739,7 +761,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#authentication" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -792,7 +814,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu menu-heading">
+        <!-- <li class="menu menu-heading">
             <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
@@ -800,7 +822,7 @@
                 </svg><span>MISCELLANEOUS</span></div>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="#menuLevel1" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -854,7 +876,7 @@
             </ul>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="javascript:void(0);" aria-expanded="false" class="dropdown-toggle disabled">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -872,7 +894,7 @@
             </a>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a href="javascript:void(0);" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -898,7 +920,7 @@
             </a>
         </li> -->
 
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a target="_blank" href="https://designreset.com/equation/documentation/index.html"
                 aria-expanded="false" class="dropdown-toggle">
                 <div class="">
@@ -912,7 +934,7 @@
                 </div>
             </a>
         </li> -->
-                <!-- <li class="menu">
+        <!-- <li class="menu">
             <a target="_blank" href="https://designreset.com/equation/documentation/changelog.html"
                 aria-expanded="false" class="dropdown-toggle">
                 <div class="">
@@ -929,157 +951,143 @@
             </a>
         </li> -->
 
-            </ul>
+    </ul>
 
-        </nav>
+</nav>
 
-    </div>
-    <!--  END SIDEBAR  -->
-    <?php foreach($productAll as $item ):?>
-    <!--  BEGIN CONTENT AREA  -->
-    <div id="content" class="main-content">
-        <div class="layout-px-spacing">
-            <div class="middle-content container-xxl p-0">
-                <div class="row layout-top-spacing">
-                    <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
-                        <div class="widget-content widget-content-area br-8">
-                            <table id="ecommerce-list" class="table dt-table-hover" style="width:100%">
-                                <thead>
-                                    <tr>
-                                        <th class="checkbox-column"></th>
-                                        <th>Product</th>
-                                        <th>Added on</th>
-                                        <th>Status</th>
-                                        <th>Price</th>
-                                        <th class="no-content text-center">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><?= $item["id_product"] ?></td>
-                                        <td>
-                                            <div class="d-flex justify-content-left align-items-center">
-                                                <div class="avatar  me-3">
-                                                    <img src="<?= $item["img"] ?>" alt="Avatar" width="64"
-                                                        height="64">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span
-                                                        class="text-truncate fw-bold"><?= $item["name_product"] ?></span>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>2022/04/25</td>
-                                        <td><span class="badge badge-danger">Out of stock</span></td>
-                                        <td>$<?=$item["price_product"] ?></td>
-                                        <td class="text-center">
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
-                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        class="feather feather-more-horizontal">
-                                                        <circle cx="12" cy="12" r="1"></circle>
-                                                        <circle cx="19" cy="12" r="1"></circle>
-                                                        <circle cx="5" cy="12" r="1"></circle>
-                                                    </svg>
-                                                </a>
+</div>
+<!--  END SIDEBAR  -->
 
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                                    <a class="dropdown-item" href="javascript:void(0);">View</a>
-                                                    <!-- <a class="dropdown-item" href="javascript:void(0);">Edit</a> -->
-                                                    <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
+<!--  BEGIN CONTENT AREA  -->
+<div id="content" class="main-content">
 
-                                    <!-- <tr>
-                                        <td>2</td>
-                                        <td>
-                                            <div class="d-flex justify-content-left align-items-center">
-                                                <div class="avatar  me-3">
-                                                    <img src="../src/assets/img/product-8.jpg" alt="Avatar" width="64"
-                                                        height="64">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="text-truncate fw-bold">Drone</span>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>2022/07/25</td>
-                                        <td><span class="badge badge-warning">Low Stock</span></td>
-                                        <td>$63</td>
-                                        <td class="text-center">
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2"
-                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        class="feather feather-more-horizontal">
-                                                        <circle cx="12" cy="12" r="1"></circle>
-                                                        <circle cx="19" cy="12" r="1"></circle>
-                                                        <circle cx="5" cy="12" r="1"></circle>
-                                                    </svg>
-                                                </a>
+    <div class="layout-px-spacing">
 
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-                                                    <a class="dropdown-item" href="javascript:void(0);">View</a>
-                                                    <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                                                    <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>
-                                            <div class="d-flex justify-content-left align-items-center">
-                                                <div class="avatar  me-3">
-                                                    <img src="../src/assets/img/product-13.jpg" alt="Avatar" width="64"
-                                                        height="64">
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <span class="text-truncate fw-bold">Smart Cleaner</span>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>2022/01/12</td>
-                                        <td><span class="badge badge-success">In Stock</span></td>
-                                        <td>$66</td>
-                                        <td class="text-center">
+        <div class="middle-content container-xxl p-0">
 
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink3"
-                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        class="feather feather-more-horizontal">
-                                                        <circle cx="12" cy="12" r="1"></circle>
-                                                        <circle cx="19" cy="12" r="1"></circle>
-                                                        <circle cx="5" cy="12" r="1"></circle>
-                                                    </svg>
-                                                </a>
+            <div class="row mb-4 layout-spacing layout-top-spacing">
 
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink3">
-                                                    <a class="dropdown-item" href="javascript:void(0);">View</a>
-                                                    <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                                                    <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                                                </div>
-                                            </div>
+                <div class="col-xxl-9 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
-                                        </td>
-                                    </tr> -->
-                                </tbody>
-                            </table>
+                    <div class="widget-content widget-content-area ecommerce-create-section">
+
+                        <div class="row mb-4">
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" id="inputEmail3"
+                                    placeholder="Product Name">
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-sm-12">
+                                <label>Description</label>
+                                <div id="product-description"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <label for="product-images">Upload Images</label>
+                                <div class="multiple-file-upload">
+                                    <input type="file" class="filepond file-upload-multiple" name="filepond"
+                                        id="product-images" multiple data-allow-reorder="true"
+                                        data-max-file-size="3MB" data-max-files="5">
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 text-center">
+                                <div class="switch form-switch-custom switch-inline form-switch-primary mt-4">
+                                    <input class="switch-input" type="checkbox" role="switch" id="showPublicly"
+                                        checked>
+                                    <label class="switch-label" for="showPublicly">Display publicly</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xxl-3 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+
+                    <div class="row">
+                        <div class="col-xxl-12 col-xl-8 col-lg-8 col-md-7 mt-xxl-0 mt-4">
+                            <div class="widget-content widget-content-area ecommerce-create-section">
+                                <div class="row">
+                                    <div class="col-xxl-12 mb-4">
+                                        <div
+                                            class="switch form-switch-custom switch-inline form-switch-secondary">
+                                            <input class="switch-input" type="checkbox" role="switch"
+                                                id="in-stock">
+                                            <label class="switch-label" for="in-stock">In Stock</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-12 col-md-6 mb-4">
+                                        <label for="proCode">Product Code</label>
+                                        <input type="text" class="form-control" id="proCode" value="">
+                                    </div>
+                                    <div class="col-xxl-12 col-md-6 mb-4">
+                                        <label for="proSKU">Product SKU</label>
+                                        <input type="text" class="form-control" id="proSKU" value="">
+                                    </div>
+                                    <div class="col-xxl-12 col-md-6 mb-4">
+                                        <label for="gender">Gender</label>
+                                        <select class="form-select" id="gender">
+                                            <option value="">Choose...</option>
+                                            <option value="men">Men</option>
+                                            <option value="women">Women</option>
+                                            <option value="kids">Kids</option>
+                                            <option value="unisex">Unisex</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xxl-12 col-md-6 mb-4">
+                                        <label for="category">Category</label>
+                                        <select class="form-select" id="category">
+                                            <option value="">Choose...</option>
+                                            <option value="electronics">Electronics</option>
+                                            <option value="clothing">Clothing</option>
+                                            <option value="organic">Organic</option>
+                                            <option value="apperal">Apperal</option>
+                                            <option value="accessories">Accessories</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xxl-12 col-lg-6 col-md-12">
+                                        <label for="tags">Tags</label>
+                                        <input id="tags" class="product-tags" value="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-5 mt-4">
+                            <div class="widget-content widget-content-area ecommerce-create-section">
+                                <div class="row">
+                                    <div class="col-sm-12 mb-4">
+                                        <label for="regular-price">Regular Price</label>
+                                        <input type="text" class="form-control" id="regular-price" value="">
+                                    </div>
+                                    <div class="col-sm-12 mb-4">
+                                        <label for="sale-price">Sale Price</label>
+                                        <input type="text" class="form-control" id="sale-price" value="">
+                                    </div>
+                                    <div class="col-sm-12 mb-4">
+                                        <div class="switch form-switch-custom switch-inline form-switch-danger">
+                                            <input class="switch-input" type="checkbox" role="switch"
+                                                id="pricing-includes-texes">
+                                            <label class="switch-label" for="pricing-includes-texes">Price
+                                                includes taxes</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <button class="btn btn-success w-100">Add Product</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!--  END CONTENT AREA  -->
                 </div>
             </div>
         </div>
-        <?php  endforeach;?>
-        <!-- END MAIN CONTAINER -->
+<!--  END CONTENT AREA  -->
+</div>
+<!-- END MAIN CONTAINER -->

@@ -10,6 +10,10 @@ $act = $_GET['act'] ?? null;
 
 match ($act) {
     'dssp' => productList(),
+    'addsp' => productAdd(),
+    'editsp' => productEdit(),
+    
+
     //  'ctsp' => productDetail($_GET['id']),
      default => trangChu(),
 };
