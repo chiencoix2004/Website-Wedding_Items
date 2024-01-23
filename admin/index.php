@@ -12,6 +12,7 @@ match ($act) {
     'dssp' => productList(),
     'addsp' => productAdd(),
     'editsp' => productEdit(),
+    'xoasp' => productDelete($_GET['id']),
     
 
     //  'ctsp' => productDetail($_GET['id']),

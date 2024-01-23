@@ -1,3 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from designreset.com/equation/html/semi-dark-menu/app-ecommerce-product-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jan 2024 11:42:26 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>Ecommerce List | EQUATION - Multipurpose Bootstrap Dashboard Template </title>
+    <link rel="icon" type="image/x-icon" href="https://designreset.com/equation/html/src/assets/img/favicon.ico" />
+    <link href="../../../layouts/semi-dark-menu/css/light/loader.css" rel="stylesheet" type="text/css" />
+    <link href="../../../layouts/semi-dark-menu/css/dark/loader.css" rel="stylesheet" type="text/css" />
+    <script src="../../../layouts/semi-dark-menu/loader.js"></script>
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link href="../../../src/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../../layouts/semi-dark-menu/css/light/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="../../../layouts/semi-dark-menu/css/dark/plugins.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!--  BEGIN CUSTOM STYLE FILE  -->
+    <link rel="stylesheet" type="text/css" href="../../../src/plugins/src/table/datatable/datatables.css">
+    <link rel="stylesheet" type="text/css" href="../../../src/plugins/css/light/table/datatable/dt-global_style.css">
+    <link rel="stylesheet" type="text/css" href="../../../src/plugins/css/dark/table/datatable/dt-global_style.css">
+
+    <!--  END CUSTOM STYLE FILE  -->
+
+    <style>
+    #ecommerce-list img {
+        border-radius: 18px;
+    }
+    </style>
+
+</head>
+
+
 
 
 <!--  BEGIN MAIN CONTAINER  -->
@@ -32,8 +69,8 @@
 
             <div class="shadow-bottom"></div>
             <ul class="list-unstyled menu-categories" id="accordionExample">
-                <li class="menu active">
-                    <a href="#dashboard" data-bs-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
+                <li class="menu">
+                    <a href="#dashboard" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -51,16 +88,16 @@
                             </svg>
                         </div>
                     </a>
-                    <ul class="collapse submenu list-unstyled show" id="dashboard" data-bs-parent="#accordionExample">
-                        <li class="active">
-                            <a href="index-2.html"> Analytics </a>
+                    <ul class="collapse submenu list-unstyled" id="dashboard" data-bs-parent="#accordionExample">
+                        <li>
+                            <a href="index.php"> Analytics </a>
                         </li>
                         <!-- <li>
-                    <a href="index2.html"> Sales </a>
-                </li>
-                <li>
-                    <a href="index3.html"> Real Estate </a>
-                </li> -->
+                            <a href="index2.html"> Sales </a>
+                        </li>
+                        <li>
+                            <a href="index3.html"> Real Estate </a>
+                        </li> -->
                     </ul>
                 </li>
 
@@ -935,18 +972,19 @@
 
     </div>
     <!--  END SIDEBAR  -->
-    <?php foreach($productAll as $item ):?>
     <!--  BEGIN CONTENT AREA  -->
     <div id="content" class="main-content">
         <div class="layout-px-spacing">
             <div class="middle-content container-xxl p-0">
+
                 <div class="row layout-top-spacing">
                     <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
                         <div class="widget-content widget-content-area br-8">
                             <table id="ecommerce-list" class="table dt-table-hover" style="width:100%">
+
                                 <thead>
                                     <tr>
-                                        <th class="checkbox-column"></th>
+                                        <th></th>
                                         <th>Product</th>
                                         <th>Added on</th>
                                         <th>Status</th>
@@ -954,14 +992,26 @@
                                         <th class="no-content text-center">Action</th>
                                     </tr>
                                 </thead>
+
+
                                 <tbody>
+                                     <tr>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--<span class="badge badge-warning"></span></td>
+                                        <td>--</td>
+                                        <td class="text-center">
+                                            --
+                                        </td>
+                                    </tr>
+                                    <?php foreach($productAll as $item ) :?>
                                     <tr>
                                         <td><?= $item["id_product"] ?></td>
                                         <td>
                                             <div class="d-flex justify-content-left align-items-center">
                                                 <div class="avatar  me-3">
-                                                    <img src="<?= $item["img"] ?>" alt="Avatar" width="64"
-                                                        height="64">
+                                                    <img src="<?= $item["img"] ?>" alt="Avatar" width="64" height="64">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span
@@ -987,9 +1037,9 @@
                                                 </a>
 
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                                    <a class="dropdown-item" href="javascript:void(0);">View</a>
+                                                    <a class="dropdown-item" href="ctsp">View</a>
                                                     <!-- <a class="dropdown-item" href="javascript:void(0);">Edit</a> -->
-                                                    <a class="dropdown-item" href="javascript:void(0);">Delete</a>
+                                                    <a class="dropdown-item" href="index.php?act=xoasp&id=<?=$item["id_product"]?>">Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -1073,7 +1123,9 @@
 
                                         </td>
                                     </tr> -->
+                                    <?php  endforeach;?>
                                 </tbody>
+
                             </table>
                         </div>
                     </div>
@@ -1081,5 +1133,44 @@
                 </div>
             </div>
         </div>
-        <?php  endforeach;?>
+
         <!-- END MAIN CONTAINER -->
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <script src="../../../src/plugins/src/global/vendors.min.js"></script>
+        <!-- <script src="../../../src/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+        <!-- <script src="../../../src/plugins/src/perfect-scrollbar/perfect-scrollbar.min.js"></script> -->
+        <!-- <script src="../../../src/plugins/src/mousetrap/mousetrap.min.js"></script> -->
+        <!-- <script src="../../../src/plugins/src/waves/waves.min.js"></script> -->
+        <!-- <script src="../../../layouts/semi-dark-menu/app.js"></script> -->
+        <!-- <script src="../../../src/assets/js/custom.js"></script> -->
+        <!-- END GLOBAL MANDATORY STYLES -->
+
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+        <script src="../src/plugins/src/table/datatable/datatables.js"></script>
+        <script>
+        ecommerceList = $('#ecommerce-list').DataTable({
+            headerCallback: function(e, a, t, n, s) {},
+            columnDefs: [{
+                targets: 0,
+                width: "30px",
+                className: "",
+                orderable: !1,
+                render: function(e, a, t, n) {
+                    return `
+                    `
+                }
+            }],
+            "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-left justify-content-left mt-sm-0 mt-3'f>>>" +
+                "<'table-responsive'tr>" +
+                "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'>",
+            "oLanguage": {
+                "sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
+                "sSearchPlaceholder": "Search...",
+
+            },
+            "stripeClasses": [],
+
+
+        });
+        multiCheck(ecommerceList);
+        </script>

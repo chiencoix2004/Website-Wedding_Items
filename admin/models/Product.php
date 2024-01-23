@@ -14,21 +14,20 @@ function getAllProduct() {
         die;
     }
 }
-// function getProductByID($id)
-// {
-//     try {
+function productDel($id){
+    try {
         
-//         $sql = "SELECT * FROM products WHERE id = :id";
+        $sql = "DELETE FROM `tb_products` WHERE id_product = :id_product";
         
-//         $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt = $GLOBALS['conn']->prepare($sql);
        
-//         $stmt->bindParam(':id', $id);
+        $stmt->bindParam(':id_product', $id);
        
-//         $stmt->execute();
+        $stmt->execute();
         
-//         return  $stmt->fetch(PDO::FETCH_ASSOC);
-//     } catch (Exception $e) {
-//         echo 'ERROR: ' . $e->getMessage();
-//         die;
-//     }
-// }
+        return  $stmt->fetch(PDO::FETCH_ASSOC);
+        } catch (Exception $e) {
+        echo 'ERROR: ' . $e->getMessage();
+        die;
+    }
+}

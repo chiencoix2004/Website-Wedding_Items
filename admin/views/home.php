@@ -179,16 +179,16 @@
                     </a>
                 </li> -->
 
-                <!-- <li class="menu">
+                <li class="menu">
                     <a href="#invoice" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-dollar-sign">
-                                <line x1="12" y1="1" x2="12" y2="23"></line>
-                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                stroke-linejoin="round" class="feather feather-book">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
                             </svg>
-                            <span>Invoice</span>
+                            <span>Category</span>
                         </div>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -199,11 +199,11 @@
                         </div>
                     </a>
                     <ul class="collapse submenu list-unstyled" id="invoice" data-bs-parent="#accordionExample">
-                        <li>
+                        <!-- <li>
                             <a href="app-invoice-list.html"> List </a>
-                        </li>
+                        </li> -->
                         <li>
-                            <a href="app-invoice-preview.html"> Preview </a>
+                            <a href="app-invoice-preview.html"> List </a>
                         </li>
                         <li>
                             <a href="app-invoice-add.html"> Add </a>
@@ -212,7 +212,7 @@
                             <a href="app-invoice-edit.html"> Edit </a>
                         </li>
                     </ul>
-                </li> -->
+                </li>
 
                 <li class="menu">
                     <a href="#ecommerce" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
@@ -249,6 +249,7 @@
                         </li>
                     </ul>
                 </li>
+            
 
                 <!-- <li class="menu">
                     <a href="#blog" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">

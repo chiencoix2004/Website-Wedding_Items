@@ -1,80 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from designreset.com/equation/html/semi-dark-menu/app-ecommerce-product-edit.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jan 2024 11:42:29 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>Ecommerce Edit | EQUATION - Multipurpose Bootstrap Dashboard Template </title>
+    <link rel="icon" type="image/x-icon" href="https://designreset.com/equation/html/src/assets/img/favicon.ico" />
+    <link href=".../.././layouts/semi-dark-menu/css/light/loader.css" rel="stylesheet" type="text/css" />
+    <link href="../../../layouts/semi-dark-menu/css/dark/loader.css" rel="stylesheet" type="text/css" />
+    <script src="../../../layouts/semi-dark-menu/loader.js"></script>
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link href="../../../src/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../../layouts/semi-dark-menu/css/light/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="../../../layouts/semi-dark-menu/css/dark/plugins.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+    <link rel="stylesheet" href="../../../src/plugins/src/filepond/filepond.min.css">
+    <link rel="stylesheet" href="../../../src/plugins/src/filepond/FilePondPluginImagePreview.min.css">
+    <link rel="stylesheet" type="text/css" href="../src/plugins/src/tagify/tagify.css">
+
+    <link rel="stylesheet" type="text/css" href="../../../src/assets/css/light/forms/switches.css">
+    <link rel="stylesheet" type="text/css" href="../../../src/plugins/css/light/editors/quill/quill.snow.css">
+    <link rel="stylesheet" type="text/css" href="../../../src/plugins/css/light/tagify/custom-tagify.css">
+    <link href="../src/plugins/css/light/filepond/custom-filepond.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="../../../src/assets/css/dark/forms/switches.css">
+    <link rel="stylesheet" type="text/css" href="../../../src/plugins/css/dark/editors/quill/quill.snow.css">
+    <link rel="stylesheet" type="text/css" href="../../../src/plugins/css/dark/tagify/custom-tagify.css">
+    <link href="../../../src/plugins/css/dark/filepond/custom-filepond.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+
+    <!--  BEGIN CUSTOM STYLE FILE  -->
+    <link rel="stylesheet" href="../../../src/assets/css/light/apps/ecommerce-create.css">
+    <link rel="stylesheet" href="../../../src/assets/css/dark/apps/ecommerce-create.css">
+
+    <link href="../../../layouts/semi-dark-menu/css/dark/structure-mod.html" rel="stylesheet" type="text/css" />
+    <link href="../../../layouts/semi-dark-menu/css/light/structure-mod.html" rel="stylesheet" type="text/css" />
+    <!--  END CUSTOM STYLE FILE  -->
+</head>
+
+
+
 <!--  BEGIN MAIN CONTAINER  -->
 <div class="main-container " id="container">
 
-<div class="overlay"></div>
-<div class="search-overlay"></div>
+    <div class="overlay"></div>
+    <div class="search-overlay"></div>
 
-<!--  BEGIN SIDEBAR  -->
-<div class="sidebar-wrapper sidebar-theme">
+    <!--  BEGIN SIDEBAR  -->
+    <div class="sidebar-wrapper sidebar-theme">
 
-<nav id="sidebar">
+        <nav id="sidebar">
 
-    <div class="navbar-nav theme-brand flex-row  text-center">
-        <div class="nav-logo">
-            <div class="nav-item theme-logo">
-                <a href="index-2.html">
-                    <img src="../../assets/images/conbo.jpg" class="navbar-logo" alt="logo">
-                </a>
-            </div>
-            <div class="nav-item theme-text">
-                <a href="index-2.html" class="nav-link"> Admin </a>
-            </div>
-        </div>
-        <div class="nav-item sidebar-toggle">
-            <div class="btn-toggle sidebarCollapse">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-chevrons-left">
-                    <polyline points="11 17 6 12 11 7"></polyline>
-                    <polyline points="18 17 13 12 18 7"></polyline>
-                </svg>
-            </div>
-        </div>
-    </div>
-
-    <div class="shadow-bottom"></div>
-    <ul class="list-unstyled menu-categories" id="accordionExample">
-        <li class="menu active">
-            <a href="#dashboard" data-bs-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
-                <div class="">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="feather feather-home">
-                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                    </svg>
-                    <span>Dashboard</span>
+            <div class="navbar-nav theme-brand flex-row  text-center">
+                <div class="nav-logo">
+                    <div class="nav-item theme-logo">
+                        <a href="index-2.html">
+                            <img src="../../assets/images/conbo.jpg" class="navbar-logo" alt="logo">
+                        </a>
+                    </div>
+                    <div class="nav-item theme-text">
+                        <a href="index-2.html" class="nav-link"> Admin </a>
+                    </div>
                 </div>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="feather feather-chevron-right">
-                        <polyline points="9 18 15 12 9 6"></polyline>
-                    </svg>
+                <div class="nav-item sidebar-toggle">
+                    <div class="btn-toggle sidebarCollapse">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-chevrons-left">
+                            <polyline points="11 17 6 12 11 7"></polyline>
+                            <polyline points="18 17 13 12 18 7"></polyline>
+                        </svg>
+                    </div>
                 </div>
-            </a>
-            <ul class="collapse submenu list-unstyled show" id="dashboard" data-bs-parent="#accordionExample">
-                <li class="active">
-                    <a href="index-2.html"> Analytics </a>
-                </li>
-                <!-- <li>
-                    <a href="index2.html"> Sales </a>
-                </li>
-                <li>
-                    <a href="index3.html"> Real Estate </a>
-                </li> -->
-            </ul>
-        </li>
+            </div>
 
-        <li class="menu menu-heading">
-            <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                </svg><span>APPLICATIONS</span></div>
-        </li>
+            <div class="shadow-bottom"></div>
+            <ul class="list-unstyled menu-categories" id="accordionExample">
 
-        <!-- <li class="menu">
+                <li class="menu">
+                    <a href="#dashboard" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-home">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                            <span>Dashboard</span>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-right">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </div>
+                    </a>
+                    <ul class="collapse submenu list-unstyled" id="dashboard" data-bs-parent="#accordionExample">
+                        <li>
+                            <a href="index.php"> Analytics </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu menu-heading">
+                    <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg><span>APPLICATIONS</span></div>
+                </li>
+
+                <!-- <li class="menu">
             <a href="app-calendar.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -179,7 +222,7 @@
             </a>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#invoice" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -214,7 +257,7 @@
             </ul>
         </li> -->
 
-        <li class="menu active">
+                <li class="menu active">
                     <a href="#ecommerce" data-bs-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -224,7 +267,7 @@
                                 <circle cx="20" cy="21" r="1"></circle>
                                 <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
                             </svg>
-                            <span>Product</span>
+                            <span>Ecommerce</span>
                         </div>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -235,22 +278,20 @@
                         </div>
                     </a>
                     <ul class="collapse submenu list-unstyled show" id="ecommerce" data-bs-parent="#accordionExample">
-                        <!-- <li>
-                                <a href="app-ecommerce-product-shop.html"> Shop </a>
-                            </li> -->
-                        <li class="active">
+
+                        <li>
                             <a href="?act=dssp"> List </a>
                         </li>
                         <li>
                             <a href="?act=addsp"> Add </a>
                         </li>
-                        <li>
-                            <a href="?act=editsp"> Edit </a>
+                        <li class="active">
+                            <a href="editsp"> Edit </a>
                         </li>
                     </ul>
                 </li>
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#blog" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -287,7 +328,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu menu-heading">
+                <!-- <li class="menu menu-heading">
             <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
@@ -295,7 +336,7 @@
                 </svg><span>USER INTERFACE</span></div>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#components" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -369,7 +410,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#elements" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -442,7 +483,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="map-leaflet.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -457,7 +498,7 @@
             </a>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="charts-apex.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -471,7 +512,7 @@
             </a>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="widgets.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -486,7 +527,7 @@
             </a>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#layouts" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -521,7 +562,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu menu-heading">
+                <!-- <li class="menu menu-heading">
             <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
@@ -529,7 +570,7 @@
                 </svg><span>TABLES AND FORMS</span></div>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="table-basic.html" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -544,7 +585,7 @@
             </a>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#datatables" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -580,7 +621,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#forms" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -664,7 +705,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu menu-heading">
+                <!-- <li class="menu menu-heading">
             <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
@@ -672,7 +713,7 @@
                 </svg><span>USER AND PAGES</span></div>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#users" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -703,7 +744,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#pages" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -741,7 +782,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#authentication" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -794,7 +835,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu menu-heading">
+                <!-- <li class="menu menu-heading">
             <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
@@ -802,7 +843,7 @@
                 </svg><span>MISCELLANEOUS</span></div>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="#menuLevel1" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -856,7 +897,7 @@
             </ul>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="javascript:void(0);" aria-expanded="false" class="dropdown-toggle disabled">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -874,7 +915,7 @@
             </a>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a href="javascript:void(0);" aria-expanded="false" class="dropdown-toggle">
                 <div class="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -900,7 +941,7 @@
             </a>
         </li> -->
 
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a target="_blank" href="https://designreset.com/equation/documentation/index.html"
                 aria-expanded="false" class="dropdown-toggle">
                 <div class="">
@@ -914,7 +955,7 @@
                 </div>
             </a>
         </li> -->
-        <!-- <li class="menu">
+                <!-- <li class="menu">
             <a target="_blank" href="https://designreset.com/equation/documentation/changelog.html"
                 aria-expanded="false" class="dropdown-toggle">
                 <div class="">
@@ -931,174 +972,193 @@
             </a>
         </li> -->
 
-    </ul>
+            </ul>
 
-</nav>
+        </nav>
 
-</div>
-<!--  END SIDEBAR  -->
+    </div>
+    <!--  END SIDEBAR  -->
 
-<!--  BEGIN CONTENT AREA  -->
-<div id="content" class="main-content">
+    <!--  BEGIN CONTENT AREA  -->
+    <div id="content" class="main-content">
 
-    <div class="layout-px-spacing">
+        <div class="layout-px-spacing">
 
-        <div class="middle-content container-xxl p-0">
+            <div class="middle-content container-xxl p-0">
 
-            <!-- BREADCRUMB -->
-            <div class="page-meta">
-                <nav class="breadcrumb-style-one" aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">App</a></li>
-                        <li class="breadcrumb-item"><a href="#">Ecommerce</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Edit</li>
-                    </ol>
-                </nav>
-            </div>
-            <!-- /BREADCRUMB -->
+                <!-- BREADCRUMB -->
+                <!-- <div class="page-meta">
+                    <nav class="breadcrumb-style-one" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">App</a></li>
+                            <li class="breadcrumb-item"><a href="#">Ecommerce</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Edit</li>
+                        </ol>
+                    </nav>
+                </div> -->
+                <!-- /BREADCRUMB -->
 
-            <div class="row mb-4 layout-spacing layout-top-spacing">
+                <div class="row mb-4 layout-spacing layout-top-spacing">
 
-                <div class="col-xxl-9 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="col-xxl-9 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
-                    <div class="widget-content widget-content-area ecommerce-create-section">
+                        <div class="widget-content widget-content-area ecommerce-create-section">
 
-                        <div class="row mb-4">
-                            <div class="col-sm-12">
-                                <input type="text" class="form-control" id="inputEmail3" placeholder="Product Name" value="Nike Shoes Red">
-                            </div>
-                        </div>
-
-                        <div class="row mb-4">
-                            <div class="col-sm-12">
-                                <label>Description</label>
-                                <div id="product-description">
-                                    Perspiciatis maxime facilis velit tenetur, iste expedita in dignissimos iure aut excepturi sapiente eligendi repellat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut blanditiis assumenda doloremque fugiat minima tempora!
+                            <div class="row mb-4">
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="Product Name"
+                                        value="Nike Shoes Red">
                                 </div>
                             </div>
+
+                            <div class="row mb-4">
+                                <div class="col-sm-12">
+                                    <label>Description</label>
+                                    <div id="product-description">
+                                        <!-- Perspiciatis maxime facilis velit tenetur, iste expedita in dignissimos iure aut
+                                        excepturi sapiente eligendi repellat. Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing elit. Aut blanditiis assumenda doloremque fugiat minima tempora! -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <label for="product-images">Upload Images</label>
+                                    <div class="multiple-file-upload">
+                                        <input type="file" class="filepond file-upload-multiple" name="filepond"
+                                            id="product-images" multiple data-allow-reorder="true"
+                                            data-instant-upload="false" data-max-file-size="3MB" data-max-files="5">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 text-center">
+                                    <div class="switch form-switch-custom switch-inline form-switch-primary mt-4">
+                                        <input class="switch-input" type="checkbox" role="switch" id="showPublicly"
+                                            checked>
+                                        <label class="switch-label" for="showPublicly">Display publicly</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
+
+                    </div>
+
+                    <div class="col-xxl-3 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
                         <div class="row">
-                            <div class="col-md-8">
-                                <label for="product-images">Upload Images</label>
-                                <div class="multiple-file-upload">
-                                    <input type="file" 
-                                        class="filepond file-upload-multiple"
-                                        name="filepond"
-                                        id="product-images" 
-                                        multiple 
-                                        data-allow-reorder="true"
-                                        data-instant-upload="false"
-                                        data-max-file-size="3MB"
-                                        data-max-files="5">
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 text-center">
-                                <div class="switch form-switch-custom switch-inline form-switch-primary mt-4">
-                                    <input class="switch-input" type="checkbox" role="switch" id="showPublicly" checked>
-                                    <label class="switch-label" for="showPublicly">Display publicly</label>
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                    </div>
-                    
-                </div>
-
-                <div class="col-xxl-3 col-xl-12 col-lg-12 col-md-12 col-sm-12">
-
-                    <div class="row">
-                        <div class="col-xxl-12 col-xl-8 col-lg-8 col-md-7 mt-xxl-0 mt-4">
-                            <div class="widget-content widget-content-area ecommerce-create-section">
-                                <div class="row">
-                                    <div class="col-xxl-12 mb-4">
-                                        <div class="switch form-switch-custom switch-inline form-switch-secondary">
-                                            <input class="switch-input" type="checkbox" role="switch" id="in-stock" checked>
-                                            <label class="switch-label" for="in-stock">In Stock</label>
+                            <div class="col-xxl-12 col-xl-8 col-lg-8 col-md-7 mt-xxl-0 mt-4">
+                                <div class="widget-content widget-content-area ecommerce-create-section">
+                                    <div class="row">
+                                        <div class="col-xxl-12 mb-4">
+                                            <div class="switch form-switch-custom switch-inline form-switch-secondary">
+                                                <input class="switch-input" type="checkbox" role="switch" id="in-stock"
+                                                    checked>
+                                                <label class="switch-label" for="in-stock">In Stock</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-12 col-md-6 mb-4">
+                                            <label for="proCode">Product Code</label>
+                                            <input type="text" class="form-control" id="proCode" value="79WEL56A">
+                                        </div>
+                                        <div class="col-xxl-12 col-md-6 mb-4">
+                                            <label for="proSKU">Product SKU</label>
+                                            <input type="text" class="form-control" id="proSKU" value="QQ69SOP3D/T2">
+                                        </div>
+                                        <div class="col-xxl-12 col-md-6 mb-4">
+                                            <label for="gender">Gender</label>
+                                            <select class="form-select" id="gender">
+                                                <option value="">Choose...</option>
+                                                <option value="men" selected>Men</option>
+                                                <option value="women">Women</option>
+                                                <option value="kids">Kids</option>
+                                                <option value="unisex">Unisex</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xxl-12 col-md-6 mb-4">
+                                            <label for="category">Category</label>
+                                            <select class="form-select" id="category">
+                                                <option value="">Choose...</option>
+                                                <option value="electronics">Electronics</option>
+                                                <option value="clothing" selected>Clothing</option>
+                                                <option value="organic">Organic</option>
+                                                <option value="apperal">Apperal</option>
+                                                <option value="accessories">Accessories</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xxl-12 col-lg-6 col-md-12">
+                                            <label for="tags">Tags</label>
+                                            <input id="tags" class="product-tags" value="shoes, 2021 : Edition">
                                         </div>
                                     </div>
-                                    <div class="col-xxl-12 col-md-6 mb-4">
-                                        <label for="proCode">Product Code</label>
-                                        <input type="text" class="form-control" id="proCode" value="79WEL56A">
-                                    </div>
-                                    <div class="col-xxl-12 col-md-6 mb-4">
-                                        <label for="proSKU">Product SKU</label>
-                                        <input type="text" class="form-control" id="proSKU" value="QQ69SOP3D/T2">
-                                    </div>
-                                    <div class="col-xxl-12 col-md-6 mb-4">
-                                        <label for="gender">Gender</label>
-                                        <select class="form-select" id="gender">
-                                            <option value="">Choose...</option>
-                                            <option value="men" selected>Men</option>
-                                            <option value="women">Women</option>
-                                            <option value="kids">Kids</option>
-                                            <option value="unisex">Unisex</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-xxl-12 col-md-6 mb-4">
-                                        <label for="category">Category</label>
-                                        <select class="form-select" id="category">
-                                            <option value="">Choose...</option>
-                                            <option value="electronics">Electronics</option>
-                                            <option value="clothing" selected>Clothing</option>
-                                            <option value="organic">Organic</option>
-                                            <option value="apperal">Apperal</option>
-                                            <option value="accessories">Accessories</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-xxl-12 col-lg-6 col-md-12">
-                                        <label for="tags">Tags</label>
-                                        <input id="tags" class="product-tags" value="shoes, 2021 : Edition">
-                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-5 mt-4">
-                            <div class="widget-content widget-content-area ecommerce-create-section">
-                                <div class="row">
-                                    <div class="col-sm-12 mb-4">
-                                        <label for="regular-price">Regular Price</label>
-                                        <input type="text" class="form-control" id="regular-price" value="180">
-                                    </div>
-                                    <div class="col-sm-12 mb-4">
-                                        <label for="sale-price">Sale Price</label>
-                                        <input type="text" class="form-control" id="sale-price" value="30">
-                                    </div>
-                                    <div class="col-sm-12 mb-4">
-                                        <div class="switch form-switch-custom switch-inline form-switch-danger">
-                                            <input class="switch-input" type="checkbox" role="switch" id="pricing-includes-texes" checked>
-                                            <label class="switch-label" for="pricing-includes-texes">Price includes taxes</label>
+                            <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-5 mt-4">
+                                <div class="widget-content widget-content-area ecommerce-create-section">
+                                    <div class="row">
+                                        <div class="col-sm-12 mb-4">
+                                            <label for="regular-price">Regular Price</label>
+                                            <input type="text" class="form-control" id="regular-price" value="180">
+                                        </div>
+                                        <div class="col-sm-12 mb-4">
+                                            <label for="sale-price">Sale Price</label>
+                                            <input type="text" class="form-control" id="sale-price" value="30">
+                                        </div>
+                                        <div class="col-sm-12 mb-4">
+                                            <div class="switch form-switch-custom switch-inline form-switch-danger">
+                                                <input class="switch-input" type="checkbox" role="switch"
+                                                    id="pricing-includes-texes" checked>
+                                                <label class="switch-label" for="pricing-includes-texes">Price includes
+                                                    taxes</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <button class="btn btn-success w-100">Save Changes</button>
                                         </div>
                                     </div>
-                                    <div class="col-sm-12">
-                                        <button class="btn btn-success w-100">Save Changes</button>
-                                    </div>
-                                </div>                                            
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>
 
         </div>
-        
     </div>
-    
-    <!--  BEGIN FOOTER  -->
-    <div class="footer-wrapper">
-        <div class="footer-section f-section-1">
-            <p class="">Copyright © <span class="dynamic-year">2022</span> <a target="_blank" https://designreset.com/equation/">DesignReset</a>, All rights reserved.</p>
-        </div>
-        <div class="footer-section f-section-2">
-            <p class="">Coded with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></p>
-        </div>
-    </div>
-    <!--  END FOOTER  -->
-
-</div>
-<!--  END CONTENT AREA  -->
+    <!--  END CONTENT AREA  -->
 </div>
 <!-- END MAIN CONTAINER -->
+
+<script src="../../../src/plugins/src/global/vendors.min.js"></script>
+<script src="../../../src/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../../../src/plugins/src/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="../../../src/plugins/src/mousetrap/mousetrap.min.js"></script>
+<script src="../../../src/plugins/src/waves/waves.min.js"></script>
+<script src="../../../layouts/semi-dark-menu/app.js"></script>
+
+<script src="../../../src/plugins/src/highlight/highlight.pack.js"></script>
+<script src="../../../src/assets/js/custom.js"></script>
+<!-- END GLOBAL MANDATORY STYLES -->
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="../../../src/plugins/src/editors/quill/quill.js"></script>
+<script src="../../../src/plugins/src/filepond/filepond.min.js"></script>
+<script src="../../../src/plugins/src/filepond/FilePondPluginFileValidateType.min.js"></script>
+<script src="../../../src/plugins/src/filepond/FilePondPluginImageExifOrientation.min.js"></script>
+<script src="../../../src/plugins/src/filepond/FilePondPluginImagePreview.min.js"></script>
+<script src="../../../src/plugins/src/filepond/FilePondPluginImageCrop.min.js"></script>
+<script src="../../../src/plugins/src/filepond/FilePondPluginImageResize.min.js"></script>
+<script src="../../../src/plugins/src/filepond/FilePondPluginImageTransform.min.js"></script>
+<script src="../../../src/plugins/src/filepond/filepondPluginFileValidateSize.min.js"></script>
+
+<script src="../../../src/plugins/src/tagify/tagify.min.js"></script>
+<script src="../../../src/assets/js/apps/ecommerce-create.js"></script>
+
+<script>
+ecommerce.addFiles('../../../src/assets/img/product-1.jpg', '../../../src/assets/img/product-3.jpg',
+    '../../../src/assets/img/product-5.jpg');
+</script>

@@ -18,6 +18,14 @@ function productEdit() {
     
     require_once './views/product/edit.php';
 }
+function productDelete($id) {
+   
+    $productDelete = productDel($id);
+
+    $productAll=getAllProduct();
+    
+    require_once './views/product/list.php';
+}
 
 // function productDetail($id) {
     
