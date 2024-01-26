@@ -1,291 +1,2379 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="color_scheme">
+
+<!-- Mirrored from theme481-wedding.myshopify.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jan 2024 16:44:18 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="We design best Multipurpose HTML Website Template for any online shop, online store, shopping, fashion, accessories, shoes, bags, t-shirts, electronics, furniture, christmas, ecommerce html template">
-    <meta name="keywords"
-        content="business, multipurpose, multipurpose html website template, online shop, online store, shopping, fashion, accessories, shoes, bags, t-shirts, electronics, furniture, christmas, ecommerce html template">
-    <meta name="author" content="kamleshyadav">
-    <meta name="MobileOptimized" content="320">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/swiper.min.css" />
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <link rel="stylesheet" href="assets/css/font.css" />
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/css/select.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="shortcut icon" type="image/ico" href="assets/images/fav.png" />
-    <title>Wedding Shop</title>
+	<meta charset="utf-8">
+
+
+
+	<title>
+		Perfect Bride
+
+
+	</title>
+
+	<link rel="canonical" href="index.html">
+
+
+	<link rel="shortcut icon" href="../../cdn/shop/files/favicon_32x32a52f.png?v=1613728922" type="image/png">
+
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!--[if IE]>
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<![endif]-->
+
+	<style>
+		html,
+		body {
+			overflow-x: hidden;
+		}
+
+		.row {
+			overflow: hidden;
+		}
+
+		#page_preloader__bg {
+			background: #fff;
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: 1000;
+			-webkit-transition: opacity .1s ease-in-out .05s, z-index .1s ease-in-out .05s;
+			-moz-transition: opacity .1s ease-in-out .05s, z-index .1s ease-in-out .05s;
+			transition: opacity .1s ease-in-out .05s, z-index .1s ease-in-out .05s;
+
+			-webkit-transform: translate3d(0, 0, 0);
+			-ms-transform: translate3d(0, 0, 0);
+			-o-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+
+		#page_preloader__bg.off {
+			opacity: 0;
+			z-index: -10;
+		}
+
+
+		#page_preloader__img {
+			margin: -50px 0 0 -50px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 1001;
+			-webkit-transition: transform .2s ease-in-out;
+			-moz-transition: transform .2s ease-in-out;
+			transition: transform .2s ease-in-out;
+
+			-webkit-transform: scale3d(1, 1, 1);
+			-ms-transform: scale3d(1, 1, 1);
+			-o-transform: scale3d(1, 1, 1);
+			transform: scale3d(1, 1, 1);
+		}
+
+		#page_preloader__img.off {
+			-webkit-transform: scale3d(0, 0, 1);
+			-ms-transform: scale3d(0, 0, 1);
+			-o-transform: scale3d(0, 0, 1);
+			transform: scale3d(0, 0, 1);
+		}
+
+		.container {
+			margin-right: auto;
+			margin-left: auto
+		}
+
+		@media (max-width: 767px) {
+			.container {
+				padding-left: 15px;
+				padding-right: 15px
+			}
+		}
+
+		@media (min-width: 768px) {
+			.container {
+				width: 750px
+			}
+		}
+
+		@media (min-width: 992px) {
+			.container {
+				width: 970px
+			}
+		}
+
+		@media (min-width: 1200px) {
+			.container {
+				width: 1170px
+			}
+		}
+
+		.container-fluid {
+			margin-right: auto;
+			margin-left: auto;
+			padding-right: 15px;
+			padding-left: 15px
+		}
+
+		.row {
+			margin-right: -15px;
+			margin-left: -15px
+		}
+
+		.row:after {
+			content: '';
+			display: table;
+			clear: both
+		}
+
+		.col-xs-1,
+		.col-sm-1,
+		.col-md-1,
+		.col-lg-1,
+		.col-xs-2,
+		.col-sm-2,
+		.col-md-2,
+		.col-lg-2,
+		.col-xs-3,
+		.col-sm-3,
+		.col-md-3,
+		.col-lg-3,
+		.col-xs-4,
+		.col-sm-4,
+		.col-md-4,
+		.col-lg-4,
+		.col-xs-5,
+		.col-sm-5,
+		.col-md-5,
+		.col-lg-5,
+		.col-xs-6,
+		.col-sm-6,
+		.col-md-6,
+		.col-lg-6,
+		.col-xs-7,
+		.col-sm-7,
+		.col-md-7,
+		.col-lg-7,
+		.col-xs-8,
+		.col-sm-8,
+		.col-md-8,
+		.col-lg-8,
+		.col-xs-9,
+		.col-sm-9,
+		.col-md-9,
+		.col-lg-9,
+		.col-xs-10,
+		.col-sm-10,
+		.col-md-10,
+		.col-lg-10,
+		.col-xs-11,
+		.col-sm-11,
+		.col-md-11,
+		.col-lg-11,
+		.col-xs-12,
+		.col-sm-12,
+		.col-md-12,
+		.col-lg-12 {
+			min-height: 1px;
+			padding-right: 15px;
+			padding-left: 15px;
+			position: relative
+		}
+
+		.col-xs-1,
+		.col-xs-2,
+		.col-xs-3,
+		.col-xs-4,
+		.col-xs-5,
+		.col-xs-6,
+		.col-xs-7,
+		.col-xs-8,
+		.col-xs-9,
+		.col-xs-10,
+		.col-xs-11,
+		.col-xs-12 {
+			float: left
+		}
+
+		.col-xs-12 {
+			width: 100%
+		}
+
+		.col-xs-11 {
+			width: 91.66666667%
+		}
+
+		.col-xs-10 {
+			width: 83.33333333%
+		}
+
+		.col-xs-9 {
+			width: 75%
+		}
+
+		.col-xs-8 {
+			width: 66.66666667%
+		}
+
+		.col-xs-7 {
+			width: 58.33333333%
+		}
+
+		.col-xs-6 {
+			width: 50%
+		}
+
+		.col-xs-5 {
+			width: 41.66666667%
+		}
+
+		.col-xs-4 {
+			width: 33.33333333%
+		}
+
+		.col-xs-3 {
+			width: 25%
+		}
+
+		.col-xs-2 {
+			width: 16.66666667%
+		}
+
+		.col-xs-1 {
+			width: 8.33333333%
+		}
+
+		.col-xs-pull-12 {
+			right: 100%
+		}
+
+		.col-xs-pull-11 {
+			right: 91.66666667%
+		}
+
+		.col-xs-pull-10 {
+			right: 83.33333333%
+		}
+
+		.col-xs-pull-9 {
+			right: 75%
+		}
+
+		.col-xs-pull-8 {
+			right: 66.66666667%
+		}
+
+		.col-xs-pull-7 {
+			right: 58.33333333%
+		}
+
+		.col-xs-pull-6 {
+			right: 50%
+		}
+
+		.col-xs-pull-5 {
+			right: 41.66666667%
+		}
+
+		.col-xs-pull-4 {
+			right: 33.33333333%
+		}
+
+		.col-xs-pull-3 {
+			right: 25%
+		}
+
+		.col-xs-pull-2 {
+			right: 16.66666667%
+		}
+
+		.col-xs-pull-1 {
+			right: 8.33333333%
+		}
+
+		.col-xs-pull-0 {
+			right: auto
+		}
+
+		.col-xs-push-12 {
+			left: 100%
+		}
+
+		.col-xs-push-11 {
+			left: 91.66666667%
+		}
+
+		.col-xs-push-10 {
+			left: 83.33333333%
+		}
+
+		.col-xs-push-9 {
+			left: 75%
+		}
+
+		.col-xs-push-8 {
+			left: 66.66666667%
+		}
+
+		.col-xs-push-7 {
+			left: 58.33333333%
+		}
+
+		.col-xs-push-6 {
+			left: 50%
+		}
+
+		.col-xs-push-5 {
+			left: 41.66666667%
+		}
+
+		.col-xs-push-4 {
+			left: 33.33333333%
+		}
+
+		.col-xs-push-3 {
+			left: 25%
+		}
+
+		.col-xs-push-2 {
+			left: 16.66666667%
+		}
+
+		.col-xs-push-1 {
+			left: 8.33333333%
+		}
+
+		.col-xs-push-0 {
+			left: auto
+		}
+
+		.col-xs-offset-12 {
+			margin-left: 100%
+		}
+
+		.col-xs-offset-11 {
+			margin-left: 91.66666667%
+		}
+
+		.col-xs-offset-10 {
+			margin-left: 83.33333333%
+		}
+
+		.col-xs-offset-9 {
+			margin-left: 75%
+		}
+
+		.col-xs-offset-8 {
+			margin-left: 66.66666667%
+		}
+
+		.col-xs-offset-7 {
+			margin-left: 58.33333333%
+		}
+
+		.col-xs-offset-6 {
+			margin-left: 50%
+		}
+
+		.col-xs-offset-5 {
+			margin-left: 41.66666667%
+		}
+
+		.col-xs-offset-4 {
+			margin-left: 33.33333333%
+		}
+
+		.col-xs-offset-3 {
+			margin-left: 25%
+		}
+
+		.col-xs-offset-2 {
+			margin-left: 16.66666667%
+		}
+
+		.col-xs-offset-1 {
+			margin-left: 8.33333333%
+		}
+
+		.col-xs-offset-0 {
+			margin-left: 0
+		}
+
+		@media (min-width: 768px) {
+
+			.col-sm-1,
+			.col-sm-2,
+			.col-sm-3,
+			.col-sm-4,
+			.col-sm-5,
+			.col-sm-6,
+			.col-sm-7,
+			.col-sm-8,
+			.col-sm-9,
+			.col-sm-10,
+			.col-sm-11,
+			.col-sm-12 {
+				float: left
+			}
+
+			.col-sm-12 {
+				width: 100%
+			}
+
+			.col-sm-11 {
+				width: 91.66666667%
+			}
+
+			.col-sm-10 {
+				width: 83.33333333%
+			}
+
+			.col-sm-9 {
+				width: 75%
+			}
+
+			.col-sm-8 {
+				width: 66.66666667%
+			}
+
+			.col-sm-7 {
+				width: 58.33333333%
+			}
+
+			.col-sm-6 {
+				width: 50%
+			}
+
+			.col-sm-5 {
+				width: 41.66666667%
+			}
+
+			.col-sm-4 {
+				width: 33.33333333%
+			}
+
+			.col-sm-3 {
+				width: 25%
+			}
+
+			.col-sm-2 {
+				width: 16.66666667%
+			}
+
+			.col-sm-1 {
+				width: 8.33333333%
+			}
+
+			.col-sm-pull-12 {
+				right: 100%
+			}
+
+			.col-sm-pull-11 {
+				right: 91.66666667%
+			}
+
+			.col-sm-pull-10 {
+				right: 83.33333333%
+			}
+
+			.col-sm-pull-9 {
+				right: 75%
+			}
+
+			.col-sm-pull-8 {
+				right: 66.66666667%
+			}
+
+			.col-sm-pull-7 {
+				right: 58.33333333%
+			}
+
+			.col-sm-pull-6 {
+				right: 50%
+			}
+
+			.col-sm-pull-5 {
+				right: 41.66666667%
+			}
+
+			.col-sm-pull-4 {
+				right: 33.33333333%
+			}
+
+			.col-sm-pull-3 {
+				right: 25%
+			}
+
+			.col-sm-pull-2 {
+				right: 16.66666667%
+			}
+
+			.col-sm-pull-1 {
+				right: 8.33333333%
+			}
+
+			.col-sm-pull-0 {
+				right: auto
+			}
+
+			.col-sm-push-12 {
+				left: 100%
+			}
+
+			.col-sm-push-11 {
+				left: 91.66666667%
+			}
+
+			.col-sm-push-10 {
+				left: 83.33333333%
+			}
+
+			.col-sm-push-9 {
+				left: 75%
+			}
+
+			.col-sm-push-8 {
+				left: 66.66666667%
+			}
+
+			.col-sm-push-7 {
+				left: 58.33333333%
+			}
+
+			.col-sm-push-6 {
+				left: 50%
+			}
+
+			.col-sm-push-5 {
+				left: 41.66666667%
+			}
+
+			.col-sm-push-4 {
+				left: 33.33333333%
+			}
+
+			.col-sm-push-3 {
+				left: 25%
+			}
+
+			.col-sm-push-2 {
+				left: 16.66666667%
+			}
+
+			.col-sm-push-1 {
+				left: 8.33333333%
+			}
+
+			.col-sm-push-0 {
+				left: auto
+			}
+
+			.col-sm-offset-12 {
+				margin-left: 100%
+			}
+
+			.col-sm-offset-11 {
+				margin-left: 91.66666667%
+			}
+
+			.col-sm-offset-10 {
+				margin-left: 83.33333333%
+			}
+
+			.col-sm-offset-9 {
+				margin-left: 75%
+			}
+
+			.col-sm-offset-8 {
+				margin-left: 66.66666667%
+			}
+
+			.col-sm-offset-7 {
+				margin-left: 58.33333333%
+			}
+
+			.col-sm-offset-6 {
+				margin-left: 50%
+			}
+
+			.col-sm-offset-5 {
+				margin-left: 41.66666667%
+			}
+
+			.col-sm-offset-4 {
+				margin-left: 33.33333333%
+			}
+
+			.col-sm-offset-3 {
+				margin-left: 25%
+			}
+
+			.col-sm-offset-2 {
+				margin-left: 16.66666667%
+			}
+
+			.col-sm-offset-1 {
+				margin-left: 8.33333333%
+			}
+
+			.col-sm-offset-0 {
+				margin-left: 0
+			}
+		}
+
+		@media (min-width: 992px) {
+
+			.col-md-1,
+			.col-md-2,
+			.col-md-3,
+			.col-md-4,
+			.col-md-5,
+			.col-md-6,
+			.col-md-7,
+			.col-md-8,
+			.col-md-9,
+			.col-md-10,
+			.col-md-11,
+			.col-md-12 {
+				float: left
+			}
+
+			.col-md-12 {
+				width: 100%
+			}
+
+			.col-md-11 {
+				width: 91.66666667%
+			}
+
+			.col-md-10 {
+				width: 83.33333333%
+			}
+
+			.col-md-9 {
+				width: 75%
+			}
+
+			.col-md-8 {
+				width: 66.66666667%
+			}
+
+			.col-md-7 {
+				width: 58.33333333%
+			}
+
+			.col-md-6 {
+				width: 50%
+			}
+
+			.col-md-5 {
+				width: 41.66666667%
+			}
+
+			.col-md-4 {
+				width: 33.33333333%
+			}
+
+			.col-md-3 {
+				width: 25%
+			}
+
+			.col-md-2 {
+				width: 16.66666667%
+			}
+
+			.col-md-1 {
+				width: 8.33333333%
+			}
+
+			.col-md-pull-12 {
+				right: 100%
+			}
+
+			.col-md-pull-11 {
+				right: 91.66666667%
+			}
+
+			.col-md-pull-10 {
+				right: 83.33333333%
+			}
+
+			.col-md-pull-9 {
+				right: 75%
+			}
+
+			.col-md-pull-8 {
+				right: 66.66666667%
+			}
+
+			.col-md-pull-7 {
+				right: 58.33333333%
+			}
+
+			.col-md-pull-6 {
+				right: 50%
+			}
+
+			.col-md-pull-5 {
+				right: 41.66666667%
+			}
+
+			.col-md-pull-4 {
+				right: 33.33333333%
+			}
+
+			.col-md-pull-3 {
+				right: 25%
+			}
+
+			.col-md-pull-2 {
+				right: 16.66666667%
+			}
+
+			.col-md-pull-1 {
+				right: 8.33333333%
+			}
+
+			.col-md-pull-0 {
+				right: auto
+			}
+
+			.col-md-push-12 {
+				left: 100%
+			}
+
+			.col-md-push-11 {
+				left: 91.66666667%
+			}
+
+			.col-md-push-10 {
+				left: 83.33333333%
+			}
+
+			.col-md-push-9 {
+				left: 75%
+			}
+
+			.col-md-push-8 {
+				left: 66.66666667%
+			}
+
+			.col-md-push-7 {
+				left: 58.33333333%
+			}
+
+			.col-md-push-6 {
+				left: 50%
+			}
+
+			.col-md-push-5 {
+				left: 41.66666667%
+			}
+
+			.col-md-push-4 {
+				left: 33.33333333%
+			}
+
+			.col-md-push-3 {
+				left: 25%
+			}
+
+			.col-md-push-2 {
+				left: 16.66666667%
+			}
+
+			.col-md-push-1 {
+				left: 8.33333333%
+			}
+
+			.col-md-push-0 {
+				left: auto
+			}
+
+			.col-md-offset-12 {
+				margin-left: 100%
+			}
+
+			.col-md-offset-11 {
+				margin-left: 91.66666667%
+			}
+
+			.col-md-offset-10 {
+				margin-left: 83.33333333%
+			}
+
+			.col-md-offset-9 {
+				margin-left: 75%
+			}
+
+			.col-md-offset-8 {
+				margin-left: 66.66666667%
+			}
+
+			.col-md-offset-7 {
+				margin-left: 58.33333333%
+			}
+
+			.col-md-offset-6 {
+				margin-left: 50%
+			}
+
+			.col-md-offset-5 {
+				margin-left: 41.66666667%
+			}
+
+			.col-md-offset-4 {
+				margin-left: 33.33333333%
+			}
+
+			.col-md-offset-3 {
+				margin-left: 25%
+			}
+
+			.col-md-offset-2 {
+				margin-left: 16.66666667%
+			}
+
+			.col-md-offset-1 {
+				margin-left: 8.33333333%
+			}
+
+			.col-md-offset-0 {
+				margin-left: 0
+			}
+		}
+
+		@media (min-width: 1200px) {
+
+			.col-lg-1,
+			.col-lg-2,
+			.col-lg-3,
+			.col-lg-4,
+			.col-lg-5,
+			.col-lg-6,
+			.col-lg-7,
+			.col-lg-8,
+			.col-lg-9,
+			.col-lg-10,
+			.col-lg-11,
+			.col-lg-12 {
+				float: left
+			}
+
+			.col-lg-12 {
+				width: 100%
+			}
+
+			.col-lg-11 {
+				width: 91.66666667%
+			}
+
+			.col-lg-10 {
+				width: 83.33333333%
+			}
+
+			.col-lg-9 {
+				width: 75%
+			}
+
+			.col-lg-8 {
+				width: 66.66666667%
+			}
+
+			.col-lg-7 {
+				width: 58.33333333%
+			}
+
+			.col-lg-6 {
+				width: 50%
+			}
+
+			.col-lg-5 {
+				width: 41.66666667%
+			}
+
+			.col-lg-4 {
+				width: 33.33333333%
+			}
+
+			.col-lg-3 {
+				width: 25%
+			}
+
+			.col-lg-2 {
+				width: 16.66666667%
+			}
+
+			.col-lg-1 {
+				width: 8.33333333%
+			}
+
+			.col-lg-pull-12 {
+				right: 100%
+			}
+
+			.col-lg-pull-11 {
+				right: 91.66666667%
+			}
+
+			.col-lg-pull-10 {
+				right: 83.33333333%
+			}
+
+			.col-lg-pull-9 {
+				right: 75%
+			}
+
+			.col-lg-pull-8 {
+				right: 66.66666667%
+			}
+
+			.col-lg-pull-7 {
+				right: 58.33333333%
+			}
+
+			.col-lg-pull-6 {
+				right: 50%
+			}
+
+			.col-lg-pull-5 {
+				right: 41.66666667%
+			}
+
+			.col-lg-pull-4 {
+				right: 33.33333333%
+			}
+
+			.col-lg-pull-3 {
+				right: 25%
+			}
+
+			.col-lg-pull-2 {
+				right: 16.66666667%
+			}
+
+			.col-lg-pull-1 {
+				right: 8.33333333%
+			}
+
+			.col-lg-pull-0 {
+				right: auto
+			}
+
+			.col-lg-push-12 {
+				left: 100%
+			}
+
+			.col-lg-push-11 {
+				left: 91.66666667%
+			}
+
+			.col-lg-push-10 {
+				left: 83.33333333%
+			}
+
+			.col-lg-push-9 {
+				left: 75%
+			}
+
+			.col-lg-push-8 {
+				left: 66.66666667%
+			}
+
+			.col-lg-push-7 {
+				left: 58.33333333%
+			}
+
+			.col-lg-push-6 {
+				left: 50%
+			}
+
+			.col-lg-push-5 {
+				left: 41.66666667%
+			}
+
+			.col-lg-push-4 {
+				left: 33.33333333%
+			}
+
+			.col-lg-push-3 {
+				left: 25%
+			}
+
+			.col-lg-push-2 {
+				left: 16.66666667%
+			}
+
+			.col-lg-push-1 {
+				left: 8.33333333%
+			}
+
+			.col-lg-push-0 {
+				left: auto
+			}
+
+			.col-lg-offset-12 {
+				margin-left: 100%
+			}
+
+			.col-lg-offset-11 {
+				margin-left: 91.66666667%
+			}
+
+			.col-lg-offset-10 {
+				margin-left: 83.33333333%
+			}
+
+			.col-lg-offset-9 {
+				margin-left: 75%
+			}
+
+			.col-lg-offset-8 {
+				margin-left: 66.66666667%
+			}
+
+			.col-lg-offset-7 {
+				margin-left: 58.33333333%
+			}
+
+			.col-lg-offset-6 {
+				margin-left: 50%
+			}
+
+			.col-lg-offset-5 {
+				margin-left: 41.66666667%
+			}
+
+			.col-lg-offset-4 {
+				margin-left: 33.33333333%
+			}
+
+			.col-lg-offset-3 {
+				margin-left: 25%
+			}
+
+			.col-lg-offset-2 {
+				margin-left: 16.66666667%
+			}
+
+			.col-lg-offset-1 {
+				margin-left: 8.33333333%
+			}
+
+			.col-lg-offset-0 {
+				margin-left: 0
+			}
+		}
+
+		.section_map {
+			margin: 0;
+			position: relative
+		}
+
+		.section_map .map_wrapper {
+			overflow: hidden;
+			position: relative;
+			z-index: 1
+		}
+
+		.section_map .map_container {
+			position: absolute;
+			top: 0;
+			right: -44%;
+			bottom: 0;
+			left: 0;
+			z-index: 1
+		}
+
+		.section_map .map_captions__off {
+			right: 0
+		}
+
+		.section_map .map_wrapper__small {
+			padding: 19.53% 0 0 0
+		}
+
+		.section_map .map_wrapper__medium {
+			padding: 29.29% 0 0 0
+		}
+
+		.section_map .map_wrapper__large {
+			padding: 39.06% 0 0 0
+		}
+	</style>
+
+	<script>
+		var theme = {
+			moneyFormat: "${{amount}}",
+		};
+	</script>
+	<link href="https://monorail-edge.shopifysvc.com/" rel="dns-prefetch">
+	<script>(function () { if ("sendBeacon" in navigator && "performance" in window) { var session_token = document.cookie.match(/_shopify_s=([^;]*)/); function handle_abandonment_event(e) { var entries = performance.getEntries().filter(function (entry) { return /monorail-edge.shopifysvc.com/.test(entry.name); }); if (!window.abandonment_tracked && entries.length === 0) { window.abandonment_tracked = true; var currentMs = Date.now(); var navigation_start = performance.timing.navigationStart; var payload = { shop_id: 6131449926, url: window.location.href, navigation_start, duration: currentMs - navigation_start, session_token: session_token && session_token.length === 2 ? session_token[1] : "", page_type: "index" }; window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({ schema_id: "online_store_buyer_site_abandonment/1.1", payload: payload, metadata: { event_created_at_ms: currentMs, event_sent_at_ms: currentMs } })); } } window.addEventListener('pagehide', handle_abandonment_event); } }());</script>
+	<script
+		id="web-pixels-manager-setup">(function e(e, n, a, t, o, r, i) { var s = null !== e, l = ("function" == typeof BigInt && BigInt.toString().indexOf("[native code]") ? "modern" : "legacy").substring(0, 1), c = t.substring(0, 1); if (s) { window.Shopify = window.Shopify || {}; var d = window.Shopify; d.analytics = d.analytics || {}; var u = d.analytics; u.replayQueue = [], u.publish = function (e, n, a) { u.replayQueue.push([e, n, a]) }; try { self.performance.mark("wpm:start") } catch (e) { } } var p, f, y, h, v, m, w, g, b, _ = [a, "/wpm", "index.html", c, r, l, ".js"].join(""); f = (p = { src: _, async: !0, onload: function () { if (e) { var a = window.webPixelsManager.init(e); null == n || n(a); var t = window.Shopify.analytics; t.replayQueue.forEach((function (e) { var n = e[0], t = e[1], o = e[2]; a.publishCustomEvent(n, t, o) })), t.replayQueue = [], t.publish = a.publishCustomEvent, t.visitor = a.visitor } }, onerror: function () { var n = (null == e ? void 0 : e.storefrontBaseUrl) ? e.storefrontBaseUrl.replace(/\/$/, "") : self.location.origin, a = "".concat(n, "/.well-known/shopify/monorail/unstable/produce_batch"), t = JSON.stringify({ metadata: { event_sent_at_ms: (new Date).getTime() }, events: [{ schema_id: "web_pixels_manager_load/2.0", payload: { version: o || "latest", page_url: self.location.href, status: "failed", error_msg: "".concat(_, " has failed to load") }, metadata: { event_created_at_ms: (new Date).getTime() } }] }); try { if (self.navigator.sendBeacon.bind(self.navigator)(a, t)) return !0 } catch (e) { } var r = new XMLHttpRequest; try { return r.open("POST.html", a, !0), r.setRequestHeader("Content-Type", "text/plain"), r.send(t), !0 } catch (e) { console && console.warn && console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.") } return !1 } }).src, y = p.async, h = void 0 === y || y, v = p.onload, m = p.onerror, w = document.createElement("script"), g = document.head, b = document.body, w.async = h, w.src = f, v && w.addEventListener("load", v), m && w.addEventListener("error", m), g ? g.appendChild(w) : b ? b.appendChild(w) : console.error("Did not find a head or body element to append the script") })({ shopId: 6131449926, storefrontBaseUrl: "https://theme481-wedding.myshopify.com", cdnBaseUrl: "https://theme481-wedding.myshopify.com/cdn", surface: "storefront-renderer", enabledBetaFlags: ["web_pixels_async_pixel_refactor", "web_pixels_manager_performance_improvement"], webPixelsConfigList: [{ "id": "shopify-app-pixel", "configuration": "{}", "eventPayloadVersion": "v1", "runtimeContext": "STRICT", "scriptVersion": "0570", "apiClientId": "shopify-pixel", "type": "APP" }, { "id": "shopify-custom-pixel", "eventPayloadVersion": "v1", "runtimeContext": "LAX", "scriptVersion": "0570", "apiClientId": "shopify-pixel", "type": "CUSTOM" }], initData: { "cart": null, "checkout": null, "customer": null, "productVariants": [] }, }, function pageEvents(webPixelsManagerAPI) { webPixelsManagerAPI.publish("page_viewed"); }, "cdn.html", "browser", "0.0.419", "9945bf9fw9f0493d3pc3794183m37925d68", ["web_pixels_async_pixel_refactor", "web_pixels_manager_performance_improvement"]);</script>
+	<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+		window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+		window.ShopifyAnalytics.meta.currency = 'USD';
+		var meta = { "page": { "pageType": "home" } };
+		for (var attr in meta) {
+			window.ShopifyAnalytics.meta[attr] = meta[attr];
+		}</script>
+	<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function () {
+
+		};
+	</script>
+	<script class="analytics">(function () {
+			var customDocumentWrite = function (content) {
+				var jquery = null;
+
+				if (window.jQuery) {
+					jquery = window.jQuery;
+				} else if (window.Checkout && window.Checkout.$) {
+					jquery = window.Checkout.$;
+				}
+
+				if (jquery) {
+					jquery('body').append(content);
+				}
+			};
+
+			var hasLoggedConversion = function (token) {
+				if (token) {
+					return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+				}
+				return false;
+			}
+
+			var setCookieIfConversion = function (token) {
+				if (token) {
+					var twoMonthsFromNow = new Date(Date.now());
+					twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+					document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+				}
+			}
+
+			var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+			if (trekkie.integrations) {
+				return;
+			}
+			trekkie.methods = [
+				'identify',
+				'page',
+				'ready',
+				'track',
+				'trackForm',
+				'trackLink'
+			];
+			trekkie.factory = function (method) {
+				return function () {
+					var args = Array.prototype.slice.call(arguments);
+					args.unshift(method);
+					trekkie.push(args);
+					return trekkie;
+				};
+			};
+			for (var i = 0; i < trekkie.methods.length; i++) {
+				var key = trekkie.methods[i];
+				trekkie[key] = trekkie.factory(key);
+			}
+			trekkie.load = function (config) {
+				trekkie.config = config || {};
+				trekkie.config.initialDocumentCookie = document.cookie;
+				var first = document.getElementsByTagName('script')[0];
+				var script = document.createElement('script');
+				script.type = 'text/javascript';
+				script.onerror = function (e) {
+					var scriptFallback = document.createElement('script');
+					scriptFallback.type = 'text/javascript';
+					scriptFallback.onerror = function (error) {
+						var Monorail = {
+							produce: function produce(monorailDomain, schemaId, payload) {
+								var currentMs = new Date().getTime();
+								var event = {
+									schema_id: schemaId,
+									payload: payload,
+									metadata: {
+										event_created_at_ms: currentMs,
+										event_sent_at_ms: currentMs
+									}
+								};
+								return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+							},
+							sendRequest: function sendRequest(endpointUrl, payload) {
+								// Try the sendBeacon API
+								if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+									var blobData = new window.Blob([payload], {
+										type: 'text/plain'
+									});
+
+									if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+										return true;
+									} // sendBeacon was not successful
+
+								} // XHR beacon
+
+								var xhr = new XMLHttpRequest();
+
+								try {
+									xhr.open('POST.html', endpointUrl);
+									xhr.setRequestHeader('Content-Type', 'text/plain');
+									xhr.send(payload);
+								} catch (e) {
+									console.log(e);
+								}
+
+								return false;
+							},
+							isIos12: function isIos12() {
+								return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+							}
+						};
+						Monorail.produce('monorail-edge.shopifysvc.com',
+							'trekkie_storefront_load_errors/1.1',
+							{
+								shop_id: 6131449926,
+								theme_id: 39992852550,
+								app_name: "storefront",
+								context_url: window.location.href,
+								source_url: "//theme481-wedding.myshopify.com/cdn/s/trekkie.storefront.f2da2901761ed691d459433ada0e4d90e085713c.min.js"
+							});
+
+					};
+					scriptFallback.async = true;
+					scriptFallback.src = 'cdn/s/trekkie.storefront.f2da2901761ed691d459433ada0e4d90e085713c.min.js';
+					first.parentNode.insertBefore(scriptFallback, first);
+				};
+				script.async = true;
+				script.src = 'cdn/s/trekkie.storefront.f2da2901761ed691d459433ada0e4d90e085713c.min.js';
+				first.parentNode.insertBefore(script, first);
+			};
+			trekkie.load(
+				{ "Trekkie": { "appName": "storefront", "development": false, "defaultAttributes": { "shopId": 6131449926, "isMerchantRequest": null, "themeId": 39992852550, "themeCityHash": "18064159377090429820", "contentLanguage": "en", "currency": "USD" }, "isServerSideCookieWritingEnabled": true, "monorailRegion": "shop_domain" }, "Session Attribution": {}, "S2S": { "facebookCapiEnabled": false, "source": "trekkie-storefront-renderer" } }
+			);
+
+			var loaded = false;
+			trekkie.ready(function () {
+				if (loaded) return;
+				loaded = true;
+
+				window.ShopifyAnalytics.lib = window.trekkie;
+
+
+				var originalDocumentWrite = document.write;
+				document.write = customDocumentWrite;
+				try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch (error) { };
+				document.write = originalDocumentWrite;
+
+				window.ShopifyAnalytics.lib.page(null, { "pageType": "home" });
+
+				var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+				var token = match ? match[1] : undefined;
+				if (!hasLoggedConversion(token)) {
+					setCookieIfConversion(token);
+
+				}
+			});
+
+
+			var eventsListenerScript = document.createElement('script');
+			eventsListenerScript.async = true;
+			eventsListenerScript.src = "cdn/shopifycloud/shopify/assets/shop_events_listener-a7c63dba65ccddc484f77541dc8ca437e60e1e9e297fe1c3faebf6523a0ede9b.js";
+			document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+
+		})();</script>
+	<script class="boomerang">
+		(function () {
+			if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+				return;
+			}
+			window.BOOMR = window.BOOMR || {};
+			window.BOOMR.snippetStart = new Date().getTime();
+			window.BOOMR.snippetExecuted = true;
+			window.BOOMR.snippetVersion = 12;
+			window.BOOMR.application = "storefront-renderer";
+			window.BOOMR.themeName = "SuitUp";
+			window.BOOMR.themeVersion = "1.0.0";
+			window.BOOMR.shopId = 6131449926;
+			window.BOOMR.themeId = 39992852550;
+			window.BOOMR.renderRegion = "gcp-asia-southeast1";
+			window.BOOMR.url =
+				"cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+			var where = document.currentScript || document.getElementsByTagName("script")[0];
+			var parentNode = where.parentNode;
+			var promoted = false;
+			var LOADER_TIMEOUT = 3000;
+			function promote() {
+				if (promoted) {
+					return;
+				}
+				var script = document.createElement("script");
+				script.id = "boomr-scr-as";
+				script.src = window.BOOMR.url;
+				script.async = true;
+				parentNode.appendChild(script);
+				promoted = true;
+			}
+			function iframeLoader(wasFallback) {
+				promoted = true;
+				var dom, bootstrap, iframe, iframeStyle;
+				var doc = document;
+				var win = window;
+				window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+				bootstrap = function (parent, scriptId) {
+					var script = doc.createElement("script");
+					script.id = scriptId || "boomr-if-as";
+					script.src = window.BOOMR.url;
+					BOOMR_lstart = new Date().getTime();
+					parent = parent || doc.body;
+					parent.appendChild(script);
+				};
+				if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+					window.BOOMR.snippetMethod = "s";
+					bootstrap(parentNode, "boomr-async");
+					return;
+				}
+				iframe = document.createElement("IFRAME");
+				iframe.src = "about:blank";
+				iframe.title = "";
+				iframe.role = "presentation";
+				iframe.loading = "eager";
+				iframeStyle = (iframe.frameElement || iframe).style;
+				iframeStyle.width = 0;
+				iframeStyle.height = 0;
+				iframeStyle.border = 0;
+				iframeStyle.display = "none";
+				parentNode.appendChild(iframe);
+				try {
+					win = iframe.contentWindow;
+					doc = win.document.open();
+				} catch (e) {
+					dom = document.domain;
+					iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+					win = iframe.contentWindow;
+					doc = win.document.open();
+				}
+				if (dom) {
+					doc._boomrl = function () {
+						this.domain = dom;
+						bootstrap();
+					};
+					doc.write("<body onload='document._boomrl();'>");
+				} else {
+					win._boomrl = function () {
+						bootstrap();
+					};
+					if (win.addEventListener) {
+						win.addEventListener("load", win._boomrl, false);
+					} else if (win.attachEvent) {
+						win.attachEvent("onload", win._boomrl);
+					}
+				}
+				doc.close();
+			}
+			var link = document.createElement("link");
+			if (link.relList &&
+				typeof link.relList.supports === "function" &&
+				link.relList.supports("preload") &&
+				("as" in link)) {
+				window.BOOMR.snippetMethod = "p";
+				link.href = window.BOOMR.url;
+				link.rel = "preload";
+				link.as = "script";
+				link.addEventListener("load", promote);
+				link.addEventListener("error", function () {
+					iframeLoader(true);
+				});
+				setTimeout(function () {
+					if (!promoted) {
+						iframeLoader(true);
+					}
+				}, LOADER_TIMEOUT);
+				BOOMR_lstart = new Date().getTime();
+				parentNode.appendChild(link);
+			} else {
+				iframeLoader(false);
+			}
+			function boomerangSaveLoadTime(e) {
+				window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+			}
+			if (window.addEventListener) {
+				window.addEventListener("load", boomerangSaveLoadTime, false);
+			} else if (window.attachEvent) {
+				window.attachEvent("onload", boomerangSaveLoadTime);
+			}
+			if (document.addEventListener) {
+				document.addEventListener("onBoomerangLoaded", function (e) {
+					e.detail.BOOMR.init({
+						ResourceTiming: {
+							enabled: true,
+							trackedResourceTypes: ["script", "img", "css"]
+						},
+					});
+					e.detail.BOOMR.t_end = new Date().getTime();
+				});
+			} else if (document.attachEvent) {
+				document.attachEvent("onpropertychange", function (e) {
+					if (!e) e = event;
+					if (e.propertyName === "onBoomerangLoaded") {
+						e.detail.BOOMR.init({
+							ResourceTiming: {
+								enabled: true,
+								trackedResourceTypes: ["script", "img", "css"]
+							},
+						});
+						e.detail.BOOMR.t_end = new Date().getTime();
+					}
+				});
+			}
+		})();</script>
 </head>
+<body class="template-index scheme_1">
+    <div class="page_wrapper">
 
-<body>
-    <!-- Preloader Box -->
-    <section class="pe_loader">
-        <div class="pe_loader_flex">
-            <span class="pe_circle-1"></span>
-            <span class="pe_circle-2"></span>
-            <span class="pe_circle-3"></span>
-            <span class="pe_circle-4"></span>
-            <span class="pe_circle-5"></span>
+        <div id="page_preloader__bg">
+            <img id="page_preloader__img" src="cdn/shop/t/2/assets/shopify_logo96f2.gif?v=84590725949116876171539272279"
+                alt="">
         </div>
-    </section>
-    <div class="main_wrapper">
-        <div class="pe_top_header_wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
-                        <div class="pe_main_logo">
-                            <a href="index.html"><img src="assets/images/header_logo.png" alt="images"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-12">
-                        <div class="pe_top_right_section">
-                            <div class="pe_top_search">
-                                <input type="text" placeholder="Search for product" />
-                                <a href="javascript:void(0);"><img src="assets/images/header_search.svg"
-                                        alt="images" /></a>
-                            </div>
-                            <div class="pe_top_money">
-                                <select class="templatingSelect2">
-                                    <option value="usd">USD</option>
-                                    <option value="euro">Euro</option>
-                                    <option value="gbp">Pound</option>
-                                </select>
-                            </div>
-                            <div class="pe_top_country">
-                                <div class="country">
-                                    <select class="form-control" id="countries">
-                                        <option value="AF" data-capital="Kabul">Afghanistan</option>
-                                        <option value="LK" data-capital="Sri Jayawardenepura Kotte, Colombo">Sri Lanka
-                                        </option>
-                                        <option value="PS" data-capital="Ramallah">State of Palestine</option>
-                                        <option value="VG" data-capital="Road Town">Virgin Islands (British)</option>
-                                        <option value="VI" data-capital="Charlotte Amalie">Virgin Islands (U.S.)
-                                        </option>
-                                        <option value="WF" data-capital="Mata-Utu">Wallis and Futuna</option>
-                                        <option value="EH" data-capital="Laayoune">Western Sahara</option>
-                                        <option value="YE" data-capital="Sana'a">Yemen</option>
-                                        <option value="ZM" data-capital="Lusaka">Zambia</option>
-                                        <option value="ZW" data-capital="Harare">Zimbabwe</option>
-                                    </select>
+
+        <script>
+        preloaderBg = document.getElementById('page_preloader__bg');
+        preloaderImg = document.getElementById('page_preloader__img');
+
+        window.addEventListener('load', function() {
+            preloaderBg.classList.add("off");
+            preloaderImg.classList.add("off");
+        });
+        </script>
+
+
+
+        <div id="shopify-section-header" class="shopify-section">
+            <div id="pseudo_sticky_block"></div>
+
+
+
+
+            <header id="page_header">
+                <div class="page_container">
+                    <div class="top_pannel ">
+                        <div class="container">
+                            <div class="top_pannel_text">Order online or call us (1800) 000 8808</div>
+
+                            <div class="top_pannel_menu">
+
+
+
+                                <div class="header_search">
+                                    <span class="search_toggle"><i class="fa fa-search"
+                                            aria-hidden="true"></i><b>Search</b><i class="fa fa-times"></i></span>
+                                    <form action="https://theme481-wedding.myshopify.com/search" method="get"
+                                        role="search" class="search_form">
+                                        <input type="search" name="q" placeholder="Search" aria-label="Search">
+
+                                        <button type="submit">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                    </form>
+
+
+                                    <script>
+                                    theme.searchAjaxOn = true;
+                                    </script>
+
+                                    <div id="search_result_container"></div>
+
                                 </div>
+
+
+
+
+                                <div class="header_account">
+                                    <a href="?act=taikhoan" title="My account"><i class="fa fa-user"
+                                            aria-hidden="true"></i></a>
+                                </div>
+
+
+
+
+
+                                <div class="header_wishlist">
+                                    <a href="pages/wishlist.html"><i class="fa fa-heart"
+                                            aria-hidden="true"></i><span>Wishlist</span></a>
+                                </div>
+
+
+
+
+
+
+
+                                <div class="currency_selector">
+                                    <div class="currency_selector__wrap" title="Currency">
+                                        <div id="currency_active">USD</div>
+
+                                        <ul id="currency_selector">
+                                            <li data-value="USD" id="currency_selected" class="currency_selector__item">
+                                                USD</li>
+
+
+
+
+
+                                            <li data-value="EUR" class="currency_selector__item">EUR</li>
+
+
+
+                                            <li data-value="GBP" class="currency_selector__item">GBP</li>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <script>
+                                theme.shopCurrency = "USD";
+                                theme.moneyFormat = "${{amount}}";
+                                theme.moneyFormatCurrency = "${{amount}} USD";
+                                </script>
+
+                                <script src="../cdn.shopify.com/s/javascripts/currencies.js" defer></script>
+                                <script src="cdn/shop/t/2/assets/currency-tools0542.js?v=56053141205250997201539259903"
+                                    defer></script>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header_wrap1" style="background: #e9e9e9">
+                        <div class="container header_main_wrap">
+                            <div class="header_wrap2 header_left">
+
+
+
+
+                                <a class="header_logo" href="index.html">
+                                    <img src="cdn/shop/files/logo_190x50_crop_center1ef3.png?v=1613728926"
+                                        alt="Perfect Bride">
+
+                                </a>
+
+
+
+                            </div>
+
+                            <div class="header_wrap2 header_center">
+
+                                <nav id="megamenu" class="megamenu">
+                                    <h2 id="megamenu_mobile_toggle"><i class="fa fa-bars" aria-hidden="true"></i>Menu
+                                    </h2>
+
+                                    <div id="megamenu_mobile_close">
+                                        <div class="close_icon"></div>
+                                    </div>
+
+                                    <ul id="megamenu_level__1" class="level_1">
+
+
+
+
+
+                                        <li class="level_1__item level_2__small">
+                                            <a class="level_1__link active" href="index.html">Home
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264076974"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264076974">
+                                                <li>
+                                                    <div>
+                                                        <ul class="level_3">
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/shoes.html">Shoes</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/veils.html">Veils</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/headpieces.html">Headpieces</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/jewelry-gifts.html">Jewelry &
+                                                                    Gifts</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/belts.html">Belts</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/purses.html">Purses</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/accessories-shopping-guide.html">Accessories
+                                                                    Shopping Guide</a>
+
+
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item level_2__links">
+                                            <a class="level_1__link " href="collections.html">Collections
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264096343"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264096343">
+                                                <li class="container">
+
+
+
+
+
+
+                                                    <div class="megamenu_col__item align_center">
+
+                                                        <a href="collections/purses.html"><img
+                                                                src="cdn/shop/files/Depositphotos_1584510_original_255x180_crop_centerfa42.jpg?v=1613728925"
+                                                                alt="Purses">
+
+
+                                                            <h4>Purses</h4>
+
+                                                        </a>
+                                                    </div>
+
+
+
+
+
+
+
+                                                    <div class="megamenu_col__item align_center">
+
+                                                        <a href="collections/accessories-shopping-guide.html"><img
+                                                                src="cdn/shop/files/Depositphotos_1373343_original_255x180_crop_centerfa42.jpg?v=1613728925"
+                                                                alt="Accessories">
+
+
+                                                            <h4>Accessories</h4>
+
+                                                        </a>
+                                                    </div>
+
+
+
+
+
+
+
+                                                    <div class="megamenu_col__item align_center">
+
+                                                        <a href="collections/jewelry-gifts.html"><img
+                                                                src="cdn/shop/files/Depositphotos_2343843_original_255x180_crop_centerfa42.jpg?v=1613728925"
+                                                                alt="Jewelry">
+
+
+                                                            <h4>Jewelry</h4>
+
+                                                        </a>
+                                                    </div>
+
+
+
+
+
+
+
+                                                    <div class="megamenu_col__item align_center">
+
+                                                        <a href="collections/sale.html"><img
+                                                                src="cdn/shop/files/Depositphotos_3009880_original_255x180_crop_centerfa42.jpg?v=1613728925"
+                                                                alt="Sale">
+
+
+                                                            <h4>Sale</h4>
+
+                                                        </a>
+                                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item level_2__links">
+                                            <a class="level_1__link " href="collections/all.html">Catalog
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264386895"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264386895">
+                                                <li class="container">
+
+
+
+                                                    <div class="megamenu_col__item ">
+
+
+
+                                                        <h3 class="visible">Follow us <i
+                                                                class="level_2__trigger megamenu_trigger"
+                                                                data-submenu="menu_1539264386895-1"></i></h3>
+
+                                                        <ul class="level_3" id="menu_1539264386895-1">
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://www.facebook.com/zemezlab/">Facebook</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://twitter.com/zemezlab">Twitter</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://google.com/+templatemonster">Google+</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://www.youtube.com/channel/UCPW43un8VFXHe9LxKpR_2Hg">Youtube</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://www.instagram.com/zemezlab">Instagram</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+
+
+
+                                                    <div class="megamenu_col__item ">
+
+
+
+                                                        <h3 class="visible">Categories <i
+                                                                class="level_2__trigger megamenu_trigger"
+                                                                data-submenu="menu_1539264386895-2"></i></h3>
+
+                                                        <ul class="level_3" id="menu_1539264386895-2">
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/shoes.html">Shoes</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/veils.html">Veils</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/headpieces.html">Headpieces</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/jewelry-gifts.html">Jewelry &
+                                                                    Gifts</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/belts.html">Belts</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/purses.html">Purses</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/accessories-shopping-guide.html">Accessories
+                                                                    Shopping Guide</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+
+
+
+                                                    <div class="megamenu_col__item ">
+
+
+
+                                                        <h3 class="visible">Account <i
+                                                                class="level_2__trigger megamenu_trigger"
+                                                                data-submenu="menu_1539264386895-3"></i></h3>
+
+                                                        <ul class="level_3" id="menu_1539264386895-3">
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="account/login4236.html">My Account </a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link" href="account/login.html">Log
+                                                                    in </a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link" href="account/login.html">My
+                                                                    Addresses</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="account/login4236.html">My Orders</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/password.html">Password</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/contact-us.html">Contact Us</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link" href="blogs/news.html">Latest
+                                                                    News</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+
+
+
+                                                    <div class="megamenu_col__item ">
+
+
+
+                                                        <h3 class="visible">Information <i
+                                                                class="level_2__trigger megamenu_trigger"
+                                                                data-submenu="menu_1539264386895-4"></i></h3>
+
+                                                        <ul class="level_3" id="menu_1539264386895-4">
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/about-us.html">About Us</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/all.html">Catalog</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/contact-us.html">Contact Us</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections.html">Collections</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/password.html">Password</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/privacy-policy.html">Privacy Policy</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link" href="blogs/news.html">Blog</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item level_2__blog">
+                                            <a class="level_1__link " href="blogs/news.html">Blog
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264425250"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264425250">
+                                                <li class="container">
+
+                                                    <div class="megamenu_col__item">
+
+                                                        <div class="blog_img">
+                                                            <img src="cdn/shop/articles/Depositphotos_1584510_original_350x308_crop_center3669.jpg?v=1539261734"
+                                                                alt="Be happy, love and take care of each other">
+                                                        </div>
+
+
+                                                        <div class="blog_info">
+                                                            <p class="blog_date">
+                                                                <span class="article_day">11</span>
+                                                                October
+                                                            </p>
+
+                                                            <h3 class="blog_title"><a
+                                                                    href="blogs/news/be-happy-love-and-take-care-of-each-other.html">Be
+                                                                    happy, love and take care of each other</a></h3>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+
+                                                        <div class="blog_img">
+                                                            <img src="cdn/shop/articles/Depositphotos_1373343_original_350x308_crop_center90e9.jpg?v=1539261688"
+                                                                alt="We try our best to solve any problems that arise in the process of preparations, offer you the goods you need and support with everything">
+                                                        </div>
+
+
+                                                        <div class="blog_info">
+                                                            <p class="blog_date">
+                                                                <span class="article_day">11</span>
+                                                                October
+                                                            </p>
+
+                                                            <h3 class="blog_title"><a
+                                                                    href="blogs/news/we-try-our-best-to-solve-any-problems-that-arise-in-the-process-of-preparations-offer-you-the-goods-you-need-and-support-with-everything.html">We
+                                                                    try our best to solve any problems that arise in
+                                                                    ...</a></h3>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+
+                                                        <div class="blog_img">
+                                                            <img src="cdn/shop/articles/Depositphotos_1583308_original_350x308_crop_center6c3e.jpg?v=1539261645"
+                                                                alt="The assortment of our wedding store will glad your eyes and help you get everything you need for this special day">
+                                                        </div>
+
+
+                                                        <div class="blog_info">
+                                                            <p class="blog_date">
+                                                                <span class="article_day">11</span>
+                                                                October
+                                                            </p>
+
+                                                            <h3 class="blog_title"><a
+                                                                    href="blogs/news/the-assortment-of-our-wedding-store-will-glad-your-eyes-and-help-you-get-everything-you-need-for-this-special-day.html">The
+                                                                    assortment of our wedding store will glad your
+                                                                    e...</a></h3>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item level_2__products">
+                                            <a class="level_1__link " href="collections/sale.html">Sale
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264438445"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264438445">
+                                                <li class="container">
+
+                                                    <div class="megamenu_col__item">
+                                                        <div class="product">
+                                                            <div class="product_img">
+                                                                <a
+                                                                    href="products/1_pair_mens_silver_oval_wedding_cufflinks_groom_best_man_usher_page_boy_cuff_link_gift.html">
+                                                                    <img src="cdn/shop/products/1_pair_mens_silver_oval_wedding_cufflinks_groom_best_man_usher_page_boy_cuff_link_gift_1_255xe8b8.png?v=1539259206"
+                                                                        alt="1 Pair Mens Silver Oval Wedding Cufflinks Groom Best Man Usher Page Boy Cuff Link Gift" />
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="product_info">
+                                                                <p class="product_name">
+                                                                    <a
+                                                                        href="products/1_pair_mens_silver_oval_wedding_cufflinks_groom_best_man_usher_page_boy_cuff_link_gift.html">1
+                                                                        Pair Mens Silver Oval Wedding Cufflinks
+                                                                        Groom...</a>
+                                                                </p>
+
+                                                                <p class="product_price">
+                                                                    <span class="money">$4.00</span>
+
+
+                                                                    <span class="money money_sale">$6.00</span>
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+                                                        <div class="product">
+                                                            <div class="product_img">
+                                                                <a
+                                                                    href="products/rhinestone_pearl_vintage_white_ivory_lace_wedding_garter_set_bridal_prom_gift.html">
+                                                                    <img src="cdn/shop/products/rhinestone_pearl_vintage_white_ivory_lace_wedding_garter_set_bridal_prom_gift_1_255x7784.png?v=1539259434"
+                                                                        alt="Rhinestone Pearl Vintage White Ivory Lace Wedding Garter Set Bridal Prom Gift" />
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="product_info">
+                                                                <p class="product_name">
+                                                                    <a
+                                                                        href="products/rhinestone_pearl_vintage_white_ivory_lace_wedding_garter_set_bridal_prom_gift.html">Rhinestone
+                                                                        Pearl Vintage White Ivory Lace Weddi...</a>
+                                                                </p>
+
+                                                                <p class="product_price">
+                                                                    <span class="money">$16.00</span>
+
+
+                                                                    <span class="money money_sale">$18.00</span>
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+                                                        <div class="product">
+                                                            <div class="product_img">
+                                                                <a href="products/niceeshop_tm_key_chains.html">
+                                                                    <img src="cdn/shop/products/niceeshop_tm_key_chains_1_255x56e2.png?v=1539259417"
+                                                                        alt="niceeshop TM Key Chains" />
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="product_info">
+                                                                <p class="product_name">
+                                                                    <a href="products/niceeshop_tm_key_chains.html">niceeshop
+                                                                        TM Key Chains</a>
+                                                                </p>
+
+                                                                <p class="product_price">
+                                                                    <span class="money">$4.00</span>
+
+
+                                                                    <span class="money money_sale">$7.00</span>
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+                                                        <div class="product">
+                                                            <div class="product_img">
+                                                                <a
+                                                                    href="products/mr_and_mrs_christian_coffee_mug_set.html">
+                                                                    <img src="cdn/shop/products/mr_and_mrs_christian_coffee_mug_set_1_255xe151.png?v=1539259391"
+                                                                        alt="Mr and Mrs Christian Coffee Mug Set" />
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="product_info">
+                                                                <p class="product_name">
+                                                                    <a
+                                                                        href="products/mr_and_mrs_christian_coffee_mug_set.html">Mr
+                                                                        and Mrs Christian Coffee Mug Set</a>
+                                                                </p>
+
+                                                                <p class="product_price">
+                                                                    <span class="money">$14.00</span>
+
+
+                                                                    <span class="money money_sale">$16.00</span>
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item ">
+                                            <a class="level_1__link " href="pages/about-us.html">About Us
+
+                                            </a>
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item ">
+                                            <a class="level_1__link " href="pages/contact-us.html">Contact Us
+
+                                            </a>
+
+
+
+                                        </li>
+
+
+                                    </ul>
+                                </nav>
+
+                            </div>
+
+                            <div class="header_wrap2 header_right">
+
+                                <div class="header_cart" id="main__cart_item">
+                                    <a class="cart_link" href="cart.html"><b><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i>My Cart: </b><span id="cart_items"> 0 </span>
+                                        item(s)</a>
+
+
+                                    <script>
+                                    theme.cartAjaxOn = true;
+                                    theme.cartAjaxTextEmpty = 'It appears that your cart is currently empty';
+                                    theme.cartAjaxTextTotalPrice = 'Total price';
+                                    theme.cartAjaxTextGoCart = 'Go to cart';
+                                    theme.cartAjaxTextClearCart = 'Clear cart';
+                                    </script>
+                                    <div class="cart_content_wrap">
+                                        <div class="cart_content_preloader off">
+                                            <div class="global_loader"></div>
+                                        </div>
+                                        <div id="cart_content_box">
+
+                                            <p class="alert alert-warning">It appears that your cart is currently empty
+                                            </p>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Header Start -->
-        <header class="pe_header_wrapper fixed_header">
-            <div class="container">
-                <div class="pe_main_header_row">
-                    <div class="pe_logo">
-                        <a href="javascript:void(0);"> <img src="assets/images/header_category.png" alt="logo" />
-                            <span>Categories</span> </a>
-                        <div class="pe_categories_logo_dropdown">
-                            <ul>
-                                <li>
-                                    <a href="collection.html"><i class="fas fa-tshirt"></i> Fashion</a>
-                                </li>
-                                <li>
-                                    <a href="collection.html"><i class="fas fa-laptop-medical"></i> Electronics</a>
-                                </li>
-                                <li>
-                                    <a href="collection.html"><i class="fas fa-home"></i> Home & Garden</a>
-                                </li>
-                                <li>
-                                    <a href="collection.html"><i class="fas fa-shoe-prints"></i> Footwear</a>
-                                </li>
-                                <li>
-                                    <a href="collection.html"><i class="fas fa-heartbeat"></i> Healthy & Beauty</a>
-                                </li>
-                                <li>
-                                    <a href="collection.html"><i class="fas fa-gift"></i> Gift Ideas</a>
-                                </li>
-                                <li>
-                                    <a href="collection.html"><i class="fas fa-gamepad"></i> Toy & Games</a>
-                                </li>
-                                <li>
-                                    <a href="collection.html"><i class="fas fa-shoe-prints"></i> Smart Phones</a>
-                                </li>
-                                <li>
-                                    <a href="collection.html"><i class="fas fa-camera"></i> Cameras & Photos</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);"><i class="fas fa-camera"></i> Accessories</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="pe_main_menu main_menu_parent">
-                        <!-- Header Menus -->
-                        <div class="pe_nav_items main_menu_wrapper">
-                            <ul>
-                                <li class="has_submenu active"><a href="index.php">Home</a></li>
-                                <li><a href="collection.html">Man</a></li>
-                                <li><a href="collection.html">Women</a></li>
-                                <li><a href="collection.html">Accessories</a></li>
-                                <li><a href="collection.html">New Arrivals</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="pe_main_menu_cart">
-                        <div class="pe_search_cart menu_btn_wrap">
-                            <ul class="display_flex">
-                                <li class="pe_wishlist">
-                                    <a href="javascript:void(0);" class="searchBtn">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="15"
-                                            viewBox="0 0 18 15">
-                                            <image id="Shape_4" data-name="Shape 4" width="18" height="15"
-                                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAYAAADphp8SAAABa0lEQVQ4jZXTz4tOcRQG8GfeRlFDKWkWmo2NhUKRjTSzsFUaG9lYkhIrxcbKQvwFko3s+AM0aLKhWSgLNSNKCkX5UZOGMR99+V5u79z3xalTt/Oc85xznvO9I0iHjSZZ7gKSjFRfaQd7re/tSW4lWUyylGQhyZlWzoEks0m+JPma5FGSQ7+ry0SYxCJe4DyO4ya+4zZOYAUPcRqncN8vO/tzK6ypBHMYq8SNH/XHrqHXwoosV2qzHSWwv6ZO9ZE0/gDfsLEDW4dPuFhE3VK3nB8gbtFiQ5IPHVjR62XhKEK+rsGJAUTnkuwbgPXqIG+a8T7j6oDVhvl0lWWySbqEJez8D5K1eIrZ5mrF1+MZFrDpH0jKxW7U5rvbRMW34SOeYHwIySiu15WONfH+pD14h1fY20GyGTP17ZxsY10dt+JxfTsX6jFK/DDe4j0O9tcNE/IylvEc9+oqdzDRVfM3UXfhbv2FjlSRV+eRH8CdmNbVuLQJAAAAAElFTkSuQmCC" />
-                                        </svg>
-                                    </a>
-                                    <div class="pe_wishlist_wrapper">
-                                        <div class="pe_cart_box">
-                                            <div class="pe_cart_product_info">
-                                                <h5>Dummy Product Name</h5>
-                                                1X$40.00
-                                            </div>
-                                            <div class="pe_cart_product_img"><img src="assets/images/cart_img2.jpg"
-                                                    alt="cart thumbnail" class="img-fluid" /></div>
-                                            <div class="pe_remove_wishitem">
-                                                <a href="#"><i class="fa fa-trash"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="pe_cart_box">
-                                            <div class="pe_cart_product_info">
-                                                <h5>Dummy Product Name</h5>
-                                                1X$60.00
-                                            </div>
-                                            <div class="pe_cart_product_img"><img src="assets/images/cart_img1.jpg"
-                                                    alt="cart thumbnail" class="img-fluid" /></div>
-                                            <div class="pe_remove_wishitem">
-                                                <a href="#"><i class="fa fa-trash"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="pe_wishlist_btn pe_cart_btn">
-                                            <div class="pe_cart_btn1 pe_btn"><a class="next pull-right"
-                                                    href="wishlist.html">View Wishlist</a></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="pe_menu_cart pe_cart_open relative">
-                                    <a href="javascript:void(0);">
-                                        <svg style="fill: #fff;" xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="15" viewBox="0 0 16 15">
-                                            <path
-                                                d="M4.917,12.143A1.418,1.418,0,1,0,6.3,13.56,1.4,1.4,0,0,0,4.917,12.143Zm7.617,0a1.42,1.42,0,0,0,.092,2.833h0.1a1.375,1.375,0,0,0,.943-0.49,1.447,1.447,0,0,0,.335-1.03,1.415,1.415,0,0,0-.481-0.976A1.346,1.346,0,0,0,12.535,12.144Zm2.792-8.082a0.679,0.679,0,0,0-.578-0.32H7.2a0.707,0.707,0,0,0,0,1.414h6.489L11.8,9.623H5.955L3.762,1.46A0.694,0.694,0,0,0,3.094.94H1.125a0.707,0.707,0,0,0,0,1.414H2.573l2.193,8.162a0.693,0.693,0,0,0,.668.522h6.83a0.692,0.692,0,0,0,.634-0.427L15.383,4.73v0A0.731,0.731,0,0,0,15.327,4.062Z" />
-                                        </svg>
-                                    </a>
-                                    <div class="pe_cart_view_wrapper">
-                                        <div class="pe_cart_box">
-                                            <div class="pe_cart_product_info">
-                                                <h5>Dummy Product Name</h5>
-                                                1X$40.00
-                                            </div>
-                                            <div class="pe_cart_product_img"><img src="assets/images/cart_img2.jpg"
-                                                    alt="cart thumbnail" class="img-fluid" /></div>
-                                        </div>
-                                        <div class="pe_cart_box">
-                                            <div class="pe_cart_product_info">
-                                                <h5>Dummy Product Name</h5>
-                                                1X$60.00
-                                            </div>
-                                            <div class="pe_cart_product_img"><img src="assets/images/cart_img1.jpg"
-                                                    alt="cart thumbnail" class="img-fluid" /></div>
-                                        </div>
-                                        <div class="pe_cart_product_total">
-                                            <h3>Total</h3>
-                                            <h3>$100.00</h3>
-                                        </div>
-                                        <div class="pe_cart_btn">
-                                            <div class="pe_cart_btn1 pe_btn"><a class="next pull-right"
-                                                    href="cart.html">View Cart</a></div>
-                                            <div class="pe_cart_btn1 pe_btn"><a class="next pull-right"
-                                                    href="checkout.html">Checkout</a></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="pe_user_form_wrapper">
-                                    <a id="show" href="javascript:void(0);">
-                                        <svg style="fill: #fff;" xmlns="http://www.w3.org/2000/svg" width="15"
-                                            height="15" viewBox="0 0 15 15">
-                                            <path
-                                                d="M14.253,14.581A7.1,7.1,0,0,0,10.2,9.389a4.735,4.735,0,1,0-5.81.007A7.26,7.26,0,0,0,.323,14.58l-0.06.318H1.915l0.045-.212A5.407,5.407,0,0,1,7.288,10.4a5.407,5.407,0,0,1,5.327,4.29L12.66,14.9h1.651ZM7.288,2.517A3.109,3.109,0,1,1,4.2,5.627,3.1,3.1,0,0,1,7.288,2.517Z" />
-                                        </svg>
-                                    </a>
-                                    <div class="pe_user_form" style="display: none;">
-                                        <div class="form-wrap">
-                                            <div id="hide" class="bg-overlay">
-                                                <a href="javascript:;"><i class="fa fa-times"></i></a>
-                                            </div>
-                                            <ul class="nav nav-tabs" role="tablist">
-                                                <li class="nav-item"><a class="nav-link active" data-toggle="tab"
-                                                        href="#tabs-1" role="tab">Sign Up</a></li>
-                                                <li class="nav-item"><a class="nav-link" data-toggle="tab"
-                                                        href="#tabs-2" role="tab">Login</a></li>
-                                            </ul>
-                                            <!-- Tab panes -->
-                                            <div class="tab-content">
-                                                <div class="tab-pane active" id="tabs-1" role="tabpanel">
-                                                    <div id="signup-tab-content" class="active">
-                                                        <form class="signup-form" method="post">
-                                                            <input type="email" class="input" id="user_email"
-                                                                autocomplete="off" placeholder="Email" />
-                                                            <input type="text" class="input" id="user_name"
-                                                                autocomplete="off" placeholder="Username" />
-                                                            <input type="password" class="input" autocomplete="off"
-                                                                placeholder="Password" />
-                                                            <input type="submit" class="button" value="Sign Up" />
-                                                        </form>
-                                                        <!--.login-form-->
-                                                        <div class="help-text">
-                                                            <p>By signing up, you agree to our</p>
-                                                            <p><a href="#">Terms of service</a></p>
-                                                        </div>
-                                                        <!--.help-text-->
-                                                    </div>
-                                                    <!--.signup-tab-content-->
-                                                </div>
-                                                <div class="tab-pane" id="tabs-2" role="tabpanel">
-                                                    <div id="login-tab-content">
-                                                        <form class="login-form" method="post">
-                                                            <input type="text" class="input" id="user_login"
-                                                                autocomplete="off" placeholder="Email or Username" />
-                                                            <input type="password" class="input" autocomplete="off"
-                                                                placeholder="Password" />
-                                                            <input type="checkbox" class="checkbox" id="remember_me" />
-                                                            <label for="remember_me">Remember me</label>
-                                                            <input type="submit" class="button" value="Login" />
-                                                        </form>
-                                                        <!--.login-form-->
-                                                        <div class="help-text">
-                                                            <p><a href="#">Forget your password?</a></p>
-                                                        </div>
-                                                        <!--.help-text-->
-                                                    </div>
-                                                    <!--.login-tab-content-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--.form-wrap-->
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);" class="menu_btn"> <span></span> <span></span>
-                                        <span></span> </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Banner Start -->
+            </header>

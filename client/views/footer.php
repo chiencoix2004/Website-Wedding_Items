@@ -1,168 +1,347 @@
-</div>
-<!-- Footer Start -->
- <section>
-     <div class="pe_footer_wrapper">
-         <div class="container">
-             <div class="row">
-                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                     <div class="pe_footer_section1">
-                         <div class="pe_footer_heading">
-                             <h3>About Us</h3>
-                         </div>
-                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                             has been the industry’s standard dummy text.</p>
-                         <div class="pe_footer_tags"><a href="#"><img class="apple_tag" src="assets/images/apple_tag.svg" alt="images" /></a> <a href="#"><img class="google_tag" src="assets/images/google_tag.png" alt="images" /></a></div>
-                     </div>
-                 </div>
-                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                     <div class="pe_footer_section2">
-                         <div class="pe_footer_heading">
-                             <h3>Information</h3>
-                         </div>
-                         <div class="pe_footer_list">
-                             <ul>
-                                 <li><a href="collection.html">Featured Product</a></li>
-                                 <li><a href="contact.html">Contact Us</a></li>
-                                 <li><a href="collection.html">Latest News</a></li>
-                                 <li><a href="contact.html">Privacy Policy</a></li>
-                                 <li><a href="contact.html">Terms & Conditions</a></li>
-                             </ul>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                     <div class="pe_footer_section2">
-                         <div class="pe_footer_heading">
-                             <h3>Customer Service</h3>
-                         </div>
-                         <div class="pe_footer_list">
-                             <ul>
-                                 <li><a href="contact.html">My account</a></li>
-                                 <li><a href="wishlist.html">Favourites</a></li>
-                                 <li><a href="cart.html">My cart</a></li>
-                                 <li><a href="cart.html">My orders</a></li>
-                                 <li><a href="contact.html">Login</a></li>
-                             </ul>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                     <div class="pe_footer_section2">
-                         <div class="pe_footer_heading">
-                             <h3>Contact</h3>
-                         </div>
-                         <div class="pe_footer_list">
-                             <ul>
-                                 <li>
-                                     <a href="javascript:void(0);">
-                                         <div class="pe_footer_icon_box">
-                                             <div class="pe_footer_icon">
-                                                 <span>
-                                                     <svg width="14" height="18" viewBox="0 0 14 18">
-                                                         <defs>
-                                                             <style>
-                                                                 .cls-1 {
-                                                                     fill: #fff;
-                                                                     fill-rule: evenodd;
-                                                                 }
-                                                             </style>
-                                                         </defs>
-                                                         <path class="cls-1" d="M7,0A7.117,7.117,0,0,0,0,7.215,7.316,7.316,0,0,0,.124,8.569c0,0.026.018,0.106,0.048,0.241A7.247,7.247,0,0,0,.64,10.233a20.142,20.142,0,0,0,6.049,7.651,0.484,0.484,0,0,0,.622,0,20.183,20.183,0,0,0,6.049-7.651,7.181,7.181,0,0,0,.468-1.423c0.029-.136.044-0.215,0.047-0.241A7.64,7.64,0,0,0,14,7.215,7.128,7.128,0,0,0,7,0Zm5.9,8.391c0,0.007,0,.015,0,0.022s-0.015.076-.033,0.163V8.584a6.114,6.114,0,0,1-.406,1.23s0,0.011-.007.015a18.8,18.8,0,0,1-5.449,7,18.808,18.808,0,0,1-5.449-7s0-.011-0.007-0.015a6.528,6.528,0,0,1-.406-1.23V8.577C1.112,8.49,1.1,8.433,1.1,8.414s0-.015,0-0.026a6.333,6.333,0,0,1-.11-1.176A6.113,6.113,0,0,1,7,1.016a6.113,6.113,0,0,1,6.009,6.195A6.328,6.328,0,0,1,12.9,8.392ZM7,2.714a4.52,4.52,0,0,0-4.442,4.58A4.52,4.52,0,0,0,7,11.874a4.52,4.52,0,0,0,4.443-4.58A4.52,4.52,0,0,0,7,2.714Zm0,8.141A3.513,3.513,0,0,1,3.542,7.294,3.516,3.516,0,0,1,7,3.732a3.516,3.516,0,0,1,3.455,3.562A3.514,3.514,0,0,1,7,10.856Z" />
-                                                     </svg>
-                                                 </span>
-                                             </div>
-                                             <div class="pe_footer_icon_text">
-                                                 <p>
-                                                     71 Pilgrim Avenue <br />
-                                                     Chevy Chase, MD 20815
-                                                 </p>
-                                             </div>
-                                         </div>
-                                     </a>
-                                 </li>
-                                 <li>
-                                     <a href="javascript:void(0);">
-                                         <div class="pe_footer_icon_box">
-                                             <div class="pe_footer_icon">
-                                                 <span>
-                                                     <svg width="18" height="18" viewBox="0 0 18 18">
-                                                         <defs>
-                                                             <style>
-                                                                 .cls-1 {
-                                                                     fill: #fff;
-                                                                     fill-rule: evenodd;
-                                                                 }
-                                                             </style>
-                                                         </defs>
-                                                         <path class="cls-1" d="M14.235,11.149a1.776,1.776,0,0,0-1.286-.589,1.833,1.833,0,0,0-1.3.585l-1.2,1.2c-0.1-.053-0.2-0.1-0.293-0.151-0.137-.069-0.266-0.133-0.377-0.2A13.051,13.051,0,0,1,6.644,9.139,7.694,7.694,0,0,1,5.616,7.521c0.312-.285.6-0.582,0.883-0.866,0.107-.106.213-0.216,0.32-0.323a1.741,1.741,0,0,0,0-2.629L5.78,2.667C5.662,2.548,5.54,2.427,5.426,2.305,5.2,2.069,4.958,1.827,4.711,1.6a1.8,1.8,0,0,0-1.275-.558A1.865,1.865,0,0,0,2.142,1.6l-0.008.007-1.294,1.3A2.777,2.777,0,0,0,.015,4.676,6.651,6.651,0,0,0,.5,7.494a16.349,16.349,0,0,0,2.911,4.847A17.9,17.9,0,0,0,9.376,17a9.294,9.294,0,0,0,3.348.987c0.08,0,.164.008,0.24,0.008a2.868,2.868,0,0,0,2.2-.942c0-.007.011-0.011,0.015-0.019a8.614,8.614,0,0,1,.666-0.687c0.163-.156.331-0.32,0.495-0.49a1.9,1.9,0,0,0,.575-1.315,1.824,1.824,0,0,0-.586-1.3Zm1.362,4s0,0,0,0c-0.148.159-.3,0.3-0.464,0.463a9.977,9.977,0,0,0-.734.76,1.835,1.835,0,0,1-1.431.6c-0.057,0-.118,0-0.175,0a8.27,8.27,0,0,1-2.968-.889,16.9,16.9,0,0,1-5.616-4.391,15.407,15.407,0,0,1-2.74-4.554,5.416,5.416,0,0,1-.426-2.378,1.742,1.742,0,0,1,.525-1.128l1.3-1.3a0.864,0.864,0,0,1,.578-0.27A0.816,0.816,0,0,1,4,2.332L4.011,2.343c0.232,0.216.453,0.44,0.685,0.68,0.118,0.121.24,0.243,0.362,0.368L6.1,4.429a0.724,0.724,0,0,1,0,1.178c-0.11.111-.217,0.22-0.327,0.327-0.32.326-.624,0.63-0.955,0.927a0.082,0.082,0,0,0-.019.019,0.774,0.774,0,0,0-.2.862L4.608,7.775a8.311,8.311,0,0,0,1.229,2l0,0a13.955,13.955,0,0,0,3.379,3.07,5.1,5.1,0,0,0,.468.254c0.137,0.068.266,0.133,0.377,0.2,0.015,0.007.03,0.019,0.046,0.026a0.827,0.827,0,0,0,.377.1,0.812,0.812,0,0,0,.578-0.262l1.3-1.3a0.861,0.861,0,0,1,.575-0.285,0.776,0.776,0,0,1,.548.277L13.5,11.866l2.1,2.093A0.75,0.75,0,0,1,15.6,15.149ZM9.729,4.281a4.892,4.892,0,0,1,3.988,3.981,0.51,0.51,0,0,0,.506.426,0.613,0.613,0,0,0,.088-0.008,0.513,0.513,0,0,0,.422-0.592A5.916,5.916,0,0,0,9.908,3.271a0.516,0.516,0,0,0-.594.418A0.507,0.507,0,0,0,9.729,4.281Zm8.264,3.658A9.742,9.742,0,0,0,10.049.007a0.512,0.512,0,1,0-.167,1.011,8.7,8.7,0,0,1,7.1,7.088,0.51,0.51,0,0,0,.506.426,0.609,0.609,0,0,0,.087-0.008A0.5,0.5,0,0,0,17.994,7.939Z" />
-                                                     </svg>
-                                                 </span>
-                                             </div>
-                                             <div class="pe_footer_icon_text">
-                                                 <p>
-                                                     +1-202-555-0142 <br />
-                                                     +1-202-555-0186
-                                                 </p>
-                                             </div>
-                                         </div>
-                                     </a>
-                                 </li>
-                                 <li>
-                                     <a href="javascript:void(0);">
-                                         <div class="pe_footer_icon_box">
-                                             <div class="pe_footer_icon">
-                                                 <span>
-                                                     <svg width="18" height="18" viewBox="0 0 18 18">
-                                                         <defs>
-                                                             <style>
-                                                                 .cls-1 {
-                                                                     fill: #fff;
-                                                                     fill-rule: evenodd;
-                                                                 }
-                                                             </style>
-                                                         </defs>
-                                                         <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M15.363,2.635A9,9,0,1,0,2.637,15.36a9,9,0,0,0,10.564,1.6,0.663,0.663,0,1,0-.62-1.173A7.673,7.673,0,1,1,16.672,9a4.208,4.208,0,0,1-.734,2.664,1.707,1.707,0,0,1-1.317.723,1.469,1.469,0,0,1-1.342-1.719V5.5a0.664,0.664,0,1,0-1.328,0V5.789a4.554,4.554,0,1,0-3.227,7.764,4.427,4.427,0,0,0,1.306-.192,0.664,0.664,0,0,0-.38-1.273A3.227,3.227,0,1,1,8.723,5.77,3.229,3.229,0,0,1,11.951,9v1.667a2.774,2.774,0,0,0,2.67,3.047,3.028,3.028,0,0,0,2.364-1.235A5.607,5.607,0,0,0,18,9,8.937,8.937,0,0,0,15.363,2.635Z" />
-                                                     </svg>
-                                                 </span>
-                                             </div>
-                                             <div class="pe_footer_icon_text">
-                                                 <p>email@yourmail.com Yourname@yourmail.com</p>
-                                             </div>
-                                         </div>
-                                     </a>
-                                 </li>
-                             </ul>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-             <div class="pe_copyright_section">
-                 <p>© 2021 <a href="javascript:void(0);">Shopmartio</a>. All Rights Reserved.</p>
-             </div>
-         </div>
-     </div>
- </section>
+<div id="shopify-section-footer" class="shopify-section">
+
+
+				<footer style="background: #c4c4c4;">
+					<div class="footer_row__1">
+						<div class="container">
+
+							<div class="row footer_main">
+
+								<div class="col-sm-3 footer_block footer_block__2_1">
+
+									<div class="footer_item footer_item__links ">
+										<h3>Categories</h3>
+
+										<ul>
+
+											<li>
+												<a href="collections/shoes.html">Shoes</a>
+											</li>
+
+											<li>
+												<a href="collections/veils.html">Veils</a>
+											</li>
+
+											<li>
+												<a href="collections/headpieces.html">Headpieces</a>
+											</li>
+
+											<li>
+												<a href="collections/jewelry-gifts.html">Jewelry & Gifts</a>
+											</li>
+
+											<li>
+												<a href="collections/belts.html">Belts</a>
+											</li>
+
+											<li>
+												<a href="collections/purses.html">Purses</a>
+											</li>
+
+											<li>
+												<a href="collections/accessories-shopping-guide.html">Accessories
+													Shopping Guide</a>
+											</li>
+
+										</ul>
+									</div>
+
+
+								</div>
+
+								<div class="col-sm-3 footer_block ">
+
+									<div class="footer_item footer_item__links ">
+										<h3>Information</h3>
+
+										<ul>
+
+											<li>
+												<a href="pages/about-us.html">About Us</a>
+											</li>
+
+											<li>
+												<a href="collections/all.html">Catalog</a>
+											</li>
+
+											<li>
+												<a href="pages/contact-us.html">Contact Us</a>
+											</li>
+
+											<li>
+												<a href="collections.html">Collections</a>
+											</li>
+
+											<li>
+												<a href="pages/password.html">Password</a>
+											</li>
+
+											<li>
+												<a href="pages/privacy-policy.html">Privacy Policy</a>
+											</li>
+
+											<li>
+												<a href="blogs/news.html">Blog</a>
+											</li>
+
+										</ul>
+									</div>
+
+
+								</div>
+
+								<div class="col-sm-3 footer_block footer_block__2_1">
+
+									<div class="footer_item footer_item__links ">
+										<h3>Account</h3>
+
+										<ul>
+
+											<li>
+												<a href="account/login4236.html">My Account </a>
+											</li>
+
+											<li>
+												<a href="account/login.html">Log in </a>
+											</li>
+
+											<li>
+												<a href="account/login.html">My Addresses</a>
+											</li>
+
+											<li>
+												<a href="account/login4236.html">My Orders</a>
+											</li>
+
+											<li>
+												<a href="pages/password.html">Password</a>
+											</li>
+
+											<li>
+												<a href="pages/contact-us.html">Contact Us</a>
+											</li>
+
+											<li>
+												<a href="blogs/news.html">Latest News</a>
+											</li>
+
+										</ul>
+									</div>
+
+
+								</div>
+
+								<div class="col-sm-3 footer_block ">
+
+									<div class="footer_item footer_item__links ">
+										<h3>Follow us</h3>
+
+										<ul>
+
+											<li>
+												<a href="https://www.facebook.com/zemezlab/">Facebook</a>
+											</li>
+
+											<li>
+												<a href="https://twitter.com/zemezlab">Twitter</a>
+											</li>
+
+											<li>
+												<a href="https://google.com/+templatemonster">Google+</a>
+											</li>
+
+											<li>
+												<a
+													href="https://www.youtube.com/channel/UCPW43un8VFXHe9LxKpR_2Hg">Youtube</a>
+											</li>
+
+											<li>
+												<a href="https://www.instagram.com/zemezlab">Instagram</a>
+											</li>
+
+										</ul>
+									</div>
+
+
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+
+					<div class="footer_row__2 ">
+						<div class="container">
+							<div class="footer_wrap_1">
+
+
+								<div class="footer_wrap_2 footer_left">
+									©Perfect Bride. <a target="_blank" rel="nofollow"
+										href="https://www.shopify.com/?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">Powered
+										by Shopify</a>
+								</div>
 
 
 
 
 
 
- <!-- GO To Top -->
- <a href="javascript:void(0);" id="scroll"><span class="fa fa-angle-double-up"></span></a>
- <!-- Script Start -->
- <script src="assets/js/jquery.min.js"></script>
- <script src="assets/js/bootstrap.min.js"></script>
- <script src="assets/js/SmoothScroll.min.js"></script>
- <script src="assets/js/swiper.min.js"></script>
- <script src="assets/js/wow.min.js"></script>
- <script src="assets/js/tilt.html"></script>
- <script src="assets/js/jquery.magnific-popup.min.js"></script>
- <script src="assets/js/jquery.mixitup.min.js"></script>
- <script src="assets/js/select.min.js"></script>
- <script src="assets/js/custom.js"></script>
- </body>
+								<div class="footer_wrap_2 footer_right">
+									<ul class="footer_payments">
 
- <!-- Mirrored from kamleshyadav.com/html/shopmartio/html/Bootstrap4/shopping/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Jan 2024 15:31:22 GMT -->
 
- </html>
+
+
+
+
+
+
+
+
+										<li><i class="fa fa-cc-mastercard" aria-hidden="true"></i></li>
+
+
+
+										<li><i class="fa fa-cc-paypal" aria-hidden="true"></i></li>
+
+
+
+
+
+										<li><i class="fa fa-cc-visa" aria-hidden="true"></i></li>
+
+
+
+
+									</ul>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</footer>
+
+
+				<style>
+					#shopify-section-footer footer {
+						padding-top: 0px;
+					}
+				</style>
+
+
+
+
+
+			</div>
+
+		</div>
+
+		<a id="back_top" href="#">
+			<i class="fa fa-angle-up" aria-hidden="true"></i>
+		</a>
+
+	</div>
+
+	<script src="cdn/shop/t/2/assets/assets7f2d.js?v=154279730773110121271539259903" defer></script>
+	<script src="cdn/shop/t/2/assets/shopd6f8.js?v=93824339065821592311656108592" defer></script>
+	<link href="cdn/shop/t/2/assets/style.scss9d4e.css?v=1397245857849227181656108592" rel="stylesheet" type="text/css"
+		media="all" />
+
+
+
+
+
+
+	<script src="cdn/shop/t/2/assets/animate0621.js?v=159568966589873396771539259903" defer></script>
+	<link href="cdn/shop/t/2/assets/animatef164.css?v=138744352389665394831539259903" rel="stylesheet" type="text/css"
+		media="all" />
+	<script>
+		theme.titleAnimation = true;
+	</script>
+
+
+	<noscript id="deferred_styles">
+		<link href="cdn/shop/t/2/assets/responsive.scss0bd3.css?v=161022063210133495541539763837" rel="stylesheet"
+			type="text/css" media="all" />
+
+
+
+
+
+
+
+
+
+
+		<link
+			href="http://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i%7CNoto+Serif:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic"
+			rel="stylesheet" type="text/css">
+
+
+	</noscript>
+
+	<script>
+		var loadDeferredStyles = function () {
+			var addStylesNode = document.getElementById('deferred_styles');
+			var replacement = document.createElement('div');
+			replacement.innerHTML = addStylesNode.textContent;
+			document.body.appendChild(replacement)
+			addStylesNode.parentElement.removeChild(addStylesNode);
+		};
+		var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+		if (raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+		else window.addEventListener('load', loadDeferredStyles);
+	</script>
+
+
+
+	<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
+	<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/6131449926/digital_wallets/dialog">
+	<script async="async"
+		src="checkouts/internal/preloads05b7.js?permanent-domain=theme481-wedding.myshopify.com&amp;locale=en-US"></script>
+	<script id="shopify-features"
+		type="application/json">{"accessToken":"a716bd665c745db1e41fabf1e915d767","betas":["rich-media-storefront-analytics"],"domain":"theme481-wedding.myshopify.com","predictiveSearch":true,"shopId":6131449926,"smart_payment_buttons_url":"https:\/\/theme481-wedding.myshopify.com\/cdn\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/theme481-wedding.myshopify.com\/cdn\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js","locale":"en","optimusEnabled":true,"optimusHidden":false,"shopPromiseVariantForOptimusEnabled":false}</script>
+	<script>var Shopify = Shopify || {};
+		Shopify.shop = "theme481-wedding.myshopify.com";
+		Shopify.locale = "en";
+		Shopify.currency = { "active": "USD", "rate": "1.0" };
+		Shopify.country = "US";
+		Shopify.theme = { "name": "suit-up-master-new", "id": 39992852550, "theme_store_id": null, "role": "main" };
+		Shopify.theme.handle = "null";
+		Shopify.theme.style = { "id": null, "handle": null };
+		Shopify.cdnHost = "theme481-wedding.myshopify.com/cdn";
+		Shopify.routes = Shopify.routes || {};
+		Shopify.routes.root = "index.html";</script>
+	<script type="module">!function (o) { (o.Shopify = o.Shopify || {}).modules = !0 }(window);</script>
+	<script>!function (o) { function n() { var o = []; function n() { o.push(Array.prototype.slice.apply(arguments)) } return n.q = o, n } var t = o.Shopify = o.Shopify || {}; t.loadFeatures = n(), t.autoloadFeatures = n() }(window);</script>
+	<script
+		id="__st">var __st = { "a": 6131449926, "offset": -43200, "reqid": "8ea36a52-bb81-448b-8205-418b8d6ce98a", "pageurl": "theme481-wedding.myshopify.com\/", "u": "1fe87960df90", "p": "home" };</script>
+	<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+	<script>!function (o) { o.addEventListener("DOMContentLoaded", function () { window.Shopify = window.Shopify || {}, window.Shopify.recaptchaV3 = window.Shopify.recaptchaV3 || { siteKey: "6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9" }; var t = ['form[action*="/contact"] input[name="form_type"][value="contact"]', 'form[action*="/comments"] input[name="form_type"][value="new_comment"]', 'form[action*="/account"] input[name="form_type"][value="customer_login"]', 'form[action*="/account"] input[name="form_type"][value="recover_customer_password"]', 'form[action*="/account"] input[name="form_type"][value="create_customer"]', 'form[action*="/contact"] input[name="form_type"][value="customer"]'].join(","); function n(e) { e = e.target; null == e || null != (e = function e(t, n) { if (null == t.parentElement) return null; if ("FORM" != t.parentElement.tagName) return e(t.parentElement, n); for (var o = t.parentElement.action, r = 0; r < n.length; r++)if (-1 !== o.indexOf(n[r])) return t.parentElement; return null }(e, ["/contact", "/comments", "/account"])) && null != e.querySelector(t) && ((e = o.createElement("script")).setAttribute("src", "../cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"), o.body.appendChild(e), o.removeEventListener("focus", n, !0), o.removeEventListener("change", n, !0), o.removeEventListener("click", n, !0)) } o.addEventListener("click", n, !0), o.addEventListener("change", n, !0), o.addEventListener("focus", n, !0) }) }(document);</script>
+	<script integrity="sha256-h4dvokWvGcvRSqiG7VnGqoonxF0k3NeoHPLSMjUGIz4="
+		data-source-attribution="shopify.loadfeatures" defer="defer"
+		src="cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js"
+		crossorigin="anonymous"></script>
+	<script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify = Shopify || {}; Shopify.PaymentButton = Shopify.PaymentButton || { isStorefrontPortableWallets: !0, init: function () { window.Shopify.PaymentButton.init = function () { }; var t = document.createElement("script"); t.src = "cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js", t.type = "module", document.head.appendChild(t) } };
+	</script>
+	<script integrity="sha256-HAs5a9TQVLlKuuHrahvWuke+s1UlxXohfHeoYv8G2D8="
+		data-source-attribution="shopify.dynamic-checkout" defer="defer"
+		src="cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js"
+		crossorigin="anonymous"></script>
+	<script id="sections-script" data-sections="index-collections,index-banners,index-newsletter,header,footer"
+		defer="defer" src="cdn/shop/t/2/compiled_assets/scriptsc81e.js?2"></script>
+
+	<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+
+</body>
+
+
+<!-- Mirrored from theme481-wedding.myshopify.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jan 2024 16:45:37 GMT -->
+
+</html>

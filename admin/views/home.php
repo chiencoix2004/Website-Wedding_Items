@@ -12,12 +12,12 @@
             <div class="navbar-nav theme-brand flex-row  text-center">
                 <div class="nav-logo">
                     <div class="nav-item theme-logo">
-                        <a href="index-2.html">
-                            <img src="../../assets/images/conbo.jpg" class="navbar-logo" alt="logo">
+                        <a href="index.php">
+                            <img src="../../assets/images/conbo-removebg-preview.png" alt="logo">
                         </a>
                     </div>
                     <div class="nav-item theme-text">
-                        <a href="index-2.html" class="nav-link"> Admin </a>
+                        <a href="index.php" class="nav-link"> Admin </a>
                     </div>
                 </div>
                 <div class="nav-item sidebar-toggle">
@@ -43,7 +43,7 @@
                                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
                             </svg>
-                            <span>Dashboard</span>
+                            <span>Home</span>
                         </div>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -55,14 +55,14 @@
                     </a>
                     <ul class="collapse submenu list-unstyled show" id="dashboard" data-bs-parent="#accordionExample">
                         <li class="active">
-                            <a href="index-2.html"> Analytics </a>
+                            <a href="index.php">Notification</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="index2.html"> Sales </a>
                         </li>
                         <li>
                             <a href="index3.html"> Real Estate </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
 
@@ -74,7 +74,7 @@
                         </svg><span>APPLICATIONS</span></div>
                 </li>
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="app-calendar.html" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -177,18 +177,18 @@
                             <span>Contacts</span>
                         </div>
                     </a>
-                </li>
+                </li> -->
 
                 <li class="menu">
                     <a href="#invoice" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-dollar-sign">
-                                <line x1="12" y1="1" x2="12" y2="23"></line>
-                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                stroke-linejoin="round" class="feather feather-book">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
                             </svg>
-                            <span>Invoice</span>
+                            <span>Category</span>
                         </div>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -199,18 +199,18 @@
                         </div>
                     </a>
                     <ul class="collapse submenu list-unstyled" id="invoice" data-bs-parent="#accordionExample">
-                        <li>
+                        <!-- <li>
                             <a href="app-invoice-list.html"> List </a>
+                        </li> -->
+                        <li>
+                            <a href="?act=dsdm"> List </a>
                         </li>
                         <li>
-                            <a href="app-invoice-preview.html"> Preview </a>
+                            <a href="?act=adddm"> Add </a>
                         </li>
-                        <li>
-                            <a href="app-invoice-add.html"> Add </a>
-                        </li>
-                        <li>
-                            <a href="app-invoice-edit.html"> Edit </a>
-                        </li>
+                        <!-- <li>
+                            <a href="?act=listdm"> Edit </a>
+                        </li> -->
                     </ul>
                 </li>
 
@@ -224,7 +224,7 @@
                                 <circle cx="20" cy="21" r="1"></circle>
                                 <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
                             </svg>
-                            <span>Ecommerce</span>
+                            <span>Product</span>
                         </div>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -235,22 +235,20 @@
                         </div>
                     </a>
                     <ul class="collapse submenu list-unstyled" id="ecommerce" data-bs-parent="#accordionExample">
-                        <li>
+                        <!-- <li>
                             <a href="app-ecommerce-product-shop.html"> Shop </a>
+                        </li> -->
+                        <li>
+                            <a href="?act=dssp"> List </a>
                         </li>
                         <li>
-                            <a href="app-ecommerce-product-list.html"> List </a>
-                        </li>
-                        <li>
-                            <a href="app-ecommerce-product-add.html"> Create </a>
-                        </li>
-                        <li>
-                            <a href="app-ecommerce-product-edit.html"> Edit </a>
+                            <a href="?act=addsp"> Add </a>
                         </li>
                     </ul>
                 </li>
+            
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#blog" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -285,17 +283,17 @@
                             <a href="app-blog-edit.html"> Edit </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu menu-heading">
+                <!-- <li class="menu menu-heading">
                     <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                         </svg><span>USER INTERFACE</span></div>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#components" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -367,9 +365,9 @@
                             <a href="component-flags.html"> Flag Icons </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#elements" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -440,9 +438,9 @@
                             <a href="element-typography.html"> Typography </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="map-leaflet.html" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -455,9 +453,9 @@
                             <span>Maps</span>
                         </div>
                     </a>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="charts-apex.html" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -469,9 +467,9 @@
                             <span>Charts</span>
                         </div>
                     </a>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="widgets.html" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -484,9 +482,9 @@
                             <span>Widgets</span>
                         </div>
                     </a>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#layouts" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -519,17 +517,17 @@
                             <a href="layout-collapsible-menu.html"> Collapsed menu </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu menu-heading">
+                <!-- <li class="menu menu-heading">
                     <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                         </svg><span>TABLES AND FORMS</span></div>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="table-basic.html" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -542,9 +540,9 @@
                             <span>Tables</span>
                         </div>
                     </a>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#datatables" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -578,9 +576,9 @@
                             <a href="table-datatable-miscellaneous.html"> Miscellaneous </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#forms" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -662,17 +660,17 @@
                             <a href="form-autoComplete.html"> Auto Complete </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu menu-heading">
+                <!-- <li class="menu menu-heading">
                     <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                         </svg><span>USER AND PAGES</span></div>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#users" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -701,9 +699,9 @@
                             <a href="user-account-settings.html"> Account Settings </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#pages" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -739,9 +737,9 @@
                             <a href="pages-maintenence.html" target="_blank"> Maintanence </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#authentication" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -792,17 +790,17 @@
                             <a href="auth-cover-2-step-verification.html" target="_blank"> 2 Step Cover </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu menu-heading">
+                <!-- <li class="menu menu-heading">
                     <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                         </svg><span>MISCELLANEOUS</span></div>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="#menuLevel1" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -854,9 +852,9 @@
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="javascript:void(0);" aria-expanded="false" class="dropdown-toggle disabled">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -872,9 +870,9 @@
                             <span>Item Disabled</span>
                         </div>
                     </a>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a href="javascript:void(0);" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -898,9 +896,9 @@
                                 </svg> New</span>
                         </div>
                     </a>
-                </li>
+                </li> -->
 
-                <li class="menu">
+                <!-- <li class="menu">
                     <a target="_blank" href="https://designreset.com/equation/documentation/index.html"
                         aria-expanded="false" class="dropdown-toggle">
                         <div class="">
@@ -913,8 +911,8 @@
                             <span>Documentation</span>
                         </div>
                     </a>
-                </li>
-                <li class="menu">
+                </li> -->
+                <!-- <li class="menu">
                     <a target="_blank" href="https://designreset.com/equation/documentation/changelog.html"
                         aria-expanded="false" class="dropdown-toggle">
                         <div class="">
@@ -929,7 +927,7 @@
                             <span>Changelog</span>
                         </div>
                     </a>
-                </li>
+                </li> -->
 
             </ul>
 

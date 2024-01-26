@@ -1,0 +1,11 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+theme481-wedding.myshopify.com	TRUE	/	FALSE	1999999999	_landing_page	%2F
+theme481-wedding.myshopify.com	TRUE	/	FALSE	1999999999	_secure_session_id	1d857640db2bbca9d52ef162014b2a3e
+theme481-wedding.myshopify.com	TRUE	/	FALSE	1999999999	_cmp_a	%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
+theme481-wedding.myshopify.com	TRUE	/	FALSE	1999999999	localization	US
+theme481-wedding.myshopify.com	TRUE	/	FALSE	1999999999	cart_currency	USD
+theme481-wedding.myshopify.com	TRUE	/	FALSE	1999999999	_shopify_y	40712111-dbe7-47b2-a750-f058a36301a3
+theme481-wedding.myshopify.com	TRUE	/	FALSE	1999999999	_shopify_s	8506d2aa-e682-4e1b-8c2a-50ddd46adab6
+theme481-wedding.myshopify.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

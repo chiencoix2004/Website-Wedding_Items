@@ -1,5 +1,6 @@
 <?php
 session_start();
+date_default_timezone_set('Asia/Ho_Chi_Minh');
 require_once './common/connect-db.php';
 require_once './common/helper.php';
 
@@ -12,9 +13,11 @@ $act = $_GET['act'] ?? null;
 match ($act) {
     // 'dssp' => productList(),
     //  'ctsp' => productDetail($_GET['id']),
+    'taikhoan' => login(),
+    
      default => trangChu(),
 };
-//aaaa
+
 
 
 
