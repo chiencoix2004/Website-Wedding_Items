@@ -28,7 +28,7 @@
 
     <style>
     #ecommerce-list img {
-        border-radius: 18px;
+        border-radius: 5px;
     }
     </style>
 
@@ -47,12 +47,12 @@
             <div class="navbar-nav theme-brand flex-row  text-center">
                 <div class="nav-logo">
                     <div class="nav-item theme-logo">
-                        <a href="index-2.html">
-                            <img src="../../assets/images/conbo.jpg" class="navbar-logo" alt="logo">
+                        <a href="index.php">
+                            <img src="../../assets/images/conbo-removebg-preview.png" alt="logo">
                         </a>
                     </div>
                     <div class="nav-item theme-text">
-                        <a href="index-2.html" class="nav-link"> Admin </a>
+                        <a href="index.php" class="nav-link"> Admin </a>
                     </div>
                 </div>
                 <div class="nav-item sidebar-toggle">
@@ -78,7 +78,7 @@
                                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
                             </svg>
-                            <span>Dashboard</span>
+                            <span>Home</span>
                         </div>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -90,7 +90,7 @@
                     </a>
                     <ul class="collapse submenu list-unstyled" id="dashboard" data-bs-parent="#accordionExample">
                         <li>
-                            <a href="index.php"> Analytics </a>
+                            <a href="index.php"> Notification </a>
                         </li>
                         <!-- <li>
                             <a href="index2.html"> Sales </a>
@@ -248,6 +248,40 @@
                 </li>
             </ul>
         </li> -->
+                <li class="menu">
+                    <a href="#invoice" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-book">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                            <span>Category</span>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-right">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </div>
+                    </a>
+                    <ul class="collapse submenu list-unstyled" id="invoice" data-bs-parent="#accordionExample">
+                        <!-- <li>
+                            <a href="app-invoice-list.html"> List </a>
+                        </li> -->
+                        <li>
+                            <a href="?act=dsdm"> List </a>
+                        </li>
+                        <li>
+                            <a href="?act=adddm"> Add </a>
+                        </li>
+                        <!-- <li>
+                            <a href="?act=listdm"> Edit </a>
+                        </li> -->
+                    </ul>
+                </li>
 
                 <li class="menu active">
                     <a href="#ecommerce" data-bs-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
@@ -278,9 +312,6 @@
                         </li>
                         <li>
                             <a href="?act=addsp"> Add </a>
-                        </li>
-                        <li>
-                            <a href="?act=editsp"> Edit </a>
                         </li>
                     </ul>
                 </li>
@@ -987,23 +1018,21 @@
                                         <th></th>
                                         <th>Product</th>
                                         <th>Added on</th>
-                                        <th>Status</th>
                                         <th>Price</th>
+                                        <th>ID</th>
                                         <th class="no-content text-center">Action</th>
                                     </tr>
                                 </thead>
 
 
                                 <tbody>
-                                     <tr>
-                                        <td>--</td>
-                                        <td>--</td>
-                                        <td>--</td>
-                                        <td>--<span class="badge badge-warning"></span></td>
-                                        <td>--</td>
-                                        <td class="text-center">
-                                            --
-                                        </td>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><span class="badge badge-warning"></span></td>
+                                        <td></td>
+                                        <td class="text-center">&nbsp</td>
                                     </tr>
                                     <?php foreach($productAll as $item ) :?>
                                     <tr>
@@ -1019,9 +1048,9 @@
                                                 </div>
                                             </div>
                                         </td>
-                                        <td>2022/04/25</td>
-                                        <td><span class="badge badge-danger">Out of stock</span></td>
-                                        <td>$<?=$item["price_product"] ?></td>
+                                        <td><?=$item["date_add"] ?></td>
+                                        <td><b>$<?=$item["price_product"] ?></b></td>
+                                        <td><span class="badge badge-danger"><?=$item["id_product"] ?></span></td>
                                         <td class="text-center">
                                             <div class="dropdown">
                                                 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
@@ -1037,9 +1066,12 @@
                                                 </a>
 
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                                    <a class="dropdown-item" href="ctsp">View</a>
-                                                    <!-- <a class="dropdown-item" href="javascript:void(0);">Edit</a> -->
-                                                    <a class="dropdown-item" href="index.php?act=xoasp&id=<?=$item["id_product"]?>">Delete</a>
+                                                    <a class="dropdown-item"
+                                                        href="index.php?act=ctsp&id=<?=$item["id_product"]?>">View</a>
+                                                    <a class="dropdown-item"
+                                                        href="index.php?act=editsp&id=<?=$item["id_product"]?>">Edit</a>
+                                                    <a class="dropdown-item"
+                                                        href="index.php?act=xoasp&id=<?=$item["id_product"]?>">Delete</a>
                                                 </div>
                                             </div>
                                         </td>

@@ -26,7 +26,16 @@
     <script src="../../src/plugins/src/apex/apexcharts.min.js"></script>
     <script src="../../src/assets/js/dashboard/dash_1.js"></script>
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-
+<script>
+    function send(){
+        
+        Swal.fire(
+            'Successful!',
+            'Successful order!',
+            'success'
+        )
+    }
+</script>
 </body>
 
 <!-- Mirrored from designreset.com/equation/html/semi-dark-menu/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jan 2024 11:41:35 GMT -->

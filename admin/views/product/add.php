@@ -42,6 +42,7 @@
     <link href="../layouts/semi-dark-menu/css/dark/structure-mod.html" rel="stylesheet" type="text/css" />
     <link href="../layouts/semi-dark-menu/css/light/structure-mod.html" rel="stylesheet" type="text/css" />
     <!--  END CUSTOM STYLE FILE  -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 
@@ -59,12 +60,12 @@
             <div class="navbar-nav theme-brand flex-row  text-center">
                 <div class="nav-logo">
                     <div class="nav-item theme-logo">
-                        <a href="index-2.html">
-                            <img src="../../assets/images/conbo.jpg" class="navbar-logo" alt="logo">
+                        <a href="index.php">
+                            <img src="../../assets/images/conbo-removebg-preview.png" alt="logo">
                         </a>
                     </div>
                     <div class="nav-item theme-text">
-                        <a href="index-2.html" class="nav-link"> Admin </a>
+                        <a href="index.php" class="nav-link"> Admin </a>
                     </div>
                 </div>
                 <div class="nav-item sidebar-toggle">
@@ -90,7 +91,7 @@
                                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
                             </svg>
-                            <span>Dashboard</span>
+                            <span>Home</span>
                         </div>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -102,7 +103,7 @@
                     </a>
                     <ul class="collapse submenu list-unstyled" id="dashboard" data-bs-parent="#accordionExample">
                         <li>
-                            <a href="index.php"> Analytics </a>
+                            <a href="index.php"> Notification </a>
                         </li>
 
                     </ul>
@@ -289,6 +290,40 @@
                         </li>
                     </ul>
                 </li> -->
+                <li class="menu">
+                    <a href="#invoice" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-book">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                            <span>Category</span>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-right">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </div>
+                    </a>
+                    <ul class="collapse submenu list-unstyled" id="invoice" data-bs-parent="#accordionExample">
+                        <!-- <li>
+                            <a href="app-invoice-list.html"> List </a>
+                        </li> -->
+                        <li>
+                            <a href="?act=dsdm"> List </a>
+                        </li>
+                        <li>
+                            <a href="?act=adddm"> Add </a>
+                        </li>
+                        <!-- <li>
+                            <a href="?act=listdm"> Edit </a>
+                        </li> -->
+                    </ul>
+                </li>
                 <li class="menu active">
                     <a href="#ecommerce" data-bs-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
                         <div class="">
@@ -317,9 +352,9 @@
                         <li class="active">
                             <a href="?act=addsp"> Add </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="?act=editsp"> Edit </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
 
@@ -1023,28 +1058,29 @@
                     <div class="col-xxl-9 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
                         <div class="widget-content widget-content-area ecommerce-create-section">
-                            <form action="index.php?act=addsp" method="post">
+                            <form action="index.php?act=addsp" method="post" enctype="multipart/form-data">
                                 <div class="row mb-4">
                                     <div class="col-sm-12">
-                                        <input type="text" class="form-control" id="inputEmail3" name="tensp"
+                                        <label>Product Name</label>
+                                        <input type="text" class="form-control" id="inputEmail3" name="name_product"
                                             placeholder="Product Name">
                                     </div>
                                 </div>
 
                                 <div class="row mb-4">
                                     <div class="col-sm-12">
-                                        <label>Description</label>
-                                        <div id="product-description" name="mota"></div>
+                                        <label>Description</label><br>
+                                        <textarea class="form-control" style="height:150px"
+                                            name="description_product"></textarea>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <label for="product-images">Upload Images</label>
-                                        <div class="multiple-file-upload">
-                                            <input type="file" class="filepond file-upload-multiple" name="filepond"
-                                                id="product-images" multiple data-allow-reorder="true"
-                                                data-max-file-size="3MB" data-max-files="5">
+                                        <div class="p">
+                                            <label for="formFile-1" class="form-label">Upload Images</label>
+                                            <input type="file" class="form-control" name="images[]" id="formFile-1"
+                                                multiple required />
                                         </div>
                                     </div>
 
@@ -1068,46 +1104,25 @@
                             <div class="col-xxl-12 col-xl-8 col-lg-8 col-md-7 mt-xxl-0 mt-4">
                                 <div class="widget-content widget-content-area ecommerce-create-section">
                                     <div class="row">
-                                        <!-- <div class="col-xxl-12 mb-4">
-                                        <div
-                                            class="switch form-switch-custom switch-inline form-switch-secondary">
-                                            <input class="switch-input" type="checkbox" role="switch"
-                                                id="in-stock">
-                                            <label class="switch-label" for="in-stock">In Stock</label>
-                                        </div>
-                                    </div> -->
-                                        <!-- <div class="col-xxl-12 col-md-6 mb-4">
-                                        <label for="proCode">Product Code</label>
-                                        <input type="text" class="form-control" id="proCode" value="">
-                                    </div>
-                                    <div class="col-xxl-12 col-md-6 mb-4">
-                                        <label for="proSKU">Product SKU</label>
-                                        <input type="text" class="form-control" id="proSKU" value="">
-                                    </div>
-                                    <div class="col-xxl-12 col-md-6 mb-4">
-                                        <label for="gender">Gender</label>
-                                        <select class="form-select" id="gender">
-                                            <option value="">Choose...</option>
-                                            <option value="men">Men</option>
-                                            <option value="women">Women</option>
-                                            <option value="kids">Kids</option>
-                                            <option value="unisex">Unisex</option>
-                                        </select>
-                                    </div> -->
+
                                         <div class="col-xxl-12 col-md-6 mb-4">
                                             <label for="category">Category</label>
-                                            <select class="form-select" id="category">
-                                                <option value="">Choose...</option>
-                                                <option value="electronics">Electronics</option>
-                                                <option value="clothing">Clothing</option>
-                                                <option value="organic">Organic</option>
-                                                <option value="apperal">Apperal</option>
-                                                <option value="accessories">Accessories</option>
+                                            <select class="sa-select2 form-select" required name="iddm">
+                                                <!-- multiple="" -->
+                                                <option value="" selected></option>
+                                                <?php foreach ($categoryAll as $category){
+                                                    extract($category);
+                                                    echo"
+                                                    <option value='".$id_category."'>".$name_category."</option>
+                                                    
+                                                    ";
+                                                }?>
                                             </select>
                                         </div>
+
                                         <div class="col-xxl-12 col-lg-6 col-md-12">
                                             <label for="tags">Tags</label>
-                                            <input id="tags" class="product-tags" value="">
+                                            <input id="tags" class="product-tags" name="tags">
                                         </div>
                                     </div>
                                 </div>
@@ -1117,8 +1132,8 @@
                                     <div class="row">
                                         <div class="col-sm-12 mb-4">
                                             <label for="regular-price">Price</label>
-                                            <input type="text" value="$" class="form-control" id="regular-price"
-                                                value="">
+                                            <input type="text" value="" class="form-control" id="regular-price"
+                                                name="price_product">
                                         </div>
                                         <!-- <div class="col-sm-12 mb-4">
                                         <label for="sale-price">Sale Price</label>
@@ -1133,7 +1148,8 @@
                                         </div>
                                     </div> -->
                                         <div class="col-sm-12">
-                                            <input type="submit" class="btn btn-success w-100" value="Add Product">
+                                            <input  type="submit" name="themmoi"
+                                                class="btn btn-success w-100" value="Add Product">
                                         </div>
                                     </div>
                                 </div>
@@ -1169,3 +1185,4 @@
         <script src="../../../src/plugins/src/tagify/tagify.min.js"></script>
 
         <script src="../../../src/assets/js/apps/ecommerce-create.js"></script>
+    

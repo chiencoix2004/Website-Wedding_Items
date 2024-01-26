@@ -12,12 +12,12 @@
             <div class="navbar-nav theme-brand flex-row  text-center">
                 <div class="nav-logo">
                     <div class="nav-item theme-logo">
-                        <a href="index-2.html">
-                            <img src="../../assets/images/conbo.jpg" class="navbar-logo" alt="logo">
+                        <a href="index.php">
+                            <img src="../../assets/images/conbo-removebg-preview.png" alt="logo">
                         </a>
                     </div>
                     <div class="nav-item theme-text">
-                        <a href="index-2.html" class="nav-link"> Admin </a>
+                        <a href="index.php" class="nav-link"> Admin </a>
                     </div>
                 </div>
                 <div class="nav-item sidebar-toggle">
@@ -43,7 +43,7 @@
                                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
                             </svg>
-                            <span>Dashboard</span>
+                            <span>Home</span>
                         </div>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -55,7 +55,7 @@
                     </a>
                     <ul class="collapse submenu list-unstyled show" id="dashboard" data-bs-parent="#accordionExample">
                         <li class="active">
-                            <a href="index-2.html"> Analytics </a>
+                            <a href="index.php">Notification</a>
                         </li>
                         <!-- <li>
                             <a href="index2.html"> Sales </a>
@@ -203,14 +203,14 @@
                             <a href="app-invoice-list.html"> List </a>
                         </li> -->
                         <li>
-                            <a href="app-invoice-preview.html"> List </a>
+                            <a href="?act=dsdm"> List </a>
                         </li>
                         <li>
-                            <a href="app-invoice-add.html"> Add </a>
+                            <a href="?act=adddm"> Add </a>
                         </li>
-                        <li>
-                            <a href="app-invoice-edit.html"> Edit </a>
-                        </li>
+                        <!-- <li>
+                            <a href="?act=listdm"> Edit </a>
+                        </li> -->
                     </ul>
                 </li>
 
@@ -243,9 +243,6 @@
                         </li>
                         <li>
                             <a href="?act=addsp"> Add </a>
-                        </li>
-                        <li>
-                            <a href="?act=editsp"> Edit </a>
                         </li>
                     </ul>
                 </li>

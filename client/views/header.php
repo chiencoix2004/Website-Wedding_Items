@@ -1437,3 +1437,943 @@
 			}
 		})();</script>
 </head>
+<body class="template-index scheme_1">
+    <div class="page_wrapper">
+
+        <div id="page_preloader__bg">
+            <img id="page_preloader__img" src="cdn/shop/t/2/assets/shopify_logo96f2.gif?v=84590725949116876171539272279"
+                alt="">
+        </div>
+
+        <script>
+        preloaderBg = document.getElementById('page_preloader__bg');
+        preloaderImg = document.getElementById('page_preloader__img');
+
+        window.addEventListener('load', function() {
+            preloaderBg.classList.add("off");
+            preloaderImg.classList.add("off");
+        });
+        </script>
+
+
+
+        <div id="shopify-section-header" class="shopify-section">
+            <div id="pseudo_sticky_block"></div>
+
+
+
+
+            <header id="page_header">
+                <div class="page_container">
+                    <div class="top_pannel ">
+                        <div class="container">
+                            <div class="top_pannel_text">Order online or call us (1800) 000 8808</div>
+
+                            <div class="top_pannel_menu">
+
+
+
+                                <div class="header_search">
+                                    <span class="search_toggle"><i class="fa fa-search"
+                                            aria-hidden="true"></i><b>Search</b><i class="fa fa-times"></i></span>
+                                    <form action="https://theme481-wedding.myshopify.com/search" method="get"
+                                        role="search" class="search_form">
+                                        <input type="search" name="q" placeholder="Search" aria-label="Search">
+
+                                        <button type="submit">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                    </form>
+
+
+                                    <script>
+                                    theme.searchAjaxOn = true;
+                                    </script>
+
+                                    <div id="search_result_container"></div>
+
+                                </div>
+
+
+
+
+                                <div class="header_account">
+                                    <a href="?act=taikhoan" title="My account"><i class="fa fa-user"
+                                            aria-hidden="true"></i></a>
+                                </div>
+
+
+
+
+
+                                <div class="header_wishlist">
+                                    <a href="pages/wishlist.html"><i class="fa fa-heart"
+                                            aria-hidden="true"></i><span>Wishlist</span></a>
+                                </div>
+
+
+
+
+
+
+
+                                <div class="currency_selector">
+                                    <div class="currency_selector__wrap" title="Currency">
+                                        <div id="currency_active">USD</div>
+
+                                        <ul id="currency_selector">
+                                            <li data-value="USD" id="currency_selected" class="currency_selector__item">
+                                                USD</li>
+
+
+
+
+
+                                            <li data-value="EUR" class="currency_selector__item">EUR</li>
+
+
+
+                                            <li data-value="GBP" class="currency_selector__item">GBP</li>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <script>
+                                theme.shopCurrency = "USD";
+                                theme.moneyFormat = "${{amount}}";
+                                theme.moneyFormatCurrency = "${{amount}} USD";
+                                </script>
+
+                                <script src="../cdn.shopify.com/s/javascripts/currencies.js" defer></script>
+                                <script src="cdn/shop/t/2/assets/currency-tools0542.js?v=56053141205250997201539259903"
+                                    defer></script>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header_wrap1" style="background: #e9e9e9">
+                        <div class="container header_main_wrap">
+                            <div class="header_wrap2 header_left">
+
+
+
+
+                                <a class="header_logo" href="index.html">
+                                    <img src="cdn/shop/files/logo_190x50_crop_center1ef3.png?v=1613728926"
+                                        alt="Perfect Bride">
+
+                                </a>
+
+
+
+                            </div>
+
+                            <div class="header_wrap2 header_center">
+
+                                <nav id="megamenu" class="megamenu">
+                                    <h2 id="megamenu_mobile_toggle"><i class="fa fa-bars" aria-hidden="true"></i>Menu
+                                    </h2>
+
+                                    <div id="megamenu_mobile_close">
+                                        <div class="close_icon"></div>
+                                    </div>
+
+                                    <ul id="megamenu_level__1" class="level_1">
+
+
+
+
+
+                                        <li class="level_1__item level_2__small">
+                                            <a class="level_1__link active" href="index.html">Home
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264076974"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264076974">
+                                                <li>
+                                                    <div>
+                                                        <ul class="level_3">
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/shoes.html">Shoes</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/veils.html">Veils</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/headpieces.html">Headpieces</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/jewelry-gifts.html">Jewelry &
+                                                                    Gifts</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/belts.html">Belts</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/purses.html">Purses</a>
+
+
+                                                            </li>
+
+
+
+                                                            <li class="level_3__item ">
+                                                                <a class="level_3__link"
+                                                                    href="collections/accessories-shopping-guide.html">Accessories
+                                                                    Shopping Guide</a>
+
+
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item level_2__links">
+                                            <a class="level_1__link " href="collections.html">Collections
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264096343"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264096343">
+                                                <li class="container">
+
+
+
+
+
+
+                                                    <div class="megamenu_col__item align_center">
+
+                                                        <a href="collections/purses.html"><img
+                                                                src="cdn/shop/files/Depositphotos_1584510_original_255x180_crop_centerfa42.jpg?v=1613728925"
+                                                                alt="Purses">
+
+
+                                                            <h4>Purses</h4>
+
+                                                        </a>
+                                                    </div>
+
+
+
+
+
+
+
+                                                    <div class="megamenu_col__item align_center">
+
+                                                        <a href="collections/accessories-shopping-guide.html"><img
+                                                                src="cdn/shop/files/Depositphotos_1373343_original_255x180_crop_centerfa42.jpg?v=1613728925"
+                                                                alt="Accessories">
+
+
+                                                            <h4>Accessories</h4>
+
+                                                        </a>
+                                                    </div>
+
+
+
+
+
+
+
+                                                    <div class="megamenu_col__item align_center">
+
+                                                        <a href="collections/jewelry-gifts.html"><img
+                                                                src="cdn/shop/files/Depositphotos_2343843_original_255x180_crop_centerfa42.jpg?v=1613728925"
+                                                                alt="Jewelry">
+
+
+                                                            <h4>Jewelry</h4>
+
+                                                        </a>
+                                                    </div>
+
+
+
+
+
+
+
+                                                    <div class="megamenu_col__item align_center">
+
+                                                        <a href="collections/sale.html"><img
+                                                                src="cdn/shop/files/Depositphotos_3009880_original_255x180_crop_centerfa42.jpg?v=1613728925"
+                                                                alt="Sale">
+
+
+                                                            <h4>Sale</h4>
+
+                                                        </a>
+                                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item level_2__links">
+                                            <a class="level_1__link " href="collections/all.html">Catalog
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264386895"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264386895">
+                                                <li class="container">
+
+
+
+                                                    <div class="megamenu_col__item ">
+
+
+
+                                                        <h3 class="visible">Follow us <i
+                                                                class="level_2__trigger megamenu_trigger"
+                                                                data-submenu="menu_1539264386895-1"></i></h3>
+
+                                                        <ul class="level_3" id="menu_1539264386895-1">
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://www.facebook.com/zemezlab/">Facebook</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://twitter.com/zemezlab">Twitter</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://google.com/+templatemonster">Google+</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://www.youtube.com/channel/UCPW43un8VFXHe9LxKpR_2Hg">Youtube</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="https://www.instagram.com/zemezlab">Instagram</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+
+
+
+                                                    <div class="megamenu_col__item ">
+
+
+
+                                                        <h3 class="visible">Categories <i
+                                                                class="level_2__trigger megamenu_trigger"
+                                                                data-submenu="menu_1539264386895-2"></i></h3>
+
+                                                        <ul class="level_3" id="menu_1539264386895-2">
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/shoes.html">Shoes</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/veils.html">Veils</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/headpieces.html">Headpieces</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/jewelry-gifts.html">Jewelry &
+                                                                    Gifts</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/belts.html">Belts</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/purses.html">Purses</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/accessories-shopping-guide.html">Accessories
+                                                                    Shopping Guide</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+
+
+
+                                                    <div class="megamenu_col__item ">
+
+
+
+                                                        <h3 class="visible">Account <i
+                                                                class="level_2__trigger megamenu_trigger"
+                                                                data-submenu="menu_1539264386895-3"></i></h3>
+
+                                                        <ul class="level_3" id="menu_1539264386895-3">
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="account/login4236.html">My Account </a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link" href="account/login.html">Log
+                                                                    in </a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link" href="account/login.html">My
+                                                                    Addresses</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="account/login4236.html">My Orders</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/password.html">Password</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/contact-us.html">Contact Us</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link" href="blogs/news.html">Latest
+                                                                    News</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+
+
+
+                                                    <div class="megamenu_col__item ">
+
+
+
+                                                        <h3 class="visible">Information <i
+                                                                class="level_2__trigger megamenu_trigger"
+                                                                data-submenu="menu_1539264386895-4"></i></h3>
+
+                                                        <ul class="level_3" id="menu_1539264386895-4">
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/about-us.html">About Us</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections/all.html">Catalog</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/contact-us.html">Contact Us</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="collections.html">Collections</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/password.html">Password</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link"
+                                                                    href="pages/privacy-policy.html">Privacy Policy</a>
+                                                            </li>
+
+                                                            <li class="level_3__item">
+
+
+                                                                <a class="level_3__link" href="blogs/news.html">Blog</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item level_2__blog">
+                                            <a class="level_1__link " href="blogs/news.html">Blog
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264425250"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264425250">
+                                                <li class="container">
+
+                                                    <div class="megamenu_col__item">
+
+                                                        <div class="blog_img">
+                                                            <img src="cdn/shop/articles/Depositphotos_1584510_original_350x308_crop_center3669.jpg?v=1539261734"
+                                                                alt="Be happy, love and take care of each other">
+                                                        </div>
+
+
+                                                        <div class="blog_info">
+                                                            <p class="blog_date">
+                                                                <span class="article_day">11</span>
+                                                                October
+                                                            </p>
+
+                                                            <h3 class="blog_title"><a
+                                                                    href="blogs/news/be-happy-love-and-take-care-of-each-other.html">Be
+                                                                    happy, love and take care of each other</a></h3>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+
+                                                        <div class="blog_img">
+                                                            <img src="cdn/shop/articles/Depositphotos_1373343_original_350x308_crop_center90e9.jpg?v=1539261688"
+                                                                alt="We try our best to solve any problems that arise in the process of preparations, offer you the goods you need and support with everything">
+                                                        </div>
+
+
+                                                        <div class="blog_info">
+                                                            <p class="blog_date">
+                                                                <span class="article_day">11</span>
+                                                                October
+                                                            </p>
+
+                                                            <h3 class="blog_title"><a
+                                                                    href="blogs/news/we-try-our-best-to-solve-any-problems-that-arise-in-the-process-of-preparations-offer-you-the-goods-you-need-and-support-with-everything.html">We
+                                                                    try our best to solve any problems that arise in
+                                                                    ...</a></h3>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+
+                                                        <div class="blog_img">
+                                                            <img src="cdn/shop/articles/Depositphotos_1583308_original_350x308_crop_center6c3e.jpg?v=1539261645"
+                                                                alt="The assortment of our wedding store will glad your eyes and help you get everything you need for this special day">
+                                                        </div>
+
+
+                                                        <div class="blog_info">
+                                                            <p class="blog_date">
+                                                                <span class="article_day">11</span>
+                                                                October
+                                                            </p>
+
+                                                            <h3 class="blog_title"><a
+                                                                    href="blogs/news/the-assortment-of-our-wedding-store-will-glad-your-eyes-and-help-you-get-everything-you-need-for-this-special-day.html">The
+                                                                    assortment of our wedding store will glad your
+                                                                    e...</a></h3>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item level_2__products">
+                                            <a class="level_1__link " href="collections/sale.html">Sale
+                                                <i class="level_1__trigger megamenu_trigger"
+                                                    data-submenu="menu_1539264438445"></i>
+                                            </a>
+
+
+
+                                            <ul class="level_2" id="menu_1539264438445">
+                                                <li class="container">
+
+                                                    <div class="megamenu_col__item">
+                                                        <div class="product">
+                                                            <div class="product_img">
+                                                                <a
+                                                                    href="products/1_pair_mens_silver_oval_wedding_cufflinks_groom_best_man_usher_page_boy_cuff_link_gift.html">
+                                                                    <img src="cdn/shop/products/1_pair_mens_silver_oval_wedding_cufflinks_groom_best_man_usher_page_boy_cuff_link_gift_1_255xe8b8.png?v=1539259206"
+                                                                        alt="1 Pair Mens Silver Oval Wedding Cufflinks Groom Best Man Usher Page Boy Cuff Link Gift" />
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="product_info">
+                                                                <p class="product_name">
+                                                                    <a
+                                                                        href="products/1_pair_mens_silver_oval_wedding_cufflinks_groom_best_man_usher_page_boy_cuff_link_gift.html">1
+                                                                        Pair Mens Silver Oval Wedding Cufflinks
+                                                                        Groom...</a>
+                                                                </p>
+
+                                                                <p class="product_price">
+                                                                    <span class="money">$4.00</span>
+
+
+                                                                    <span class="money money_sale">$6.00</span>
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+                                                        <div class="product">
+                                                            <div class="product_img">
+                                                                <a
+                                                                    href="products/rhinestone_pearl_vintage_white_ivory_lace_wedding_garter_set_bridal_prom_gift.html">
+                                                                    <img src="cdn/shop/products/rhinestone_pearl_vintage_white_ivory_lace_wedding_garter_set_bridal_prom_gift_1_255x7784.png?v=1539259434"
+                                                                        alt="Rhinestone Pearl Vintage White Ivory Lace Wedding Garter Set Bridal Prom Gift" />
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="product_info">
+                                                                <p class="product_name">
+                                                                    <a
+                                                                        href="products/rhinestone_pearl_vintage_white_ivory_lace_wedding_garter_set_bridal_prom_gift.html">Rhinestone
+                                                                        Pearl Vintage White Ivory Lace Weddi...</a>
+                                                                </p>
+
+                                                                <p class="product_price">
+                                                                    <span class="money">$16.00</span>
+
+
+                                                                    <span class="money money_sale">$18.00</span>
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+                                                        <div class="product">
+                                                            <div class="product_img">
+                                                                <a href="products/niceeshop_tm_key_chains.html">
+                                                                    <img src="cdn/shop/products/niceeshop_tm_key_chains_1_255x56e2.png?v=1539259417"
+                                                                        alt="niceeshop TM Key Chains" />
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="product_info">
+                                                                <p class="product_name">
+                                                                    <a href="products/niceeshop_tm_key_chains.html">niceeshop
+                                                                        TM Key Chains</a>
+                                                                </p>
+
+                                                                <p class="product_price">
+                                                                    <span class="money">$4.00</span>
+
+
+                                                                    <span class="money money_sale">$7.00</span>
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="megamenu_col__item">
+                                                        <div class="product">
+                                                            <div class="product_img">
+                                                                <a
+                                                                    href="products/mr_and_mrs_christian_coffee_mug_set.html">
+                                                                    <img src="cdn/shop/products/mr_and_mrs_christian_coffee_mug_set_1_255xe151.png?v=1539259391"
+                                                                        alt="Mr and Mrs Christian Coffee Mug Set" />
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="product_info">
+                                                                <p class="product_name">
+                                                                    <a
+                                                                        href="products/mr_and_mrs_christian_coffee_mug_set.html">Mr
+                                                                        and Mrs Christian Coffee Mug Set</a>
+                                                                </p>
+
+                                                                <p class="product_price">
+                                                                    <span class="money">$14.00</span>
+
+
+                                                                    <span class="money money_sale">$16.00</span>
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item ">
+                                            <a class="level_1__link " href="pages/about-us.html">About Us
+
+                                            </a>
+
+
+
+                                        </li>
+
+
+
+
+
+
+                                        <li class="level_1__item ">
+                                            <a class="level_1__link " href="pages/contact-us.html">Contact Us
+
+                                            </a>
+
+
+
+                                        </li>
+
+
+                                    </ul>
+                                </nav>
+
+                            </div>
+
+                            <div class="header_wrap2 header_right">
+
+                                <div class="header_cart" id="main__cart_item">
+                                    <a class="cart_link" href="cart.html"><b><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i>My Cart: </b><span id="cart_items"> 0 </span>
+                                        item(s)</a>
+
+
+                                    <script>
+                                    theme.cartAjaxOn = true;
+                                    theme.cartAjaxTextEmpty = 'It appears that your cart is currently empty';
+                                    theme.cartAjaxTextTotalPrice = 'Total price';
+                                    theme.cartAjaxTextGoCart = 'Go to cart';
+                                    theme.cartAjaxTextClearCart = 'Clear cart';
+                                    </script>
+                                    <div class="cart_content_wrap">
+                                        <div class="cart_content_preloader off">
+                                            <div class="global_loader"></div>
+                                        </div>
+                                        <div id="cart_content_box">
+
+                                            <p class="alert alert-warning">It appears that your cart is currently empty
+                                            </p>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>

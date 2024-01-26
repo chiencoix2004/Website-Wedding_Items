@@ -13,6 +13,8 @@ $act = $_GET['act'] ?? null;
 match ($act) {
     // 'dssp' => productList(),
     //  'ctsp' => productDetail($_GET['id']),
+    'taikhoan' => login(),
+    
      default => trangChu(),
 };
 
