@@ -18,6 +18,13 @@ match ($act) {
 
     'register' => register(),
 
+    'blog' => allBlog(),
+    'ctbv' =>  baiVietDetail(),
+
+    'abus' =>  aboutUs(),
+
+    // 'ddd' =>  categoryTop3(),
+    
 
     
      default => trangChu(),

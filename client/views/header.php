@@ -1648,7 +1648,7 @@
                 <div class="page_container">
                     <div class="top_pannel ">
                         <div class="container">
-                            <div class="top_pannel_text">Order online or call us (1800) 000 8808</div>
+                            <div class="top_pannel_text">Order online or call us 1900 8****</div>
 
                             <div class="top_pannel_menu">
 
@@ -2421,7 +2421,7 @@
 
 
                                         <li class="level_1__item ">
-                                            <a class="level_1__link " href="pages/about-us.html">About Us
+                                            <a class="level_1__link " href="?act=abus">About Us
 
                                             </a>
 
