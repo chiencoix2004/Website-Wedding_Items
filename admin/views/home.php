@@ -182,7 +182,7 @@
                 <li class="menu">
                     <a href="#invoice" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="feather feather-book">
                                 <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
@@ -246,9 +246,9 @@
                         </li>
                     </ul>
                 </li>
-            
 
-                <!-- <li class="menu">
+
+                <li class="menu">
                     <a href="#blog" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <div class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -270,20 +270,48 @@
                         </div>
                     </a>
                     <ul class="collapse submenu list-unstyled" id="blog" data-bs-parent="#accordionExample">
-                        <li>
+                        <!-- <li>
                             <a href="app-blog-grid.html"> Grid </a>
+                        </li> -->
+                        <li>
+                            <a href="?act=dsbv"> List </a>
                         </li>
                         <li>
-                            <a href="app-blog-list.html"> List </a>
+                            <a href="?act=addbv"> Create </a>
                         </li>
-                        <li>
-                            <a href="app-blog-create.html"> Create </a>
-                        </li>
-                        <li>
+                        <!-- <li>
                             <a href="app-blog-edit.html"> Edit </a>
-                        </li>
+                        </li> -->
                     </ul>
-                </li> -->
+                </li>
+                <li class="menu">
+                    <a href="?act=dslh" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-map-pin">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Contacts</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="?act=dsacc" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-users">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <span>Users</span>
+                        </div>
+                    </a>
+                </li>
 
                 <!-- <li class="menu menu-heading">
                     <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"

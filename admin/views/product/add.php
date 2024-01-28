@@ -43,6 +43,20 @@
     <link href="../layouts/semi-dark-menu/css/light/structure-mod.html" rel="stylesheet" type="text/css" />
     <!--  END CUSTOM STYLE FILE  -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+    /* .hello20 {
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+
+    .hell10 {
+        position: relative;
+        margin-bottom: 20px;
+        margin-left: 500px;
+        margin-bottom: 20px;
+    } */
+    </style>
 </head>
 
 
@@ -358,42 +372,70 @@
                     </ul>
                 </li>
 
-                <!-- <li class="menu">
-            <a href="#blog" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                <div class="">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="feather feather-pen-tool">
-                        <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
-                        <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
-                        <path d="M2 2l7.586 7.586"></path>
-                        <circle cx="11" cy="11" r="2"></circle>
-                    </svg>
-                    <span>Blog</span>
-                </div>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="feather feather-chevron-right">
-                        <polyline points="9 18 15 12 9 6"></polyline>
-                    </svg>
-                </div>
-            </a>
-            <ul class="collapse submenu list-unstyled" id="blog" data-bs-parent="#accordionExample">
-                <li>
-                    <a href="app-blog-grid.html"> Grid </a>
+                <li class="menu">
+                    <a href="#blog" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-pen-tool">
+                                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                <path d="M2 2l7.586 7.586"></path>
+                                <circle cx="11" cy="11" r="2"></circle>
+                            </svg>
+                            <span>Blog</span>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-right">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </div>
+                    </a>
+                    <ul class="collapse submenu list-unstyled" id="blog" data-bs-parent="#accordionExample">
+                        <!-- <li>
+                            <a href="app-blog-grid.html"> Grid </a>
+                        </li> -->
+                        <li>
+                            <a href="?act=dsbv"> List </a>
+                        </li>
+                        <li>
+                            <a href="?act=addbv"> Create </a>
+                        </li>
+                        <!-- <li>
+                            <a href="app-blog-edit.html"> Edit </a>
+                        </li> -->
+                    </ul>
                 </li>
-                <li>
-                    <a href="app-blog-list.html"> List </a>
+                <li class="menu">
+                    <a href="?act=dslh" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-map-pin">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Contacts</span>
+                        </div>
+                    </a>
                 </li>
-                <li>
-                    <a href="app-blog-create.html"> Create </a>
+                <li class="menu">
+                    <a href="?act=dsacc" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-users">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <span>Users</span>
+                        </div>
+                    </a>
                 </li>
-                <li>
-                    <a href="app-blog-edit.html"> Edit </a>
-                </li>
-            </ul>
-        </li> -->
 
                 <!-- <li class="menu menu-heading">
             <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -1057,34 +1099,52 @@
 
                     <div class="col-xxl-9 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
-                        <div class="widget-content widget-content-area ecommerce-create-section">
-                            <form action="index.php?act=addsp" method="post" enctype="multipart/form-data">
-                                <div class="row mb-4">
-                                    <div class="col-sm-12">
-                                        <label>Product Name</label>
-                                        <input type="text" class="form-control" id="inputEmail3" name="name_product"
-                                            placeholder="Product Name">
+                        <div class="col-md-8">
+                            <form method="post" action="?act=import" enctype="multipart/form-data">
+                                <!-- <label for="formFile-1" class="form-label">Upload File Excel</label>
+                                <input type="file" class="form-control" name="file" accept=".xls, .xlsx" id="formFile-1"
+                                    required /> <input  type="submit" name="import"
+                                    class="btn btn-outline-secondary" value="Import"> -->
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <input class="btn btn-primary" name="import" type="submit" value="Import">
+                                    </div>
+                                    <div class="custom-file ">
+                                        <input name="file" class="form-control m-4" type="file" accept=".xls, .xlsx"
+                                            required>
+                                        <!-- <label class="custom-file-label"  for="inputGroupFile03"> Choose file</label> -->
                                     </div>
                                 </div>
+                            </form>
+                            <div class="widget-content widget-content-area ecommerce-create-section">
 
-                                <div class="row mb-4">
-                                    <div class="col-sm-12">
-                                        <label>Description</label><br>
-                                        <textarea class="form-control" style="height:150px"
-                                            name="description_product"></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <div class="p">
-                                            <label for="formFile-1" class="form-label">Upload Images</label>
-                                            <input type="file" class="form-control" name="images[]" id="formFile-1"
-                                                multiple required />
+                                <form action="index.php?act=addsp" method="post" enctype="multipart/form-data">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-12">
+                                            <label>Product Name</label>
+                                            <input type="text" class="form-control" id="inputEmail3" name="name_product"
+                                                placeholder="Product Name">
                                         </div>
                                     </div>
 
-                                    <!-- <div class="col-md-4 text-center">
+                                    <div class="row mb-4">
+                                        <div class="col-sm-12">
+                                            <label>Description</label><br>
+                                            <textarea id="noidung" class="form-control" style="height:150px"
+                                                name="description_product"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="p">
+                                                <label for="formFile-1" class="form-label">Upload Images</label>
+                                                <input type="file" class="form-control" name="images[]" id="formFile-1"
+                                                    multiple required />
+                                            </div>
+                                        </div>
+
+                                        <!-- <div class="col-md-4 text-center">
                                 <div class="switch form-switch-custom switch-inline form-switch-primary mt-4">
                                     <input class="switch-input" type="checkbox" role="switch" id="showPublicly"
                                         checked>
@@ -1092,54 +1152,54 @@
                                 </div>
                             </div> -->
 
-                                </div>
+                                    </div>
+
+                            </div>
 
                         </div>
 
-                    </div>
+                        <div class="col-xxl-3 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
-                    <div class="col-xxl-3 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="row">
+                                <div class="col-xxl-12 col-xl-8 col-lg-8 col-md-7 mt-xxl-0 mt-4">
+                                    <div class="widget-content widget-content-area ecommerce-create-section">
+                                        <div class="row">
 
-                        <div class="row">
-                            <div class="col-xxl-12 col-xl-8 col-lg-8 col-md-7 mt-xxl-0 mt-4">
-                                <div class="widget-content widget-content-area ecommerce-create-section">
-                                    <div class="row">
-
-                                        <div class="col-xxl-12 col-md-6 mb-4">
-                                            <label for="category">Category</label>
-                                            <select class="sa-select2 form-select" required name="iddm">
-                                                <!-- multiple="" -->
-                                                <option value="" selected></option>
-                                                <?php foreach ($categoryAll as $category){
+                                            <div class="col-xxl-12 col-md-6 mb-4">
+                                                <label for="category">Category</label>
+                                                <select class="sa-select2 form-select" required name="iddm">
+                                                    <!-- multiple="" -->
+                                                    <option value="" selected></option>
+                                                    <?php foreach ($categoryAll as $category){
                                                     extract($category);
                                                     echo"
                                                     <option value='".$id_category."'>".$name_category."</option>
                                                     
                                                     ";
                                                 }?>
-                                            </select>
-                                        </div>
+                                                </select>
+                                            </div>
 
-                                        <div class="col-xxl-12 col-lg-6 col-md-12">
-                                            <label for="tags">Tags</label>
-                                            <input id="tags" class="product-tags" name="tags">
+                                            <div class="col-xxl-12 col-lg-6 col-md-12">
+                                                <label for="tags">Tags</label>
+                                                <input id="tags" class="product-tags" name="tags">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-5 mt-4">
-                                <div class="widget-content widget-content-area ecommerce-create-section">
-                                    <div class="row">
-                                        <div class="col-sm-12 mb-4">
-                                            <label for="regular-price">Price</label>
-                                            <input type="text" value="" class="form-control" id="regular-price"
-                                                name="price_product">
-                                        </div>
-                                        <!-- <div class="col-sm-12 mb-4">
+                                <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-5 mt-4">
+                                    <div class="widget-content widget-content-area ecommerce-create-section">
+                                        <div class="row">
+                                            <div class="col-sm-12 mb-4">
+                                                <label for="regular-price">Price</label>
+                                                <input type="text" value="" class="form-control" id="regular-price"
+                                                    name="price_product">
+                                            </div>
+                                            <!-- <div class="col-sm-12 mb-4">
                                         <label for="sale-price">Sale Price</label>
                                         <input type="text" class="form-control" id="sale-price" value="">
                                     </div> -->
-                                        <!-- <div class="col-sm-12 mb-4">
+                                            <!-- <div class="col-sm-12 mb-4">
                                         <div class="switch form-switch-custom switch-inline form-switch-danger">
                                             <input class="switch-input" type="checkbox" role="switch"
                                                 id="pricing-includes-texes">
@@ -1147,42 +1207,51 @@
                                                 includes taxes</label>
                                         </div>
                                     </div> -->
-                                        <div class="col-sm-12">
-                                            <input  type="submit" name="themmoi"
-                                                class="btn btn-success w-100" value="Add Product">
+                                            <div class="col-sm-12">
+                                                <input type="submit" name="themmoi" class="btn btn-success w-100"
+                                                    value="Add Product">
+                                            </div>
                                         </div>
                                     </div>
+                                    </form>
                                 </div>
-                                </form>
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
+                <!--  END CONTENT AREA  -->
             </div>
-            <!--  END CONTENT AREA  -->
-        </div>
-        <!-- END MAIN CONTAINER -->
+            <!-- END MAIN CONTAINER -->
 
-        <script src="../../../src/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="../../../src/plugins/src/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-        <script src="../../../src/plugins/src/mousetrap/mousetrap.min.js"></script>
-        <script src="../../../src/plugins/src/waves/waves.min.js"></script>
-        <script src="../../../layouts/semi-dark-menu/app.js"></script>
-        <script src="../../../src/plugins/src/highlight/highlight.pack.js"></script>
-        <!-- END GLOBAL MANDATORY STYLES -->
+            <script src="../../../src/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="../../../src/plugins/src/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+            <script src="../../../src/plugins/src/mousetrap/mousetrap.min.js"></script>
+            <script src="../../../src/plugins/src/waves/waves.min.js"></script>
+            <script src="../../../layouts/semi-dark-menu/app.js"></script>
+            <script src="../../../src/plugins/src/highlight/highlight.pack.js"></script>
+            <!-- END GLOBAL MANDATORY STYLES -->
 
-        <!-- BEGIN PAGE LEVEL SCRIPTS -->
-        <script src="../../../src/plugins/src/editors/quill/quill.js"></script>
-        <script src="../../../src/plugins/src/filepond/filepond.min.js"></script>
-        <script src="../../../src/plugins/src/filepond/FilePondPluginFileValidateType.min.js"></script>
-        <script src="../../../src/plugins/src/filepond/FilePondPluginImageExifOrientation.min.js"></script>
-        <script src="../../../src/plugins/src/filepond/FilePondPluginImagePreview.min.js"></script>
-        <script src="../../../src/plugins/src/filepond/FilePondPluginImageCrop.min.js"></script>
-        <script src="../../../src/plugins/src/filepond/FilePondPluginImageResize.min.js"></script>
-        <script src="../../../src/plugins/src/filepond/FilePondPluginImageTransform.min.js"></script>
-        <script src="../../../src/plugins/src/filepond/filepondPluginFileValidateSize.min.js"></script>
+            <!-- BEGIN PAGE LEVEL SCRIPTS -->
+            <script src="../../../src/plugins/src/editors/quill/quill.js"></script>
+            <script src="../../../src/plugins/src/filepond/filepond.min.js"></script>
+            <script src="../../../src/plugins/src/filepond/FilePondPluginFileValidateType.min.js"></script>
+            <script src="../../../src/plugins/src/filepond/FilePondPluginImageExifOrientation.min.js"></script>
+            <script src="../../../src/plugins/src/filepond/FilePondPluginImagePreview.min.js"></script>
+            <script src="../../../src/plugins/src/filepond/FilePondPluginImageCrop.min.js"></script>
+            <script src="../../../src/plugins/src/filepond/FilePondPluginImageResize.min.js"></script>
+            <script src="../../../src/plugins/src/filepond/FilePondPluginImageTransform.min.js"></script>
+            <script src="../../../src/plugins/src/filepond/filepondPluginFileValidateSize.min.js"></script>
 
-        <script src="../../../src/plugins/src/tagify/tagify.min.js"></script>
+            <script src="../../../src/plugins/src/tagify/tagify.min.js"></script>
 
-        <script src="../../../src/assets/js/apps/ecommerce-create.js"></script>
-    
+            <script src="../../../src/assets/js/apps/ecommerce-create.js"></script>
+            <script>
+            ClassicEditor
+                .create(document.querySelector('#noidung'))
+                .catch(error => {
+                    console.error(error);
+                });
+            </script>

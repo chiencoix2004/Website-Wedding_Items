@@ -72,22 +72,124 @@ function addProduct_Img($id_product, $img) {
     }
 }
 
-// function insert_sanpham($ma_sp,$ten_sp,$gia_sp,$gia_cu_sp,$so_luong,$thuong_hieu_sp,$mo_ta_sp,$mo_ta_ngan_sp,$id_dm){
-//     if ($gia_cu_sp=="") {
-//        $sql = "INSERT INTO `sanpham`( `ma_sp`, `ten_sp`, `gia_sp`, `so_luong`, `thuong_hieu_sp`, `mo_ta_sp`, `mo_ta_ngan_sp`, `id_dm`) 
-//        VALUES ('$ma_sp','$ten_sp','$gia_sp','$so_luong','$thuong_hieu_sp','$mo_ta_sp','$mo_ta_ngan_sp','$id_dm')";
-      
-//    }else{
-//        $sql = "INSERT INTO `sanpham`( `ma_sp`, `ten_sp`, `gia_sp`, `gia_cu_sp`, `so_luong`, `thuong_hieu_sp`, `mo_ta_sp`, `mo_ta_ngan_sp`, `id_dm`) 
-//    VALUES ('$ma_sp','$ten_sp','$gia_sp','$gia_cu_sp','$so_luong','$thuong_hieu_sp','$mo_ta_sp','$mo_ta_ngan_sp','$id_dm')";
-  
-//    }
-//    return pdo_execute_return_lastInsertID($sql);
-// }
+// function get_product_img_one($id_product){
+//     try {
+//         $sql = "SELECT id_img, id_product, img 
+//                 FROM tb_images_product 
+//                 WHERE id_product = ".$id_product;
+//         // Thực hiện truy vấn và trả về kết quả
+//         $stmt->execute();
 
-// function insert_san_pham_anh($id_san_pham,$anh_sp){
-//    if ($anh_sp!="") {
-//        $sql = "INSERT INTO `sanpham_anh`( `id_san_pham`, `anh_sp`) VALUES ('$id_san_pham','$anh_sp')";
-//        pdo_execute($sql);
-//    }
+//         return   $stmt->fetchAll(PDO::FETCH_ASSOC);
+//     } catch (Exception $e) {
+//         echo 'ERROR: ' . $e->getMessage();
+//         die;
+//     }
 // }
+function getSanPhamAnhOne($id){
+    try {
+
+        $sql = "SELECT * FROM `tb_images_product` WHERE id_product =:id";
+
+        $stmt = $GLOBALS['conn']->prepare($sql);
+
+        $stmt->bindParam(':id',$id);
+       
+
+        $stmt->execute();
+        return   $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (Exception $e) {
+        echo 'ERROR: ' . $e->getMessage();
+        die;
+    }
+}
+
+
+// function get_san_pham_anh_one($id_product){
+//     try {
+//         $sql = "SELECT id AS id_image, id_product, img 
+//                  FROM tb_images_product 
+//                  WHERE id_product = :id_product";
+        
+//         $stmt = $GLOBALS['conn']->prepare($sql);
+//         $stmt->bindParam(':id_product', $id_product, PDO::PARAM_INT);
+//         $stmt->execute();
+        
+//         return $stmt;
+//     } catch (PDOException $e) {
+//         die('Lỗi truy vấn: ' . $e->getMessage());
+//     }
+// }
+function getProductDetail($id) {
+    try {
+    
+        $sql = "SELECT * FROM tb_products WHERE id_product=:id";
+        
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->bindParam(':id',$id);
+
+        $stmt->execute();
+        
+        return   $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (Exception $e) {
+        echo 'ERROR: ' . $e->getMessage();
+        die;
+    }
+}
+function productDelImg($id_image){
+    try {
+        
+        $sql = "DELETE FROM `tb_images_product` WHERE id_image = :id_image";
+        
+        $stmt = $GLOBALS['conn']->prepare($sql);
+       
+        $stmt->bindParam(':id_image', $id_image);
+       
+        $stmt->execute();
+        
+        return  $stmt->fetch(PDO::FETCH_ASSOC);
+        } catch (Exception $e) {
+        echo 'ERROR: ' . $e->getMessage();
+        die;
+    }
+}
+function getProductImgAll($id) {
+    try {
+    
+        $sql = "SELECT * FROM tb_images_product  WHERE id_product = :id_product";
+        
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->bindParam(':id_product', $id);
+        
+        $stmt->execute();
+        
+        return   $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (Exception $e) {
+        echo 'ERROR: ' . $e->getMessage();
+        die;
+    }
+}
+function productUp($id_product,$name_product,$price_product,$description_product,$date_add,$tags,$iddm){
+    try {
+        $sql = "UPDATE tb_products SET name_product = :name_product, price_product = :price_product,
+         description_product = :description_product, date_add = :date_add, tags = :tags
+         , iddm = :iddm WHERE id_product = :id_product";
+        
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->bindParam(':name_product', $name_product);
+        $stmt->bindParam(':price_product', $price_product);
+        $stmt->bindParam(':description_product', $description_product);
+        $stmt->bindParam(':date_add', $date_add);
+        $stmt->bindParam(':tags', $tags);
+        $stmt->bindParam(':iddm', $iddm);
+        $stmt->bindParam(':id_product', $id_product);
+        
+        $stmt->execute();
+        
+        // Không cần lấy dữ liệu sau khi UPDATE, vì UPDATE chỉ cập nhật dữ liệu, không trả về dữ liệu mới.
+        
+    } catch (Exception $e) {
+        echo 'ERROR: ' . $e->getMessage();
+        die;
+    }
+}

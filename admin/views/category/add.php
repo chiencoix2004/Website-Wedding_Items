@@ -178,10 +178,72 @@
                         <li>
                             <a href="?act=addsp"> Add </a>
                         </li>
+
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="#blog" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-pen-tool">
+                                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                <path d="M2 2l7.586 7.586"></path>
+                                <circle cx="11" cy="11" r="2"></circle>
+                            </svg>
+                            <span>Blog</span>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-right">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </div>
+                    </a>
+                    <ul class="collapse submenu list-unstyled" id="blog" data-bs-parent="#accordionExample">
                         <!-- <li>
-                            <a href="?act=editsp"> Edit </a>
+                            <a href="app-blog-grid.html"> Grid </a>
+                        </li> -->
+                        <li>
+                            <a href="?act=dsbv"> List </a>
+                        </li>
+                        <li>
+                            <a href="?act=addbv"> Create </a>
+                        </li>
+                        <!-- <li>
+                            <a href="app-blog-edit.html"> Edit </a>
                         </li> -->
                     </ul>
+                </li>
+                <li class="menu">
+                    <a href="?act=dslh" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-map-pin">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Contacts</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="?act=dsacc" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-users">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <span>Users</span>
+                        </div>
+                    </a>
                 </li>
 
 
@@ -223,9 +285,10 @@
                                             <input type="file" name="img" id="">
                                         </div> -->
                                         <div class="p">
-                                                <label for="formFile-1" class="form-label">Upload Images</label>
-                                                <input type="file" class="form-control" name="img" id="formFile-1" required />
-                                            </div>
+                                            <label for="formFile-1" class="form-label">Upload Images</label>
+                                            <input type="file" class="form-control" name="img" id="formFile-1"
+                                                required />
+                                        </div>
 
                                     </div>
 
@@ -251,7 +314,7 @@
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <input type="submit" class="btn btn-success w-100" name="themmoi"
-                                                value="Add Product"  >
+                                                value="Add Product">
                                         </div>
 
                                         <!-- <div class="col-xxl-12 mb-4">

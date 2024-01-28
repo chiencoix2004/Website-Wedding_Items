@@ -338,7 +338,16 @@
 		defer="defer" src="cdn/shop/t/2/compiled_assets/scriptsc81e.js?2"></script>
 
 	<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
-
+	<script>
+    function send(){
+        
+        Swal.fire(
+            'Successful!',
+            'Successful order!',
+            'success'
+        )
+    }
+</script>
 </body>
 
 
