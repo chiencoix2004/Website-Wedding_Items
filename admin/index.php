@@ -44,6 +44,7 @@ match ($act) {
     'dsacc'=> accoutList(),
     
     
+    'dsbill'=> billList(),
     //  'ctsp' => productDetail($_GET['id']),
      default => trangChu(),
 };

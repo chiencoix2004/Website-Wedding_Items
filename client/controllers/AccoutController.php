@@ -46,3 +46,13 @@ function register() {
         // $thongbao = 'Successful account register';
     }
 }
+function myaccout() {
+    
+
+    require_once './client/views/taikhoan/myaccout.php';
+}
+function out() {
+    
+    session_unset();
+header('Location:index.php');
+}

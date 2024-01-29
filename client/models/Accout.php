@@ -8,7 +8,7 @@
 function checkUser($username,$password){
         try {
     
-            $sql = " SELECT username,address,email,phone_number,image_user,tb_users.role,tb_role.name_role FROM `tb_users` JOIN tb_role ON tb_users.role = tb_role.id_role  WHERE username = '$username' AND password = '$password'";
+            $sql = " SELECT username,address,email,fullname,phone_number,image_user,tb_users.role,tb_role.name_role FROM `tb_users` JOIN tb_role ON tb_users.role = tb_role.id_role  WHERE username = '$username' AND password = '$password'";
     
             $stmt = $GLOBALS['conn']->prepare($sql);
           

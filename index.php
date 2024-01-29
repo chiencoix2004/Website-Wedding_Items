@@ -15,6 +15,8 @@ $act = $_GET['act'] ?? null;
 match ($act) {
 
     'taikhoan' => login(),
+    'logout' => out(),
+    'myaccout' => myaccout(),
 
     'register' => register(),
 
@@ -23,6 +25,12 @@ match ($act) {
 
     'abus' =>  aboutUs(),
 
+    'dssp'=> productList(),
+    'ctsp'=> productDetail($_GET['id']),
+
+
+    'dm'=> productCategory($_GET['id']),
+    
     // 'ddd' =>  categoryTop3(),
     
 

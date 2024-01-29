@@ -202,7 +202,7 @@
                                                 style="background-image: url(<?=$hinhpath?>">
                                             </div>
                                         </div>
-                                        <a href="#!" class="layer_2">
+                                        <a href="?act=dm&id=<?=$key['id_category']?>" class="layer_2">
                                             <div class="collection_title">
                                                 <p><?=$key['name_category']?></p>
                                             </div>
@@ -242,7 +242,7 @@
                             <input type="hidden" value="<?=$top['id_product']?>" name="">
                             <!-- <label for=""></label> -->
                             <?php $img =  getSanPhamAnhOne($top['id_product']); $first_image = $img[0]['img'];
-    $firsts_image = $img[1]['img']; ?>
+                         $firsts_image = $img[1]['img']; ?>
 
                             <div class="col-xs-4 item_4_1 item_2_1">
                                 <div class="product_item">
@@ -264,20 +264,25 @@
                                             <p class="product_price">
                                                 <span class="money_like"><?=$top['price_product']?>$</span>
                                             </p>
-                                            <p class="product_color">
+                                            <!-- <p class="product_color">
                                                 <span class="color_options" style="background-color: Black;"
                                                     title="Black"></span>
                                                 <span class="color_options" style="background-color: Blue;"
                                                     title="Blue"></span>
                                                 <span class="color_options" style="background-color: Red;"
                                                     title="Red"></span>
-                                            </p>
+                                            </p> -->
                                         </div>
                                         <div class="product_links">
                                             <form method="post" action="#!" class="add_to_cart_form">
-                                                <a class="btn_options" href="#!"><i
-                                                        class="fa fa-shopping-cart"></i>Choose</a>
+                                                <a class="btn_options" href="#!"><i class="fa fa-shopping-cart"></i>Add
+                                                    to Cart</a>
                                             </form>
+                                        </div>
+                                        <div class="product_links">
+                                            <a href="?act=ctsp&id=<?php echo $top['id_product']; ?>">
+                                                <div><b>View</b></div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -338,8 +343,7 @@
 
 
                                     <a class="btn banner_btn"
-                                        href="products/a-plum_white_removable_sleeveless_ball_gown_in_lace_wedding_dress.html">shop
-                                        now</a>
+                                        href="#!">shop now</a>
 
                                 </div>
                             </div>
@@ -373,7 +377,7 @@
 
 
 
-                                    <a class="btn banner_btn" href="products/niceeshop_tm_key_chains.html">shop
+                                    <a class="btn banner_btn" href="#!">shop
                                         now</a>
 
                                 </div>

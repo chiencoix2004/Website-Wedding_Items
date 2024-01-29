@@ -8,8 +8,13 @@ function productList() {
 
 function productDetail($id) {
     
-    $product = getProductByID($id);
+    $productDetail = getProductDetail($id);
 
-    $product ? require_once './client/views/product/detail.php': e404();
+     require_once './client/views/product/detail.php';
    
+}
+function productCategory($id) {
+    
+    $dm = spdm($id);
+    require_once './client/views/category/list.php';
 }

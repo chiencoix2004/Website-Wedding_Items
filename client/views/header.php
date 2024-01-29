@@ -1677,15 +1677,22 @@
 
 
 
+                                <?php
+        if(isset($_SESSION['username'])){
+            extract($_SESSION['username']);
+            ?>
+                                <div class="header_account">
+                                    <a href="?act=myaccout" title="My account"><i class="fa fa-user"
+                                            aria-hidden="true"></i></a>
+                                </div>
 
+                                <?php }else{ ?>
                                 <div class="header_account">
                                     <a href="?act=taikhoan" title="My account"><i class="fa fa-user"
                                             aria-hidden="true"></i></a>
                                 </div>
 
-
-
-
+                                <?php } ?>
 
                                 <!-- <div class="header_wishlist">
                                     <a href="pages/wishlist.html"><i class="fa fa-heart"
@@ -1859,7 +1866,7 @@
 
 
                                         <li class="level_1__item level_2__links">
-                                            <a class="level_1__link " href="collections.html">Collections
+                                            <a class="level_1__link " href="?act=dssp">Collections
                                                 <i class="level_1__trigger megamenu_trigger"
                                                     data-submenu="menu_1539264096343"></i>
                                             </a>
@@ -2452,19 +2459,18 @@
                             <div class="header_wrap2 header_right">
 
                                 <div class="header_cart" id="main__cart_item">
-                                    <a class="cart_link" href="cart.html"><b><i class="fa fa-shopping-bag"
-                                                aria-hidden="true"></i>My Cart: </b><span id="cart_items"> 0 </span>
-                                        item(s)</a>
+                                    <a class="cart_link" href="#!"><b><i class="fa fa-shopping-bag"
+                                                aria-hidden="true"></i>My Cart</b><span id="cart_items">
 
 
-                                    <script>
+                                            <!-- <script>
                                     theme.cartAjaxOn = true;
                                     theme.cartAjaxTextEmpty = 'It appears that your cart is currently empty';
                                     theme.cartAjaxTextTotalPrice = 'Total price';
                                     theme.cartAjaxTextGoCart = 'Go to cart';
                                     theme.cartAjaxTextClearCart = 'Clear cart';
-                                    </script>
-                                    <div class="cart_content_wrap">
+                                    </script> -->
+                                            <!-- <div class="cart_content_wrap">
                                         <div class="cart_content_preloader off">
                                             <div class="global_loader"></div>
                                         </div>
@@ -2475,7 +2481,7 @@
 
 
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 
